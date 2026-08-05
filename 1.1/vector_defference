@@ -1,0 +1,3 @@
+The defference between two vectors 'a - b' is nothing more than 'a + (-b)' (where -b means the scalar -1 times the vector b). 
+
+The vector a - b may be represented by an arrow pointing from the head of b towrad the head of a; such an arrow is also a diagonal of the parallelogram determined by a and b. 

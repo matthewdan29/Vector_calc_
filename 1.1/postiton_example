@@ -1,0 +1,25 @@
+Particle displacement from its original prosition is 'tv', and its new coordinate position is 'a+tv'. ('t' stands for time and 'v' stands for velocity in these examples)
+
+Example 4: 
+	If a spaceship is at position (100, 3, 700) and is traveling with velocity (7, -10, 25) (meaning that the ship travels 7 mi/sec in the positive x directions, 10 mi/sec in the negative y-direcrtion, and 25 mi/sec in the positive z-direction), then after 20 seconds the ship will be at position.
+
+	(100, 3 700) + 20(7, -10, 25) = (240, -197, 1200)
+
+	and the displacement from the initial positon is (140, -200, 500)
+
+
+Example 5: 
+	The S.S. Calculus is crusing due south at a rate of 15 knots (nautical miles per hour) with respect to still water. However, there is also a current of 5√2 knots southeast. What is the total velocity of the ship? If the ship is initially at the origin and a lobster pot is at position (20, -79), will the ship collide with the lobster pot?
+	Since velocities are vectors, the total velocity of the ship is v₁ + v₂, where v₁ is the velocity of the ship with respect to still water and v₂ is the southeast-pointing velocity of the current. We have that v₁ = (0, -15). Since v₂ = (v, -v), where v is a positiv real number. By Pythagorean theorem, if the length of v₂ is 5√2, then we must have v² + (-v)² = (5√2)² or 2v² = 50, so that v = 5. Thus, v₂ = (5, -5), and, hence, the net velocity is 
+
+	(0, -15) + (5, -5) = (5, -20).
+
+	After 4 hours, therefore, the ship will be at position. 
+
+	(0,0) + 4(5, -20) = (20, -80)
+
+	And thus will miss the lobster pot. 
+
+
+Example 6: 
+	In Greco Roman Wrestling: If two poepl, and one relatively stronger and the other relatively weak, have a shoving match, it is clear who will prevail. For example someone pushing one way with 200 lb of force will certainly succeed in overpowering another pushing the opposite way with 100 LB of force. The net force will be 100 Lb in the direction which the stronger person is pushing. Theres a great Judo vector example behind this written in the book but it litterally is the same for wrestling we been around longer guy LOL no lizard boys here
