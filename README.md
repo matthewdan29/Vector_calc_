@@ -1,2 +1,2 @@
 # Vector_calc_
-I am purely creating this to prove that there is no enteratinment on tv so its best to learn math from me 
+In 1.2 look at the ans on the notebook I used an scale of my choosing albeit, I have the method written down and the file for help is marked you should be able to understand. 
