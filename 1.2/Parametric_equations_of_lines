@@ -1,0 +1,33 @@
+In R², we know tht equations of the form y = mx + b or Ax + By = C describe straight lines. Consequently, one might expect the same sort of equation to define a line in R³ as well. Consideration of a simple example or two should convince you that a single such linear equation describes a plane, not a line. 
+A pair of simultaneous equations in x, y, and z is required to define a line. 
+
+First, we remark that a curve in the plane may be described analytically by points (x,y) where x and y are given as functions of a third variable (the parameter) t. 
+These functions give rise to "Parametric equations" for the curve: 
+
+			x = f(t)
+			y = g(t)
+
+
+
+EXAMPLE 2: 	
+		The set of equations 
+		
+			x = 2cos(t)
+					0 <= t < 2π
+			y = 2sin(t)
+
+Describes a circle of radius 2, since we may check that 
+
+		x² + y² = (2cos(t))² + (2sin(t))² = 4
+
+Parametric equations may be used as readily to describe curves in R³; a curve in R³ is the set of points (x,y,z) whose coordinates x, y, and z are each given by function of t: 
+			
+			x = f(t)
+			y = g(t)
+			z = h(t)
+
+The advantages of using parametric equations are twofold. 
+
+	1) They offer a uniform way of describing curves in any number of deminsions
+	2) They allow you to get a dynamic sense of a curve if you consider the parameter variable t to represent time and imagine that a particle is traveling along the curve with time according to the givenb parametic equations. 
+You can represent this geometrically by assigning a "direction" to the curve to signify increasing. 

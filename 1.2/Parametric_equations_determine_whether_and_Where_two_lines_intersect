@@ -1,0 +1,26 @@
+We determine whether and where the two lines 
+
+	{				{
+		x=t+1				x=3t-3
+		y=5t+6		and		y=t
+		z=-2t			 	z=t+1
+	{				{
+
+intersect. 
+
+The lines intersect provided that there is a specific value t₁ for the parameter of the first line and a value t₂ for the parameter of the second line that generate the same point. 
+In other words, we must be able to find t₁ and t₂ so that, by equating the respective parametric expressions for x, y, and z, we have 
+
+	{
+		t₁ + 1 = 3t₂ - 3
+		5t₁ + 6 = t₂
+		-2t₁ = t₂ + 1 
+	{
+
+The last two equations of (9) yield 
+	
+	t₂ = 5t₁ + 6 = -2t₁ - 1 => t₁ = -1
+
+Using t₁ = -1 in the second equation of (9), we fid that t₂ = 1. 
+Note that the values t₁ = -1 and t₂ = 1 also satisfy the first equation of (9); therefore, we have solved the system. 
+Setting t = -1 in the set of parametric equations for the first line gives the desried intersections point, namely, (0, 1, 2)

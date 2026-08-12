@@ -1,0 +1,26 @@
+Example 1: 
+	We may write the vector (1, -2) as i - 2j and the vector (7, π, -3) as 7i + πj -3k. 
+
+
+Example 2: 
+	The set of equations 
+		
+		x = 2cos(t) 
+				0 <= t < 2π 
+		y = 2sin(t)
+	
+	describes a circle of radius 2, since we may check that 
+
+		x² + y² = (2cos(t))² + (2sin(t))² = 4. 
+
+	Parametric equations may be used as readily to discribe curves in R³; a curve in R³ is the set of points (x,y,z) whose coordinates x, y, and z are each given by a function of t: 
+
+			x = f(t)
+			y = g(t)
+			z = h(t)
+
+The advantages of using parametric equations are twofold. 
+	
+		1) They offer a unifor way o discribe curves in any number of deminsions
+		2) They allow you to get a dynamic sense of a curve if you consider the parameter variable t to represent time and imagine that a particle is traveling along the curve with time according to the given parametric equations. 
+

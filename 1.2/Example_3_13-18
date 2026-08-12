@@ -1,0 +1,10 @@
+To find the parametric equations of the line through (1,-2,3) and parallel to the vector πi-3j+k, we have a = πi-3j+k and b = i-2j+3k so that formula (1) yields 
+			r(t) = i-2j+3k+t(πi-3j+k) = (1+πt)i+(-2-3t)j+(3+t)k
+
+The parametric equations may be read as
+
+		{
+			x=πt+1
+			y=-3t-2
+			z=t+3
+		{

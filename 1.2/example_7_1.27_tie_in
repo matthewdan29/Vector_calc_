@@ -1,0 +1,29 @@
+If a wheel rools along a flat surface without sliping, a point on the rim of the wheel traces a curve called a cycloid. 
+
+Suppose that the wheel has radius a and that coordinates in R² are chosen so that point of intrest on the wheel is initially at the point orgin. 
+After the wheel has rolled through a central angle of t radians, the situtation is as shown in Figure 1.27. 
+We seek the vector OP->, the position vector P, in terms of the parameter t. 
+Evidently, OP-> = OA-> + AP->, where the point A is the center of the wheel. 
+The vector OA-> is not difficult to determine. 
+Its j-conponent must be a, since the center of the wheel does not vary vertically. 
+Its j-conponent must equal the distance the whell has rolled; if t is measured in radians, hen this distance is at, the length of the arc of the circle having central angle t. 
+Hence, OA-> = ati + aj. 
+The value of vector methods becomes apparent when we determine AP->. 
+Parallel translate the picture so that AP-> has its tail at the orgin, as in Figure 1.28. 
+From the parametric equations of a circle a radius a, 
+
+	AP-> = acos((3π-2)/(-t))i + asin((3π)/2 - t)j = -asin(t)i - acos(t)j
+
+from the addition formulas for sine and cosine. 
+We conclude that 
+
+	OP-> = OA-> + AP-> = (ati+aj) + (-asin(t)i-acos(t)j) = a(t - sin(t))i + a(1 - sin(t))i + a(1 - cos(t))j
+
+so the parametric equations are 
+
+			{	
+				x=a(t-sin(t))
+				y=a(1-cos(t))
+			{
+
+

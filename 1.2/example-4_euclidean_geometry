@@ -1,0 +1,77 @@
+From Euclidean geometry, two distinct pointws determine a unique line in R² or R². 
+Lets find the parametric equations of the line through the points P₀(1, -2, 3) and P₁(0, 5, -1). 
+To use formula (1), we need to find a vector 'a' parallel to the desired line. 
+The vector with tail at P₀ and head at P₁ is such a vector. 
+That is, we may use for 'a' the vector 
+
+		P₀P₁ -> = (0 -1, 5 - (-2), -1 - 3) = -i + 7j - 4k. 
+
+For 'b', the position vector of a particular poijnt on the line, we have the choice of taking either b = i - ij + 3k or b = 5j - k. 
+Hence, the equations in (2) yield parametric equations
+
+		{			{
+			x=1-t			x=-t
+			y=-2+7t		or	y=5+7t
+			z=3-4t			z=-1-4t 
+		{			{
+
+In general, given two arbitrary points
+
+		P₀(a₁, a₂, a₃) and P₁(b₁, b₂, b₃). 
+
+the line joining them has vector parametric equaion 
+
+		r(t) = OP->  + tP₀P₁
+
+Equation (3) gives parametric equaions 
+
+		{
+			x = a₁ + (b₁ - a₁)t 
+			y = a₂ + (b₂ - a₂)t
+			z = a₃ + (b₃ - a₃)t 
+		{
+
+Alternatively, in place of equation (3), we could use the vector equation
+		
+		r(t) = OP-> + tP₀P₁->, 
+
+or perhaps 
+
+		r(t) = OP₁-> + tP₁P₀->
+
+each of which gives rise to somewhat different sets of parametric equations. 
+
+Example 4 bring up an important point, namely, that parametric equations for a line are never unique. 
+In fact, two sets of equations calculated in Example 4 ar eby no means the only ones; we have taken a=P₁P₀-> = i - 7j + 4k or any nonzero scalar multiple of P₀P‐> for a. 
+
+If parametric equations are not determined uniquely, then how can you check your work?
+In general, this is ont so easy to do, but in the case of lines, there are two approaches to take. 
+One is to produce two points that lie on the line specified by the first set of parametric equations and see that these points lie on the line given by the second set of parametic equations. 
+The other approach is to use the parametric equations to find what is called the symmetirc form of a line in R³. 
+From the equations in (2), assuming that each a (sub i) is non zero, one can eliminate the parameter variable t in each equation to obtain: 
+
+	t = (x-b₁)/a₁
+
+	t = (y-b₂)/a₂
+
+	t = (z-b₃)/a₃
+
+The symmetric form is 
+
+		(x-b₁)/a₁ = (y-b₂)/a₂ = (z-b₃)/a₃
+
+In Example 4, the two sets of parametric equations give rise to corresponding symmetric forms
+
+	(x-1)/(-1) = (y+2)/7 = (z-3)/(-4) and x/(-1) = (y-5)/7 = (z+1)/(-4)
+
+It's not difficult to see that adding 1 to each "side" of the second symmetric form yields the first one. 
+In general, symmetric forms for lines can differ only by a constant term or constant scalar multiples (or both). 
+The symmetric form is really a set of two simultaneous equations in R³. 
+For example, the information in (7) can also be written as 
+
+		(x-b₁)/a₁ = (y-b₂)/a₂
+		
+		(x-b₁)/a₁ = (z-b₃)/a₃
+
+This illustrates that we require two "scalar" equations in x, y, and z to describe a line in R³, although a single vector parametric equation, formula (1), is sufficient. 
+

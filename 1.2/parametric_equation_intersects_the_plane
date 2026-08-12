@@ -1,0 +1,22 @@
+Example 5: 
+
+We find where the line with parametric equations 
+
+		
+	{
+		x=t+5
+		y=(-2t)-4
+		z=3t+7
+	{
+
+intersects the plane 3x + 2y - 7z = 2. 
+
+To locate the point of intersection, we must find what value of the parameter t gives a point on the line that also lies in the plane. 
+This is readily accomplished by subtituting the parametric values for x, y, and z from the line into the equation for the plane
+
+		3(t+5) + 2(-2t - 4) - 7(3t + 7) = 2
+
+Solving equation (8) for t, we find that t = -2. 
+Setting t equal to -2 in the parametric eqations for the line yields the point (3, 0, 1), which, indeed, lies in the plane as well. 
+
+

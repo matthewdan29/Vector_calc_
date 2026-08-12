@@ -1,0 +1,4 @@
+In R², the vectors i = (1,0) and j = (0,1) play a special notational role. 
+Any vector a = (a₁, a₂) may be written in terms of i and j via vector addition and scalar multiplication: 
+
+		(a₁, a₂) = (a₁, 0) + (0, a₂) = a₁(1,0) + a₂(0,1) = a₁i + a₂j.

@@ -1,0 +1,15 @@
+In general, given two arbitrary points 
+
+		P₀(a₁, a₂, a₃) and P(b₁, b₂, b₃,), 
+
+the line joining them has vector parametric equation 
+
+		r(t) = OP₀-> + tP₀P₁-> 
+
+Equation (3) gives parametric equations 
+
+		{
+			x= a₁+(b₁-a₁)t
+			y= a₂+(b₂-a₂)t
+			z= a₃+(b₃-a₃)t
+		{

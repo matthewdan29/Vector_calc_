@@ -1,0 +1,24 @@
+If you unwind adhesive tape from a nonrotating circuolar tape dispenser so that the unwound tape is held taut and tangent to the dispensor roll, then the end of the tape traces a curve called the involute of the circle. 
+Lets find the parametric equatiojns for this curve, assuming that the dispensing roll has constant radius a and is centred at the orgin. 
+Considering Figure 1.29, we see that the position vector OP-> of the desired point P is the vecotr sum OB-> + BP->. 
+To determine OB-> as our parameter. 
+Since B is a point on the circle. 
+
+	OB-> = acos(θ)i + asin(θ)j
+
+To find the vector BP->, parallel translate it so that its tail is at the orgin. Figur 1.30 shows that BP->'s length musht be aθ, the amount of unwond tape, and its direction must be such that it makes an angle of θ-Π/2 with the positive x-axis. 
+From our experience with circular geometry and, perhaps, polar coordinates, we see that BP is described by 
+
+	BP-> = aΘcos(Θ-π/2)i + aθsin(Θ-π/2)j = aΘsin(Θ)i - aΘcos(Θ)j
+
+Hence, 
+
+	OP-> = OB-> + BP-> = a(cos(Θ) + Θsin(Θ))i + a(sin(Θ) - Θcos(θ))j
+
+So
+		{
+			x=a(cos(Θ) + Θsin(θ))
+			y=a(sin(Θ) - Θcos(Θ))
+		{
+
+are the parametric equations of the involute, whose graph is prictured in Figure 1.31
