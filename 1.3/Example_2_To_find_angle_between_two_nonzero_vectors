@@ -1,0 +1,13 @@
+Example 2 
+
+If a = i+j and b = j-k, then formula (4) gives 
+
+	
+	Θ = cos^(-1) ((i+j)*(j-k))/(||i+j||*||j-k||) = cos^(-1) 1/(√2*√2) = cos^(-1) 1/2 = π/3
+
+
+If a and b are nonzero, then Theorm 3.3 implies 
+
+		cosΘ = 0 if and only if a*b = 0
+
+

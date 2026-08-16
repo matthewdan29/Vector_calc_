@@ -1,0 +1,19 @@
+In an arbitrary triangle, show that the line segment joining the midpoint of two sides is parallel to and has half the length of the third side. 
+(see figure 1.44)
+In other words, if M₁ is the midpoint os side AB and M₂ is the midpoint of side AC, we wish to show that M₁M₂ is parallel to BC and has half its length.
+
+For a vector proof, we use the diagram in Figure 1.45, a slightly modified version of Figure 1.44. 
+The midpoint conditions translate to the following statments about vectors: 
+
+		AM₁-> = (1/2)AB->, 	AM₁-> = (1/2)AC->
+
+Now, 
+
+		M₁M₂-> = AM₂-> - AM₁-> = (1/2)AC-> - (1/2)AB-> = (1/2)(AC -> - AB->) = (1/2)BC->
+
+But M₁M₂-> = (1/2)BC-> is precisely what we wish to prove: To say M₁M₂-> is a scalar times BC-> means that the two vector are parallel. 
+Moreover, from part 1 of Proposition 3.4, 
+
+		||M₁M₂->|| = ||(1/2)BC->|| = (1/2)||BC->||, 
+
+so that the length condition also holds. 

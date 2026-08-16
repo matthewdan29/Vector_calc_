@@ -1,0 +1,13 @@
+
+
+		||proj(a)b|| = ||b|| |cosΘ| = ||a||*||b||*|cosΘ|/|a| = (|a*b|)/||a||
+
+					
+By theorm 3.3. Thus, we know the magnitude and directions of proj(a)b. 
+To obtain a compact formula for proj(a)b, note the following 
+
+	1) ||ka|| = |k| * ||a||
+	
+	2) A unit vector (a vector of length 1) in the direction of a nonzero vector a is given by a/||a||
+
+Note: ||a|| = √a*a), in which a*a = ||a||²

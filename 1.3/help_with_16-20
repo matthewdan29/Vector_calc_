@@ -1,0 +1,18 @@
+To find proj(sub(a))b use algo below: 
+
+		proj(sub(a)b) = ((a*b)/(a*a))*a
+
+
+
+
+---------------------------------------
+
+
+
+Let k be abt scalar and a any vector. 
+
+	1) ||ka|| = |k|*||a||
+
+	2) A unit vector (i.e. a vector of length 1) in the direction of a nonzero vector a is given by a/||a||
+
+NOTE: a*a = ||a||² and ||a|| = √a*a)

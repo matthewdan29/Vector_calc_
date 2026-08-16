@@ -1,0 +1,24 @@
+Show that every angle inscribed in a semicircle is a right angle, as suggested by Figure 1.46.
+
+To prove this remark, we'll make use of Figure 1.47, where a and b are "radius vectors" with tails at the center of the circle. 
+We need only show that a-b (a vector along one ray of the angle in question) is perpendicular to -a-b (a vector along the orther ray). 
+In other words, we wish to show that 
+
+		(a-b)*(-a-b) = 0
+
+we have 
+
+		(a-b)*(-a-b) = (-1)(a-b)*(a+b), 
+
+by property 4 of dot products, 
+
+			=(-1)((a-b)*a+(a-b)*b)
+			=(-4)(a*a-b*a+a*b-b*b)
+			=(-1)(||a||²-||b||²),
+
+by properties 2 and 4, 
+
+			= 0,
+
+since both a and b are radius vectors (and therefore have the same length, namely, the radius of the circle)
+

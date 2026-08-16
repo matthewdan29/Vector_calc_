@@ -1,0 +1,12 @@
+
+
+	a*a = a²₁ + a²₂ + a²₃	
+				(a²₁ means the square of a₁ and a²₂ means the square of a₂, and so on)
+
+	||a|| = √(a*a)
+				(√(a*a) means the squareroot of a*a)
+
+
+or equivalently this all means 
+
+	a*a = ||a||²

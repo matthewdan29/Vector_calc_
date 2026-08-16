@@ -1,0 +1,9 @@
+If a, b, and c are any vectors in R³ (or R²) and k ∈ R is any scalar, than
+
+	1) a*a >= 0, and a*a = 0 if and only if a = 0; 
+	
+	2) a*b = b*a; 
+	
+	3) a*(b+c)=a*b+a*c; 
+
+	4) (ka)*b = k(a*b) = a*(kb)

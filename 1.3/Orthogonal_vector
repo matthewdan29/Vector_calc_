@@ -1,0 +1,2 @@
+Two vectors are orthogonal if they perpendicular and form a 90 degree angle. 
+You test this by finding their dot product. If the dot product equals zero, the vectors are orthogonal 

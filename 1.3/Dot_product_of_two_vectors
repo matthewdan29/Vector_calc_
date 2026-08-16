@@ -1,0 +1,7 @@
+Remember this method is for Remember all n's 
+
+DEFINITION 3.1: Let a = (a₁, a₂, a₃) and b = (b₁, b₂, b₃) be two vectors in R³. 
+The dot (or inner or scalar) product of a and b, denoted a*b, is a*b = a₁b₂ + a₂b₂+a₃b₃
+
+In R², the analogous definition is 
+ 				a*b = a₁b₂ + a₂b₂, where a = (a₁, a₂) and b = (b₁, b₂)

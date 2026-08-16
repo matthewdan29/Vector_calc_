@@ -1,0 +1,3 @@
+Example 3
+
+The vector i+j is orthogonal (vectors makes a 90 degree angle) to the vector i-j+k, since (i+j)*(i-j+k) = (1)(1) + (1)(-1) + (0)(1) = 0

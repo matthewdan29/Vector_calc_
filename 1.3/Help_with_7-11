@@ -1,0 +1,6 @@
+Angles Between vectors 
+
+Theorem 3.3 may be used to find the angle between two nonzero vectors a and b just solve for Θ in the formula in theorem 3.3 to obtain
+
+
+		Θ = cos^(-1) (a*b)/(||a||*||b||
