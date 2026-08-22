@@ -1,0 +1,25 @@
+A matrix is a rectangular array of numbers. 
+
+If a matrix has m rows and n columns, we call it "m x n" (read "m by n"). 
+Thus, the three matrices just mentioned are, respectively, 2 x 3, 3 x 2, and 4 x 4. 
+To some extent, matrices behave algebraically like vectors. 
+Determinant, which is a real number associated to an n x n (square) matrix. 
+(There is no such thing as the determinant of a nonsquare matrix)
+In fact, for the purposes of understanding cross product, we need only study 2 x 2 and 3 x 3 determinants. 
+Perhaps the easiest way to remember and compute 2 x 2 and 3 x 3 determinants (but not highter-order determinants) is by means of a "diagonal approach". 
+We write (or imagine) diagonal lines running through the matrix entries. 
+The determinant is the sum of the products of the entries that lie on the same diagonal, where negative signs are inserted in front of the products arising from diagonals going from lower left to upper right: 
+
+	# 2 x 2 case 
+			|A| = ad - bc. 
+
+	# 3 x 3 case (we need to repeat the first two columns for the method to work) |A| = aei + bfg + cdh - gec - hfa - ibd. 
+
+Important Warning: This mnemonic device does not generlize beyond 3 x 3 determinants. 
+
+	We now state the connection between determants and cross in the file connection_between_deterrminants_and_cross_products
+The determinants arise from nothing more than rewriting formula (2). 
+Note that the 3 x 3 determinant in formula (3) needs to be interpreted by using the 2 x 2 determinants that appear in formula (3). 
+(The 3 x 3 determinant is sometimes referred to as a "symbolic determinant")
+
+Look at figure cross_matrix

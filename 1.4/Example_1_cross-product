@@ -1,0 +1,15 @@
+Let's compute the cross product of the standard basis vectors from R³ . 
+First consider i x j as shown in FIgure 1.53. 
+The vectors i and j determine a square of unit area. 
+Thus, ||i x j|| = 1. 
+Any vector perpendicular to both i and j must be perpendicular to the plane in which i and j lie. 
+Hence, i x j must point in the direction of + or - k. 
+The "right-hand rule" implies that i x j must point in the positive k direction.
+Since ||k|| = 1, we conclude that i x j = k. 
+The same argument establishes that j x k = i and k x i = j. 
+To remember these basic equations, you  can draw i, j, and k in a circle, as in figure 1.54. 
+Then the relations: 
+
+		i x j = k, j x k = i, k x i = j
+
+may be read from the circle by beginning at any vector and then proceeding clockwise. 

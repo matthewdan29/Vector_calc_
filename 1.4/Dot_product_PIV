@@ -1,0 +1,17 @@
+Dot Product: a * b  (not * means dot product)
+
+Result is scalar. 
+
+Magnitude is a * b = ||a|| * ||b||cosΘ; Θ is the angle between a and b
+
+Magnitude is maximuized if a || b
+
+Zero if a is perpendicular to b, a = 0, or b = 0
+
+Commutative: a * b = b * a	(in this application * means dot product)
+
+Associativity is irrelevant, since (a * b) * c doesn't make sense 
+
+Distributive: a * (b + c) = a * b + a * c
+
+If a = b, then a * a = ||a||²

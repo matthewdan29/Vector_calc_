@@ -1,0 +1,9 @@
+Let a, b, and c be any three vectors in R³ and let k K ∈ R be any scalar. Then: 
+
+	1) a x b = -b x a (anticommutativity); 
+
+	2) a x (b + c) = a x b + a x c (distributivity); 
+
+	3) (a + b) x c = a x c + b x c (distributivity); 
+
+	4) k(a x b) = (ka) x b = a x (kb)

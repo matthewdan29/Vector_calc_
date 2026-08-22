@@ -1,0 +1,7 @@
+Here is a tool for producing a coordinate formula for the cross product. 
+Let a = a₁i + a₂j + a₃k and b = b₁i + b₂j + b₃k. 
+Then: 
+
+	a x b = (a₁i + a₂j + a₃k) x (b₁i + b₂j + b₃k) = (a₁i + a₂j + a₃k) x b₁i + (a₁i + a₂j + a₃k) x b₂j + (a₁i + a₂j + a₃k) x b₃k, 
+
+(I should understand the rules of algabra by now)

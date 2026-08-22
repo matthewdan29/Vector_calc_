@@ -1,0 +1,16 @@
+Definition 4.1
+
+Let a and b be two vectors in R³ (not R²). 
+The cross product (or vector product) of a and b, denoted a x b, is the vector whose length and direction are given as follows: 
+
+	1) The length of a x b is the area of the parallelogram spanned by a and b or is zero if either a is parallel to b or if a or b is 0. 
+Alternatively, the following formula holds: 
+
+			||a x b|| = ||a|| * ||b|| sinΘ
+
+	where Θ is the angle between a and b (see figure 1.51)
+
+	2) The direction of a x b is such that a x b is perpendicular to both a and b (when both a and b are nonzero) and is taken so that the ordered triple (a, b, a x b) is a right-handed set of vectors, as shown in Figure 1.52. (If either a or b is 0, or if a is parallel to b, then a x b = 0 from the aformentioned length condition)
+
+By saying the (a, b, a x b) is right-handed, we mean that if you let the fingers of your hand curl from a toward b, then your thumb will point in the directions of a x b. 
+

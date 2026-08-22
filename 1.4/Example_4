@@ -1,0 +1,30 @@
+Let's use vectors to calculate the area of the triangle whose vertices are A(3, 1), B(2, -1), and C(0, 2) as shown in figure 1.55
+
+The trick is to recognize that any trianlge can be thought of as half of a parallelogram and that the area of a parallelogram is obtained from a cross product. 
+In other worlds, AB-> x AC-> is a vector whose length measures the area of the parallelogrm determined by AB-> and AC->, and so 
+
+		Area of ABC = 1/2 ||AB-> x AC->||. 
+
+To use the cross product, we must consider AB-> and AC-> to be vectors in R³. 
+This is straightforward: We simply take the k-components to be zero. 
+Thus,   
+
+		AB-> = -i - 2j = -i - 2j -0k, 
+
+and 
+
+		AC-> = -3i + j = -3i + j + 0k, 
+
+Therefore, 
+
+		AB-> x AC-> = (look at example_figure) = -7k, 
+
+Hence, 
+
+		area of ABC = 1/2||-7k|| = 7/2, 
+
+There is nothing sacred about using A as the common vertex. 
+We could just as easily have used B or C, as shown in Figure 1.57. 
+Then
+
+		area of ABC = 1/2 ||BA-> x BC->|| = 1/2||(i + 2j) x (-2i + 3j)|| = 1/2||7k|| = 7/2

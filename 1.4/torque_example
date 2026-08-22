@@ -1,0 +1,15 @@
+Suppose you use a wrench to turn a bolt. 
+What happens is the following: apply some force to the end of the wrench handle farthest from the bolt and that causes the bolt to move in a direction perpendicular to the plane determined by the handle and the direction of your force (assuming such a plane exitst). 
+To measure exactly how must the bolt moves, we need the nothing of torque (or twisting force). 
+
+In particular, letting F denote the force you apply to the wrench, we have 
+	
+	Amount of torque = (length of wrench)(component of F wrench)
+
+Let r be the vector from the center of the bolt head to the end of the wrench handle. 
+Then 
+
+			Amount of torque = ||r|| ||F|| sinΘ, 
+
+where Θ is the angle between r and F (see Figur 1.59) 
+

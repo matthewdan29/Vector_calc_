@@ -1,0 +1,15 @@
+Cross Product: a x b (In this case x means cross product, I know trust me I will troll on a little bit if your following along and if you are thank you computer science is the cloest science disapline to math and we bringing math back into computer science)
+
+Result is a vector perpendicular to both a and b 
+
+Magnitude is ||a x b|| = ||a|| ||b||sinΘ; Θ is the angle between a and b. 
+
+Magnitude is maximuzed if a is perpendicular to b. 
+
+Anticommutative: a x b = -b x a (This is why I'm stressing the properties they are different)
+
+Not associative: In general, a x (b x c) != (a x b) x c   ( != means does not equal to)
+
+Distributive: a x (b + c) = a x b + a x c and (a + b) x c = a x c + b x c. 
+
+If a is perpendicular to b, then ||a x b|| = ||a|| * ||b||  (In this case * this mean multiply not dot product )

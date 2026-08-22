@@ -1,0 +1,13 @@
+Scalar Multiplication: ka
+
+Result is a vector in the direction of a. 
+
+	Magnitude is ||ka|| = |k| * ||a|| (this is regular math multiply)
+
+	Zero if k = 0 or a = 0
+
+	Commutative: ka = ak 
+
+	Associative: k(la) = (kl)a
+
+	Distributive: k(a + b) = ka + kb; (k + l)a = ka + la 

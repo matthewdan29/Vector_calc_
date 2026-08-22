@@ -1,0 +1,40 @@
+Find a formula for the volume of the parallelepiped determined by the vector a, b, and c. 
+
+The volume of a parallepiped is equal to the product of the area of the base and the height. 
+In Figure 1.58, the base is the parallelogram determined by a and b. 
+Hence, its area is ||a x b||. 
+The vector a x b is perpendicular to this parallelogram; the height of the parallelepiped is ||c|| |cosΘ|, where Θ is the angle between a x b and c. 
+(The absolute value is needed in case Θ > π/2)
+Therefore, 
+
+		Volume of parallelepiped = (area of base)(height)
+					 = ||a x b|| ||c|| |cosΘ|
+					 = |(a x b) * c|
+
+(The appearance of the cosΘ term should alert you to the fact that dot products are lurking somewhere)
+
+For example, the parallelepiped determined by the vectors
+
+		a = i + 5j, b = -4i + 2j, and c = i + j + 6k
+
+has volume equal to 
+
+		|((i + 5j) x (-4i + 2j)) * (i + j + 6k)| = |22k * (i + j + 6k)|
+							 = |22(6)|
+							 = 132
+
+The real number (a x b) * c appearing in Example 5 is known as the triple scalar product of the vectors a, b, and c. 
+Since |(a x b) * c| represents the volume of the parallelepiped determined by a, b, and c, it follows immediately that 
+
+		|(a x b) * c| = |(b x c) * a| = |(c x a) * b|,.
+
+In fact, if you are careful with the right-hand rule, you can convince yourself that the absolute value signs are not needed; this is, 
+
+		(a x b) * c = (b x c) * a = (c x a) * b
+
+This is a nice example of how the geometric significance of a quantity can provide an extremely brief proof of an algebraic property the quantity must satify. 
+(Try proving it by writing out the expressions in terms of components to appreciate the value of geometric insight)
+
+We leave it to you to check the following beautiful (and convenient) formula for calculating triple scalar products: 
+
+				Look at example_5_parallelagram
