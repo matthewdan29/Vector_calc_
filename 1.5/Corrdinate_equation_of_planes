@@ -1,0 +1,19 @@
+A plane Π in R³ is determined uniquely by the following geometric information: a particular point P₀(x₀, y₀, z₀) in the plane and a particular vector n = Ai + Bj + Ck that is normal (perpendicular) to the plane. 
+In other worlds, Π is the set of all points P(x, y, z) in space such that P₀P-> is perpendicular in n. (see figure 1.70)
+This means that Π is defined by the vector equation
+
+				n * P₀P-> = 0
+
+Since P₀P-> = (x - x₀)i + (y - y₀)j + (z - z₀)k, equation may be rewritten as
+
+		(Ai + Bj + Cj) * ((x - x₀)i + (y - y₀)j + (z - z₀)k) = 0
+
+or 
+
+		A(x - x₀) + B(y - y₀) + C(z - z₀) = 0
+
+This is equivalent to 
+
+		Ax + By + Cz = D
+
+where D = Ax₀ + By₀ + Cz₀

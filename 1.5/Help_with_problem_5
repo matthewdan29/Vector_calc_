@@ -1,0 +1,18 @@
+Example 6
+
+We find a set of parametric equations for the plane that passes throught the point (1, 0, -1) and is parallel to the vectors 3i - k and 2i + 5j + 2k 
+From formula 10 any point on the plane is specified by 
+
+	x(s, t) = s(3i - k) + t(2i + 5j 2k) + (i - k) 
+
+		= (3s + 2t + 1)i + 5tj + (2t - s -1)k
+
+The individual parametric equation maybe read off as 
+
+		{
+			x = 3s + 2t + 1
+
+			y = 5t
+
+			z = 2t - s -1
+		{

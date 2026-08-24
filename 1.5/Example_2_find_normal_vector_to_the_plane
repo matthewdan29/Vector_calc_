@@ -1,0 +1,17 @@
+Given the plane with equation 7x + 2y - 3z = 1, find a normal vector to the plane and identify three points that lie on the plane. 
+A possible normal vector is n = 7i + 2j - 3k. 
+However, any nonzero scalar multiply of n will do just as well. 
+QAlgebraically, the affect of using a scalar multiply of n as normal is to multiply equation 2 by such a scalar. 
+Finding three points in the plane is not difficult. 
+First, let y = z = 0 in the defining equation and solve for x: 
+
+	7x + 2 * 0 - 3 * 0 = 1 <==> 7x = 1 <==> x = 1/7
+
+Thus (1/7, 0, 0) is a point on the plane. 
+Next, let x = z = 0 and solve for y: 
+
+		7 * 0 + 2y -3 * 0 = 1 	<==> y = 1/2,
+
+So (0, 1/2, 0) is another pointon the plane. 
+Finally, let x = y = 0 and solve for z.
+You should find that (0, 0, (-1/3)) lies on the plane. 

@@ -1,0 +1,10 @@
+The plane through the point (3, 2, 1) with normal vector 2i - j + 4k has equation
+
+		(2i - j + 4k) * ((x - 3)i + (y - 2)j + (z - 1)k) = 0 <==> 
+
+		<==> 2(x - 3) - (y - 2) + 4(z - 1) = 0 <==>
+
+		<==> 2x - y + 4z = 8
+
+Not only does a plane in R³ have an equation of the form given by equation (2), but, conversely, any equation of this form must describe a plane. 
+Moreover, it is easy to read off the components of a vector normal to the plane from such an equation: They are just the coefficients of x, y, and z

@@ -1,0 +1,97 @@
+Example 4
+I'M GOING TO USE THE 2ND MEHTOD
+
+
+From high school geomoetry, you may recall that a plane is determined by three (noncollinear) points. 
+Let's find an equation of the plane that contains the points P₀(1, 2, 0), P₁(3, 1, 2), and P₂(0, 1, 1). 
+There are two ways to solve this problem.
+The first approach is algebraic and rather uninspired. 
+From the aforementioned remarks, any plane must have an equation of the form Ax + By + Cz = D fro suitable constants A, B, C, and D. 
+Thus, we need only to subtitute the coordinates of P₀, P₁, and P₂ into this equation and solve for A, B, C, and D. 
+We have that 
+
+	Subtitution of P₀ gives A + 2B = D; 
+
+	Subtitution of P₁ gives 3A + B + 2C = D; and 
+
+	Subtitution of P₂ gives B + C = D
+
+Hence, we must solve a system of three equations in four unknowns: 
+
+	{
+		A + 2B = D
+			
+		3A + B + 2C = D
+
+		B + C = D
+	{
+
+In general, such a system has either no solution or else infinitely many solutions. 
+We must be in the latter case, since we know that the three points P₀, P₁, and P₂ lie on some plane (i.e., that some set of conststant A, B, C, and D must exist). 
+Furthermore, the existence of infinitely many solutions corresponds to the fact that any particular equation for a plane may be multiplied by a nonzero constant without altering the plane defined. 
+In other words, we can choose a value for one of A, B, C, or D and then the other values will be determined. 
+So let's multiply the first equation given in (3) by 3, and subtract it from the second equation. 
+We obtain
+
+	{
+		A + 2B = D
+		
+		-5B + 2C = -2D
+
+		B + C = D
+	{
+
+Now, multiply the third equation in (4) by 5 and add it to the second: 
+
+	{
+		A + 2B = D 
+
+		7C = 3D
+
+		B + C = D
+	{
+
+Multiply the third equation appearing in (5) by 2 and subtract it from the first: 
+
+	{
+		A  -2C = -D 
+
+		  7C = 3D
+
+		B + C = D
+	{
+
+By adding appropriate multiples of the second equation to both the first and third equations of (6), we find that 
+
+	{
+		A = (-1/7)D
+
+		7C = 3D
+
+		B = (4/7)D
+	{
+
+Thus, if in (7) we take D = -7 (for example), then A = 1, B = -4, C = -3, and th4 equation of the desired plane is 
+
+		x - 4y -3z = -7
+
+The second method of solution is cleaner and more geometric. 
+The idea is to make use of equation (1).
+Therefore, we need to know the coordinates of a particular point on the plane (no problem -- we are given three such points) and a vector n normal to the plane. 
+The vectors P₀P₁-> and P₀P₂-> both lie in the plane. 
+(see figure 1.71)
+In particular, the normal vector n must be perpendicular to them both. 
+Consequently, the cross product provides just what we need. 
+That is, we may take
+
+		n = P₀P₁-> x P₀P₂-> = (2i - j + 2k) x (-i - j + k) = i - 4j - 3k
+
+If we take P₀(1, 2, 0) to be the particular point in equation (1), we find that the equation we desire is 
+
+		(i - 4j - 3k) * ((x - 1)i + (y - 2)j +zk) = 0
+
+or 
+
+		(x - 1) - 4(y - 2) - 3z = 0
+
+This is the same equation as the one given by the first method. 

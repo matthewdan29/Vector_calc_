@@ -1,0 +1,19 @@
+Another way to describe a plane in R³ is by a set of parametric equations. 
+First, auppose that a = (a₁, a₂, a₃) and b = (b₁, b₂, b₃) are two nonzero, nonparallel vectors in R³. 
+Then a and b determine a plane in R³ that passes through the origin. 
+(See Figure 1.73)
+To find the coordinates of a point P(x, y, z) in this plane, draw a parallel whose sides are parallel to a and b and that has two opposite vertices at the origin and at P, as shown in Figure 1.74. 
+Then there must exist scalars s and t so that the position vector of P is OP-> = sa + tb. 
+The plane may be described as 
+
+		{x in set R³ | x =  sa + tb; s, t in set R}
+
+Now, suppose that we seek to describe a general plane Π (one that does not neccessarily pass through the origin). 
+Let
+
+		c = (c₁, c₂, c₃) = OP₀->
+
+denote the position vector of a particular point P₀ in Π and let a and b be two (nonzero, nonparallel) vectors that determine the plane throught the origin parallel to Π. 
+By parallel translating a and b so that their tails are at the head of c (as in Figure 1.75), we adapt the precceding discussion to see that the position vector of any point P(x, y, z) in Π may be described as 
+
+		OP-> = sa + tb + c

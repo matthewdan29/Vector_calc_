@@ -1,0 +1,41 @@
+Consider the two planes having equations x - 2y + z = 4 and 2x + y + 3z = -7. 
+We determine a set of parametric equations for their line of intersection. 
+We use Proposition 2.1. 
+Thus, we need to find a point on the line and a vector parallel to the line. 
+To find the point on the line, we not that the coordinates (x, y, z) of any such point must satisfy the system of simultaneous equations given by the two planes
+
+		{
+			x - 2y + z = 4
+
+			2x + y + 3z = -7
+		{
+
+From the equations given in 8, it is not to difficult to produce a single solution (x, y, z). 
+For example, if we let z = 0 in 8, we obtain the simpler system
+
+			{
+				x - 2y = 4
+				
+				2x + y = -7
+			{
+
+The solution to the system of equations 9 is readily calculated to be x = -2, y = -3. 
+Thus, (-2, -3, 0) are the coordinates of a plane on the line. 
+To find a vector parallel to the line of intersection, note that such a vector must be prependicular to the two normal vectors to the planes. 
+The normal vector parallel to the line of intersection is given by 
+
+		(i - 2j + k) x (2i +j + 3k) = -7i - j + 5k (x mean cross product)
+
+Hence, Propositon 2.1 implies that a vector parametric equation for the line is 
+
+		r(t) = (-2i - 3j) + t(-7i - j + 5k), 
+
+and a standard set of parametric equations is 
+
+		{
+			x = -7t - 2
+			
+			y = -t - 3
+
+			z = 5t
+		{

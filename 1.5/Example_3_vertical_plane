@@ -1,0 +1,12 @@
+Put coordinate axes on R³ so that the z-axis points vertically. 
+Then a plane in R³ is vertical if its normal vector n is horizontal (id n is parallel to the xy-plane). 
+This means that n has no k-conponent, so n can be written in the form Ai + Bj. 
+It follows from equation 2 that a veritical plane has an equation of the form 
+
+		A(x - x₀) + B(y - y₀) = 0
+
+Hence, a nonvertical plane has an equation of the form 
+
+		A(x - x0) + B(y - y0) + C(z - z₀) = 0
+
+where C != 0
