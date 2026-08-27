@@ -1,0 +1,26 @@
+A matrix is a rectangular array of numbers. 
+To extend our disussion, we need a good notation for matrices and their individual entires. 
+We used the uppercase Latin alphabet to denote entire matrices and will continue to do so. 
+We shell also adopt the standard convention and use the lowercase Latin alphabet and two sets of indices (one set for rows, the other for columns) to identify matrix entries. 
+Thus, the general m x n matrix can be written as: 
+
+		look at inserts for the matrix 1
+
+The first index always will represent the row position and the second index, the column position 
+Vectors in R^n can also be thought of as matrices. 
+We shall have occasion to write the vector a = (a₁, a₂,... a(sub(n))) either as a row vector (a 1 x n matrix), 
+
+		look at insert 2 
+
+or mor typically as column vector (an n x 1 matrix ), 
+
+		look at insert 2
+
+We did not use double indices since there is only a single rwo or column present. 
+It will be clear from context (or else indicated explicitly) in which form a vector a will be viewed/. 
+An m x n matrix A can be thought of as a "vector of vectors" in two way
+
+		Look at insert 3
+
+We now define the basic matrix operations. 
+Matrix addition and scalar multiplication are really  no different from the corresponding operations on vectors 

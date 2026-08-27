@@ -1,0 +1,22 @@
+We can create a standard basis of vectors in R'' that generalize the i, j, k-basis in R³. 
+Let
+
+		e₁ = (1, 0, 0,...,0), 
+
+		e₂ = (0, 1, 0, ... 0), 
+
+			.
+
+			.
+			
+			.
+
+		e(sub(n)) = (0, 0,....,0,1). 
+
+Then it is not difficult to see that 
+
+		a = (a₁, a₂, ..., a(sub(n))) = a₁e₁ + a₂e₂ + ... + a(sub(n))e(sub(n))
+
+Cauchy-Schwarz inequality. For al vectors a and b in R'' , have
+
+		|a * b| =< ||a|| ||b||

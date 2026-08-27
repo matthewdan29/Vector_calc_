@@ -1,0 +1,16 @@
+Stratigc use of the Cauchy-Schwarz inequality yields
+
+		||a + b||² = (a + b) * (a + b)
+
+				= a * a + 2a * b + b *b
+
+				=< a * a + 2||a||*||b|| + b * b
+
+				= ||a||² + 2||a|| * ||b|| + ||b||²
+
+				= (||a|| + ||b||)²
+
+Thus, the result desired holds by taking square roots, since the quantities on both sides of the inequality are nonnegative. 
+
+In two or three dimensions the triangle inequality has the following obvious proof from which the inequality gets its name: Since ||a||, ||b||, and ||a + b|| can be viewed as the lengths of the sides of the triangle, inequality (2) says nothing more than the sum of the lengths of two sides of a triangle must be at least as large as the length of the third side, as demostrated by Figure 1.81
+

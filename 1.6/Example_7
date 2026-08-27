@@ -1,0 +1,18 @@
+Suppose that we have n commodities. 
+If the price per unit of the ith commodity is p(sub(i)), then the cost of purchasing x(sub(i)) (>0) units of commodity i is p(sub(i))x(subi(i)). 
+If p = (p₁, ..., p(sub(n))) is the price vector of all the commodities and x = (x₁, ... x(sub(n))) is the commodity bundle vector, then 
+
+		p * x = p₁x₁ + p₂x₂ + ... + p(sub(n))x(sub(n))
+
+represents the total cost of the commodity bundle. 
+Now suppose that we have an exchange economy, so that we may buy and sell items. 
+If you have an endownment vector w = (w₁,...,w(sub(n))), where w(sub(i)) is the amount of commondity i that you can sell (trade), then, with prices given by the price vector p, you can afford any commondity bumdle x where
+
+		p * x =< p * w
+
+We may rewrite the lase equation as 
+
+		p * (x - w) =< 0
+
+In other words, you can afford any commodity bundle x in the budget set {x| p * (x - w) =< 0 }. 
+The equation p * (x - w) 0 defines a budget hyperplane passing through w with normal vector p.

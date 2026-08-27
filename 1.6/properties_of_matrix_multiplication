@@ -1,0 +1,10 @@
+Suppose A, B, and C are matrices of appropriate dimensions (meaning that the expressions that follow are all defined) and that k is a scalar. 
+Then: 
+
+	1) A(BC) = (AB)C; 
+
+	2) k(AB) = (kA)B = A(kB); 
+
+	3) A(B + C) = AB + AC; 
+
+	4) (A + B)C = AC + BC; 

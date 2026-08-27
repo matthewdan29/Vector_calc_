@@ -1,0 +1,6 @@
+Let A = (a(sub(ij))) be an n x n matrix. 
+The determinant of A is the real number given by 
+
+		Look at def_6.5_insert
+
+where A(sub(ij)) is the (n - 1) x (n - 1) submatrix of A obtained by deleting the ith row and jth column of A 

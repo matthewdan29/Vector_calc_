@@ -1,0 +1,3 @@
+For all vectors a and b in R^n, we have 
+
+		|a * b| =< ||a|| ||b||  ( * is the dot product)

@@ -1,0 +1,7 @@
+If A and B are any m x n matrices and k and l are any scalars, then
+
+	1) (k + l)A = kA + lA (distributivity); 
+
+	2) k(A + B) = kA + kB (ditributivity); 
+
+	3) k(lA) = (kl)A = l(kA)

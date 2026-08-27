@@ -1,0 +1,21 @@
+Matrix multiplication is defined the way it is so that, roughly speaking, working with vectors or quantities involving several variables can be nade to look as much as possible like working with a single varibale. 
+This idea will become clearer, but we can provide an important example now. 
+A linear function in a single caribale is a function of the form f(x) = ax where a is a constant. 
+The natural generalization of this to higher dimensions is a linear mapping F:R'' -> R''', F(x) = Ax, where A is a (constant) m x n matrix and x ∈ R''. 
+More explicitly, F is a function that takes a vector in R'' and returns a vector in R'''. 
+That is, 
+
+		look at example 5 insert
+
+The function F has the properties that F(x + y) = F(x) + F(y) for all x, y ∈ R'' and F(kx) = kF(x) for all x ∈ R'', k ∈ R. 
+These properties are also satisified by f(x) = ax, of course. 
+Perhaps more important, however, is the fact that linear mappings behave nicely with respect to composition. 
+Suppose F is as just defined and G:R''' -> R^p is another linear mapping defined by G(x) = Bx, where B is a p x m matrix. 
+Then there is a composite function G o F:R'' -> R^p defined by 
+
+		G o F(x) = G(F(x)) = G(Ax) = B(Ax) = (BA)x
+
+by the associativity property of matrix multiplication. 
+Note that BA is defined and is a p x n matrix. 
+Hence, we see that the composition of two linear mappings is again a linear mapping. 
+Part of the reason we defined matrix multiplication that way we did is so that this is the case. 

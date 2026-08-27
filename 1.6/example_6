@@ -1,0 +1,17 @@
+The equation for a plane in R³ through a given point(x₀, y₀, z₀) with given normal vector n = Ai + Bj + Ck, can also be generalized to n dimensions: 
+
+	A₁(x₁ - b₁) + A₂(x₂ - b₂) + ... + A(sub(n))(x(sub(n)) - b(sub(n))) = 0.
+
+If we let A = (A₁, A₂, ..., A(sub(n))), b = (b₁, b₂, ..., b(sub(n))) ("constant" vectors), and x = (x₁, x₂, ..., x(sub(n))) (a "variable" vector), then the aforemationed equation can be rewritten as 
+
+		A * (x - b) = 0
+
+or, considering A, b, and x as n x 1 matrices, as 
+
+		A^t * (x - b) = 0
+
+This is the equation for the hyperplane in R'' through the point b with normal vector A. 
+The points x that satisfy this equation fill out an (n - 1)-dimensional subset of R''. 
+
+At this point, it is easy to think that matrix arithmetic and the vector geometry of R'', although elegant, are so abstract and formal as to be of little practical use. 
+However, the next example, for the field of economics, shows that this is not the case. 

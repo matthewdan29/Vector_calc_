@@ -1,0 +1,3 @@
+For all vectors a, b ∈ R^n we have 
+
+		||a + b|| =< ||a|| + ||b||

@@ -1,0 +1,7 @@
+For all m x n matrices A, B, and C we have 
+
+	1) A + B = B + A (Commutativity); 
+
+	2) A + (B + C) = (A + B) + C (associativity); 
+
+	3) An m x n matrix O (the zero matrix) with the property that A + O = A for all m x n marices A

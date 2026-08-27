@@ -1,0 +1,42 @@
+If 
+
+	A = {1, 2, 3}  and B = {0, 1}
+	    {4, 5, 6}	       {7, 0}
+			       {2, 4},
+
+then the (2,1) entry of AB is the dot product of the second row of A and the firs column of B: 
+
+	(2,1) entry = [4 5 6] * {0} = (4)(0) + (5)(7) + (6)(2) = 47
+				{7}
+				{2}
+
+Order matters in matrix multiplication. 
+To multiply two matrices we must have: 
+
+		Number of columns of lef matrix = number of rows of right matrix.
+
+If A is 2 x 3 and B is 3 x 3, then AB is defined (and is a 2 x 3 matrix), but BA is not. 
+However, even if both products AB and BA are defined and of the same dimensions (as is the case if A and B both n x n, for example), it is in general still true that 
+
+			AB != BA
+
+Despite the negative news, matrix multiplication does behave well in a numer of respects
+
+One simple operation on matrices that has no analogue in the real number system is the transpose. 
+THe transpose of an m x n matrix A is the n x m matrix A^T obtained by writing thr rows of A as columns. 
+For example, if 
+
+		A = {1, 2, 3}		then A^T = {1, 4}
+		    {4, 5, 6}, 			   {2, 5}
+						   {3, 6}
+
+The transpose will largely function as a notational convenience for us. 
+For example consider a, b ∈ R^n to be column vectors. 
+Then the dot product a * b can be written in matrix form as 
+
+	a * b = a₁b₁ + a₂b₂ +...+ a(sub(n))b(sub(n)) = [a₁ a₂ ... a(sub(n))] {b₁}
+									     {b₂}
+									      .
+                                                                              .                                                                               
+                                                                              .
+									     {b(sub(n))}

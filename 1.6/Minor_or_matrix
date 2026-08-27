@@ -1,0 +1,5 @@
+i(I'm going to give you several version to help you understand mentally what a minor is)
+
+1) The minor of matrix is of each element of matric and is equal to the part of the matrix remaining after excluding the row and the column containing that particular element.
+
+2) A minor of a matrix A is the determinant of some smaller square matrix generated from A by removing one or more of its rows and columns. Minors obtained by removing just one row and one column from square matrices are useful for calculating matrix cofactors, which are useful for computing both determiants and inverse of square matrices. 
