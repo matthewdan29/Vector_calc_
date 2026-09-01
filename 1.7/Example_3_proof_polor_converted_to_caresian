@@ -1,0 +1,16 @@
+We can use the formulas in 1 and 2 to prove that the curve of 6cosΘ is a circle. 
+The polar equation r = 6cosΘ that defines the curve requires a little ingenuity to convert to the corresponding Cartesian equation. 
+The trick is to multiply both sides of the equation by r. 
+Doing so, we obtain
+
+			r² = 6r cosΘ
+
+Now 1 and 2 immediaely give
+
+			x² + y² = 6x
+
+We complete the square in x to find that this equation can be rewritten as 
+
+			(x - 3)² + y² = 9
+
+which is indeed a circle of radius 3 with center at (3,0)

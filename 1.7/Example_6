@@ -1,0 +1,61 @@
+Serveral points and their corresponding sphearical coordinates are shown in Figugure 1.98
+
+Spherical coordinates are especially useful for describing objects that have a center of symmerty. 
+With the restrictions given by the inequalities in 5, the constant coordinate surface p = p₀ (p₀ > 0) is, of course, a sphere of radius p₀, shown in Figure 1.99. 
+The surface given by Θ = Θ₀ is a half-plane just as in the cylindrical case. 
+The φ = φ surface is a single-nappe cone if φ₀ != π/2 and is the xy-plane if φ₀ = π/2 (and is the postive or negative z-axis if φ₀ = 0 or π). 
+See figure 100
+ If we do not insist that p be nonnegative, then the cones would include both nappes. 
+
+------------------------------------------------------------------------
+The basic equations relating spherical coordinates to both cylindrical and Cartesian coordinates are as follows: 
+	
+
+	Spherical/cylindrical: 			
+
+		{ r = p sinφ			{ p² = r² + z²
+		{ θ = Θ				{ tan φ = r/z
+		{ z = p cosφ			{ θ = Θ
+
+
+	Spherical/Cartesian: 
+
+		{ x = p sinφ cosθ		{ p² = x² + y² + z²
+		{ y = p sinφ sinθ		{ tanφ = √(x² + y²/z)
+		{ z = p cosφ   			{ tanΘ = Θ
+
+------------------------------------------------------------------------
+
+Using basic trigonometry, it is not difficult to establish the converstions in 6. 
+From the right triangle shown in figure 1.101, we have 
+
+		cos(π/2 - φ) = r/p
+
+Hence, 
+
+		r = p cos(π/2 - φ) = p sinφ
+
+Similarly, 
+
+		sin(π/2 - φ) = z/p
+
+so that
+		z = p sin(π/2 - φ) = p cosφ
+
+Thus, the formulas in 6 follow when 0 <= φ <= π/2. 
+If π/2 < φ <= π, then we may employ figure 1.102.
+So 
+
+		r = p cos(φ - π/2) = p sin φ, 
+
+and 
+
+		z = -p sin(φ - π/2) = p sinφ
+
+and
+
+		z = -p sin(φ - π/2) = p sin(π/2 - φ) = p cosφ
+
+
+Hence, the relations in 6 hold in general. 
+The equations in 7 follow by substitution of those in 6 into those of 3 and 4

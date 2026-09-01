@@ -1,0 +1,6 @@
+Convert a polar coordinate in form (r, Θ) to cartesian (x,y). 
+
+The calculations are x = r * cos(θ) and y = r * sin(Θ).
+
+
+The book gives you a different form and this is much easier for me to remember

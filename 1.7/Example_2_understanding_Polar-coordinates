@@ -1,0 +1,23 @@
+Let's graph the curve given by the polar equation r = 6cosΘ (Figure 1.88)
+We can begin to get feeling for the graph by compiling values, as in the adjacent tabulation. 
+Thus, r decreases from 6 to 0 as Θ increases from 0 to π/2; r decreases form 0 to -6 (or is not defined, if you take r to be nonnegative) as Θ varies from π/2 to π; r increases from -6 to 0 as Θ varies form 3π/2 to 2π. 
+To graph the resulting curve, imagine a radar screen: As Θ moves counterclockwise from 0 to 2π, the point (r, Θ) of the graph is traced as the appropriate "blip" on the radar screen. 
+Note that the curve is actually traced twice: once as Θ varies from 0 to π and then again as Θ varies from π to 2π. 
+Alternatively, the cruve is traced just once if we allow only Θ values that yield nonegative r values. 
+The resulting graph appears to be a circle of radius 3 (not centered at the origin), and, in fact, one can see that the graph is indeed such a circle. 
+
+The basic conversitons between polar and Cartesian coordinates are provided by the following relations: 
+
+		Polar to Cartesian: 	{ x = r cosΘ
+					{ y = r sinΘ
+
+		
+		Cartesian to polar: 	{ r² = x² + y²
+					{ tanΘ = y/x
+
+Note that the equations in 2 do not uniquely determine r and Θ in terms of x and y. 
+This is quite acceprtable, really, since we do not always want to insist that r be nonegative and Θ be between 0 and 2π. 
+If we do restrict r and Θ, however, then they are given in terms of x and y by the following formulas: 
+
+The complicated formula for Θ arises because we require 0=< Θ < 2π, while the inverse tangent function returns values between -π/2 and π/2 only. 
+Now see why the equaions given in 2 are better bet!

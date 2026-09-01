@@ -1,0 +1,49 @@
+In Cartesian coordinates, there are three special unit vectors i, j, and k that point in the directions of increasing x-, y-, and z-coordinate, respectively. 
+We find corresponding sets of vectros for cylindrical and spherical coordinates. 
+That is, in each set of coordinates, we seek mutually orthogonal unit vectors that point in the directions of inceasing coordinate values. 
+In cylindrical coordinates, the situation is as shown in Figure 1.108. 
+The vectors e(sub(r)), e(sub(Θ)), and e(sub(z)), which form the standard basis for cylindrical coorinates, are unit vectors that each point in the direction in which only the coordinate indicated by the subscript increases. 
+There is an important difference between the standard basis vectors in Cartesian and cylindrical coordinates. 
+In the former case, i, j, and k do not vary from point to point. 
+However, the vectors e(sub(r)) and e(sub(Θ)) do change as we move from point to point. 
+
+Now we give expressions for e(sub(r)), e(sub(Θ)) and e(sub(z)). 
+Since the cylindrical z-coordinate is the same as the Cartesian z-coordinate, we must have e(sub(z)) = k. 
+The vector e(sub(r)) must point radially outward from the z-axis with no k-component. 
+At a point (x,y,z) ∈ R³ (Cartesian coordinates), the vector xi + yj has the property. 
+Normalizing it to obtain a unit vector, we obatin
+
+		
+		e(sub(r)) = (xi + yja)/(√(x² + y²))
+
+With e(sub(r)) and e(sub(z)) in hand, it's now a simple matter to define e(sub(θ)), since it must be perpendicular to both e(sub(r)) and e(sub(z)). 
+We take 
+
+		e(sub(Θ)) = e(sub(z)) x e(sub(r)) = (-yi + xj)/(√(x² + y²))
+
+To summerarize, and using the cylindrical to Cartesian conversions given in 3
+
+		e(sub(r)) = (xi + yj)/(√(x² + y²)) = -sinΘi + sinΘj;
+
+		e(sub(Θ)) = (-yi + xj)/(√(x² + y²)) = -sinΘi + cosΘj; 
+
+		e(sub(z)) = k
+
+In spherical coordinates, the situation is shown in Figure 1.109. 
+In particular, there are three unit vectors e(sub(p)), e(sub(φ)), and e(sub(Θ)) that form the standard basis for spherical coordinates. 
+These vectors all change direction as we move from point to point. 
+We give expressions for e(sub(p)), e(sub(φ)), and e(sub(Θ)). 
+Since the Θ-coordinates in both spherical and cylindrical coordinates mean the same thing, e(sub(Θ)) in spherical coordinates is given by the value of e(Θ) in 8.
+At a point (x, y, z), the vector e(sub(p)) should point from the origin directly to (x, y, z). 
+Thus, e(sub(p)) may be obtained by normalizing xi + yj + zk. 
+Finally, e(sub(φ)) is nothing more than e(sub(Θ)) x e(sub(p)). 
+If we explicitly perform the calculations just described and make use of the conversion formulas 7, the following are obtained: 
+
+	e(sub(p)) = (xi + yj + zk)/(√(x² + y² + z²)) = sinφ cosΘi + sinφ sinθj + cosφk; 
+
+	e(sub(φ)) = (xzi + yzj - (x² + y²)k)/(√(x² + y²) * √(x² + y² + z²)) = cosφ cosΘi + cosφ sinΘj - sinφk; 
+
+
+	e(sub(Θ)) = (-yi + xj)/(√(x² + y²)) = -sinΘi + cosΘj
+
+Although the results of 8 and 9 will not be used frequently, they will prove helpful on occasion

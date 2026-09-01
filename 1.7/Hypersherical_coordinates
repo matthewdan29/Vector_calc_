@@ -1,0 +1,45 @@
+There is a way to provide a set of coordinates for R^n that generalizes spherical coordinaes on R³. 
+For n => 3, the hypersherical coordinates of a point P ∈ R^n are (p, φ₁, φ₂, ,,, p(sub(n - 1))) and are defined by their relains with the Cartesian coordinates (x₁, x₂, ... , x(sub(n))) of P as 
+
+		{
+			X₁ = p sinφ₁ sinφ₂ ... sinφ(sub(n - 2)) cosφ(sub(n - 1))
+
+			x₂ = p sinφ₁ sinφ₂ ... sinφ(n - 2) sinφ(n - 1)
+
+			x₃ = p sinφ₁ sinφ₂ ... sinφ(sub(n - 4)) cosφ(n - 3)
+
+			.
+
+			.
+
+			.
+			x(sub(n)) = p cosφ₁
+		{
+
+To be more explicit, in equation 10 above take
+
+	x(sub(k)) = p sinφ₁ sinφ₂ ... sinφ(sub(n - 1)) cosφ(n - k + 1) for k = 3 ... n
+
+Note that n = 3, the relations in 10 become
+
+	{
+		x₁ = p sinφ₁ cosφ₂
+
+		x₂ = p sinφ₁ sinφ₂
+
+		x₃ = p cosφ₁
+	{
+
+These relations are the same as those given in 7, so hypersherical coordinates are indeed the same as speherical coordinates when n = 3. 
+
+In analogy with 5, it is standard practice to impose the following restrictions on the range of values for the coordinates: 
+
+	p => 0, 0 =< φk =< π for k = 1 ... n-2,  0 <= φ(n - 1) < 2π
+
+Then, with these restions, we can convert from  hyperspherical coordinates to Cartesian coordnates by means of the followingt formulas: 
+
+		Look at insert_12
+
+Hypersherical coordinates get their name from the fact that the (n - 1)-dimensional hypersuface in R^n defined by the equation p = p₀, where p₀ is a positive constant, consits of points on the hypershere of radius p₀ defined in Cartesian coordinates by the equation 
+
+		x²₁ + x²₂ + ... + x²(sub(n)) = p²₀

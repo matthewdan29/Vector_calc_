@@ -1,0 +1,8 @@
+A cylindrical coordinate system is a three dimensional coordinate system that specifies point positions around a main axis and an auxiliary axis. 
+The three cylindrical coordinates are: 
+
+		1) The point perpendicular distance p from the main axis
+
+		2) The point signed distance z along the main axis from a chosen origin
+
+		3) The plane angle φ of the point projection on a reference plane (passing through the origin and perpendicular to the main axis)

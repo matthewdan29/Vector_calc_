@@ -1,0 +1,16 @@
+Polar coordinates are defined by considering different geometric information. 
+Now imagine the plane filled with concentric circles centred at the origin and rays emanating from the origin. 
+THen every point except the origin lies on exactly one such circle and one such ray. 
+The origin itself is special: No circle passes throught it, and all the rays begin at it. 
+For points P other than the origin, we assign to P the polar coordinates (r, 
+Θ), where r is the radius of the circle on which P lies and Θ is the angle between the positive x-axis and the ray on which P lies. 
+(Θ is measured as opening counterclockwise) 
+The origin is an exception: It is assigned the polar coordinates (0, Θ), where Θ can be any angle. 
+(see Figure 1.85)
+As we have described polar coordinates, r => 0 since r is the radius of a circle. 
+It also makes good sense to require 0 =< Θ < 2π, for then every point in the plane, except the origin, has a uniquely determined pair of polar coordinates. 
+Occasionally, however, it is useful not to restrict r to be nonegative and Θ to be between 0 and 2π. 
+In such a case, no point of R² will be described by a unique pair of polar coordinates: if P has polar coordinates (r, Θ), then it also has (r, Θ + 2π) and (-r, Θ + (2n + 1)π) as coordinates, where n can be any integer. 
+(To locate the point having coordinates (r,Θ), where r < 0, construct the ray making angle Θ with respect to the positive x-axis, and instead of marching |r| units away from the origin along this ray, go |r| units in the opposite directions, as shown in Figure 1.86) 
+
+Best way to think of it is: A function whose radius depends on the angle

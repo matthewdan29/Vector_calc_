@@ -1,0 +1,15 @@
+Fill all of space with sphers centered at the origin as in Figure 1.96. 
+Then every point P ∈ R³, except the origin, lies on a single sphere. 
+Roughly speaking, the sperical coordinates of P are given by specifying the radius p of the sphere containing P and the "latitude and longitude" reading of P along this sphere. 
+More precisely, the spherical coordinates (p, φ, Θ) of P are define as follows: p is the distance from P to the origin: φ is the angle between the positive z-axis and the ray made by dropping a perpendicular from P to the xy-plane. 
+The Θ-coordinate is exactly the same as the Θ-coordinate used in cylindrical coordinates. 
+(Pyhsicist usually prefer to reverse the roles of φ and Θ, as do some graphical software packages)
+
+It is standard practice to impose the following retrictions on the range of values for the individual coordinates: 
+
+		p >= 0, 0 =< φ =< π, 0 =< Θ < 2π
+
+With such restrictions, all points of R³, except those on the z-axis, hae a uniquely determined set of spherical coordinates. 
+Points along the z-axis, except for the originm, have coordinate4s of the form (p₀, 0, Θ) or (p₀, π, Θ), where p₀ is a postive constant and Θ is arbitrary. 
+The origin has spherical coordinates (, φ, Θ), where both φ and Θ are arbitrary. 
+

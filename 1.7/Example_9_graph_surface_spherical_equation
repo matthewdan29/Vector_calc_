@@ -1,0 +1,12 @@
+Lets graph the surface with spherical equation p = 2a cosφ, where a > 0.
+As with the graph of the cone with cylindrical equation z = 2r, note that the equation is independent of Θ. 
+Thus, all sections of this surface made by slicing with the half-plane Θ = c must be the same. 
+If we compile values as in the adjacent table, then the section of the surface in the half-plane Θ = 0 is as shown in figure 1.103.
+Since this section must be identical in all other constant-Θ half-planes, we see that this surface appears to be a spherer of radius a tangent to xy-plane, wich is shown in figure 1.014
+
+The Cartesian equation of the surface is determined by multiplying both sides of the spherical equation by p and using the conversion equations in 7: 
+
+		p = 2a cosφ => p² = 2ap cosφ <==> x² + y² + z² = 2az  <==> x² + y² + (z - a)² = a 
+
+by compoleting the square in z. 
+This last equatioon can be recognized as that of a sphere of radius a with center at (0, 0, a) in Caresian coordinates

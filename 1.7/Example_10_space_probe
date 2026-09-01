@@ -1,0 +1,22 @@
+Nasa launches a 10-ft-diameter space probe. 
+Unfortunately, a meteor storm pushes the probe off course, and it is partially embedded in the surface of Venus, to a depth of one quarter of its diameter. 
+To attempt to reprogram the probe's on-board computer to remove it from Venus, it is neccessary to describe the embedded portion of the probe in spherical coordinates. 
+Lets us find the description desired, assuming that the surface of Venus is essentially flat in relation to the probe and that the origin of our coordinate system is at the center of the probe. 
+
+The situation is illustrated in Figure 1.105. 
+The buried part of the probe clearly has symmetry about the z-axis. 
+This is, any slice by the half-plane Θ = constant looks the same as any other. 
+Thus, Θ can vary between 0 and 2π. 
+A typical slice of the probe is shown in Figure 1.106. 
+Elementry trigonometry indicates that for the angle α in Figure 1.106, 
+
+		cosα = (5/2)/5 = 1/2
+
+Hence, α = cos^(-1)(1/2) = π/3. 
+Thus, the spherical angle φ (which opens from the positive z-axis) varies from π - π/3 = 2π/3 to π as it generates the buried part of the probe. 
+Finally, note that for a given value of φ between 2π/3 and π, p is bounded by the surface of Venus (the plane z = -5/2 in Cartesian coordinates) and the spherical surface of the probe (whose equation in spherical coordinates is p = 5)
+See Figure 1.107. 
+From the formulas in 7 the equation z = -5/2 corresponds to the spherical equation p cosφ = -5/2 or, equivalently, to p = -5/2 secφ. 
+Therefore, the embedded part of the probe may be defined by the set
+
+	{(p, φ, θ)|(-5/2)secφ <= p <= 5, 2π/3 <= φ <= π, 0 <= θ < 2π}

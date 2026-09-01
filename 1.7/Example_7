@@ -1,0 +1,10 @@
+The cylindrical equation z = 2r in Example 5 converts via 6 to the spherical equation
+
+		p cosφ = 2p sinφ
+
+therefore, 
+
+		tanφ = 1/2 <==> φ = tan^(-1) 1/2 ≈ 26
+
+Thus, the equation defines a cone. 
+The spheical equation is especially simple in that it involves just a single coordinate. 

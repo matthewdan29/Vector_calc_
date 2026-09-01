@@ -1,0 +1,7 @@
+A spherical cooridinate system specifies a given point in three dimensional space by using a distance and two angles as its three coordinates. 
+		
+		1) The radical distance, r, along the line connecting the point to a fixed point called the origin
+
+		2) The polar angle, Θ, between this radical line and a given polar axis; 
+
+		3) The azimuthal angle, φ, which is the angle of rotation of the radial line around the polar axis

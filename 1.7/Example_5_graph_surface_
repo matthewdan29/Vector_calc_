@@ -1,0 +1,14 @@
+Graph the surface having equation z = 2r in cylindrical co-ordinates. 
+Here the variable Θ does not appear in he equation, which means that the surface in question will be circularly symmetric about the z-axis. 
+Meaning, if we slice the surface by any plane of the form Θ = constant, we see the same curve, namely, a line of slope 2. 
+As we let the constant-Θ plane vary, this line generates a cone, as shown in Figure 1.95. 
+The cone consitsts only of the top half (nappe) when we restrict r to be nonnegative. 
+The cartesian equation of this cone is readily determined. 
+Using the formulas in 4 we have 
+
+	z = 2 ==>  z² = 4r² <==> z² = 4(x² + y²)
+
+Since z can be positive as well as negative, this last Cartesian equation describes the cone with both nappes. 
+If we want the top nappe only, then the equation x = 2√(x² + y²) describes it. 
+Similarly, z = -2√(x² + y²) describes the bottom nappe. 
+

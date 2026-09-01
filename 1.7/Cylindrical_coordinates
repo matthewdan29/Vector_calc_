@@ -1,0 +1,26 @@
+Cylindrical coordinates on R³ are a "naive" way of generalizing polar coordinates to three dimensions, in the sense that they are nothing more than polar coordinates used in place of the x- and y-coordinates. 
+(The z-coordinate is left unchanged.)
+The geometry is as follows: Except for the z-axis, fill all of space with infinitely extended circular cylinders with axes along the z-axiz as Figure 1.89. 
+Then any point P in R³ not lying on the z-axiz lies on exactly one such cylinder, the circumferential angle Θ around the cylinder, and the vertical position z along the cylinder. 
+The cylindrical coordinates of P are (r, Θ, z), as shown in Figure 1.90. 
+Algebraically, the equations in 1 and 2 can be extended to produce the basic conversions between Cartesian and cylinderical coordinates. 
+
+The basic conversions between cylindrical and Cartesian coordinates are provided by the following relations: 
+
+		Cylindrical to Cartesian:	{ x = r cosΘ
+						  y = r sinΘ
+						{ z = z
+
+
+		Cartesian to cylindrical: 	{ r² = x₂ + y²
+						  tanΘ = y/x
+						{ z = z
+
+Cylindrical coordinates are useful for studing objects possessing an axis of symmetry.
+Befor exploring a few examples, let's understand the three "constant coordinate" surfaces. 
+
+	1) The r = r₀ surface is, of course, just a cylinder of radius r₀ with axis the z-axis. (See Figure 1.91)
+
+	2) The Θ =Θ₀ surface is a vertical plane containing the z-axis (or a half-plane with edge the z-axis if we take r => 0 only) (See Figure 1.92)
+
+	3) The z = z₀ surface is a horizonal plane (See Figure 1.93)
