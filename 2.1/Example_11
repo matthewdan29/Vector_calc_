@@ -1,0 +1,29 @@
+We'll use level and contour curves to construct the graph of the function
+
+		f: R² -> R, 	f(x, y) = 4 - x² - y², 
+
+By definition 1.4, the level curve at height c is 
+
+		{(x, y) ∈ R² | 4 - x² - y² = c } = {(x, y) | x² + y² = 4 - c }.
+
+Thus, we see that the level curves for c < 4 are circles centered at the origin of radius √(4 - c). 
+The level "curve" at height c = 4 is not a curve at all but just a single point (the origin). 
+Finally, there are no level curves at heights larger than 4 since the equation x² + y² = 4 - c has no real solutions in x and y. 
+These remarks are summarized in the file 
+
+			Example_11_table 
+
+Thus, the family of level curves, the "topographic map" of the surface z = 4 - x² - y², is shown in figure 2.13. 
+Some contour curves, which sit in R³, are shown in Figure 2.14, where we can get a feeling for the complete graph of z = 4 - x² - y². 
+It is a surface that looks like aninverted dish and is called a paraboloid. 
+See figure 2.15
+To make the picture clearer, we have also sketched in the sections of the surface by the playnes x = 0 and y = 0. 
+The section by x = 0 is given analytically by the set 
+
+	{(x, y, z) ∈ R³ | z = 4 - x² - y², x = 0} = {(0, y, z) | z = 4 - y²}. 
+
+Similarly, the section by y = 0 is 
+
+	{(x, y, z) ∈ R³ | z = 4 - x² - y², y = 0} = {(x, 0, z) | z = 4 - x²}
+
+Since these sections are parabolas, it is easy to see how this surface obtained its name

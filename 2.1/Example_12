@@ -1,0 +1,18 @@
+We'll graph the function g:R² -> R, g(x, y) = y² - x². 
+Th level curves are all hyperbolas, with the exception of the level curve at height 0, which is a pair of intersecting lines. 
+
+	`	insert graph file that say example 12
+
+The collection of level curves is graphed in Figure 2.16. 
+The sections by x = c are 
+
+	{(x, y, z) | z = y² - x², x = c} = {(c, y, z) | z = y² - c²}. 
+
+These are clearly parabolas in the planes x = c. 
+The sections by y = c are 
+
+	{(x, y, z) | z = y² - x², y = c} = {(c, y, z) | z = c² - x²}, 
+
+which are again parabolas. 
+The level curves and sections generate the contour curves and surface depicted in figure 2.17. 
+Perphaps understnadably, this surface is called a hyperbolic paraboloid

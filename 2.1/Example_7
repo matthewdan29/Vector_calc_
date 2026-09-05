@@ -1,0 +1,9 @@
+Sometimes a function may be given numerically by a table. 
+One such example is the notion of windchill - the apparent temperature one feels when taking into account both the acutal air temperature and the speed of the wind. 
+A standard table of windchiil values is shown in Figure 2.5. 
+From it we swee that if the air temperature is 20 F and thw windspeed is 25 mph, the windchill temperature ("how cold it feels") is 3 F. 
+Similarly, if the air temperature is 35 F and the windspeed is 10 mph, then the windchill is 27 F. 
+In other words, if s denotes windspeed and t air temperature, then the windchill is a function W(s, t). 
+
+The functions described in Examples 4, 5, and 7 are scalar valued functions, that is, functions whose codomains are R or subsets of R. 
+

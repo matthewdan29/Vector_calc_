@@ -1,0 +1,5 @@
+Consider the function given by N(x) = x/||x|| where x is a vector in R³. 
+Note that N is not defined if x = 0, so the largest possible domain for N is R³ - {0}. 
+The range of N consists of all unit vectors in R³. 
+The function N is the "normalization function" that is, the function that takes a nonzero vector in R³ and returns the unit vector that points in the same direction. 
+

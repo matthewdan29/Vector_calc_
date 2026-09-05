@@ -1,0 +1,9 @@
+Let F: R³ -> R be given by F(x, y, z) = x + y + z. 
+Then the graph of F is the set {(x, y, z, w) | w = x + y + z} and is a subset (called a hypersurface) of R⁴, which we cannot depict adequately. 
+Nonetherless, we can look at the level of sets of F, which are surfaces in R³. 
+See Figure 2.20
+We have 
+
+	Level set at height c = {(x, y, z) | x + y + z = c}. 
+
+Thus, the level sets form a family of parallel planes with normal vector i + j + k. 

@@ -1,0 +1,28 @@
+The graph of the function
+
+	f: R² -> R,  f(x, y) = (1/12)y³ - y - (1/4)x² + (7/2)
+
+is shown in Figure 2.10. 
+For each point x = (x, y) in R², the point in R³ with coordinates (x, y, (1/12)y³ - y - (1/4)x² + (7/2)) is graphed. 
+
+Graphing function of two variables is a much more difficult task than graphing functions of one varibale. 
+Of course, one method is to let a computer do the work. 
+Nonetheless, if you want to get a feeling for functions of more than one varibale, being able to sketch a rough graph by hand iws still a valuable skill. 
+The trick to putting together a reasonable graph is to find a way to cut down on the dimensions involved 
+One way this can be achieved is by drawing certain special curves that lie on the surface z = f(x, y). 
+These special curves, called contour curves, are the ones obtained by intrsecting the surface with horizontal planes z = c for various values of the constant c. 
+Some4 contour curves drawn on the surface of Example 10 are shown in Figure 2.11. 
+If we compress all the contour curves onto the xy-plane (in essence, if we look down along the positive z-axis), then we create a "topographic map" of the surface that is shown in Figure 2.12.
+These curves in the xy-plane are called the level curves of the original function f. 
+
+The point of the preceding discussion is that we can reverse the process in order to sketch systematically the graph of a function f of two varibales:
+
+	1) First contruct a topographic map in R² by finding the level curves of f, 
+	
+	2)then situate these curves in R³ as contour curves at the appropriate heights, and 
+
+	3) finally complete the graph of the function.
+
+In addition to level and contour curves, consideration of the sections of a surface by the planes where x or y is held constant is also helpful. 
+A section of a surface by a plane is just the intersection of the surface with the plane. 
+Follow the definitions in the file

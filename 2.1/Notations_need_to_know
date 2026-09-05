@@ -1,0 +1,11 @@
+A function, any function, has three features: 
+		
+	1) A domain set X
+
+	2) A Codmain set Y
+
+	3) a rule assigment that associates to each element x in the domain X a unique element, usually donoted f(x), in the codomain Y. 
+We will fequently use the notation f:X -> Y (I will try my best to explain and pull things usefull from websites from trusted sources) for a  fuction. 
+Such notation indicates all the ingredients of a particluar function, although it does not make the nature of the rule of assignment explicit. 
+This notation also suggests the "mapping" nature of a function. 
+

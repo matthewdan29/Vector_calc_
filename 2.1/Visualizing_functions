@@ -1,0 +1,22 @@
+A function f: X ⊆ R -> R takes a real number and returns another real number as sugested by Figure 2.8. 
+The graph of f is something that "lives" in R².
+(See Figure 2.9)
+It consists of points(x, y) such that y = f(x). 
+That is, 
+
+	Graph f = {(x, f(x)) | x ∈ X} = {(x, y) | x ∈ X, y = f(x)}. 
+
+The importnant fact is that, in general, the graph of a scalar-valued function of a single variable is a curve-a one-dimensional object-siting inside two-dimensional space. 
+
+Now suppose we have a function f: X ⊆ R² -> R, that is, a function of two varibales. 
+We make essentially the same definition for the graph: 
+
+		Graph f = {(x, f(x)) | x ∈ X}. 
+
+Of course, x = (x, y) is a point of R². 
+Thus, {(x, f(x))} may also be written as 
+
+		{(x, y, f(x, y))}, or as {(x, y, z) | (x, y) ∈ X, z = f(x, y)}. 
+
+Hence, the graph of a scalar-valued function of two varibales is something that sits in R³. 
+Generally speaking, the graph will be a surface. 

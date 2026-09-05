@@ -1,0 +1,2 @@
+In the most general terms, these are the functions whose domains are subsets X of R'' and whose codomains are subsets of R''', for some positive integers n and m. 
+That is, such a functionis mapping f:X ⊆ R^n -> R^m that associates to a vector (or point) x in X a unique vector (point) f(x) in R'''. 

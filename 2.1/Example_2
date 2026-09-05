@@ -1,0 +1,4 @@
+Suppose f: R -> R is given by f(x) = x². 
+THen the domain and codomain are, explicity, all of R, but the range of f is the interval [0, ∞). 
+Thus f is not onto, since the codomain is strictly larger than the range. 
+Note that f is not one-one, since f(2) = f(-2) = 4, but 2 != -2

@@ -1,0 +1,4 @@
+Let T:R³ -> R be defined by T(x, y, z) = xy + xz + yz.
+We can think of T as sort of "temperature function"
+Given a point x = (x, y, z) in R³, T(x) calculates the temperature at the point. 
+

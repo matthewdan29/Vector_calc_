@@ -1,0 +1,9 @@
+(Figure 2.24)
+
+	z/c = x²/a² + y²/b²
+
+(The roles of x, y, and z may be interchanged)  
+This surface is the graph of a function of x and y. 
+The paraboloid has elliptical (or single-point or empty) sections by the planes "z = constant" and parabolic sections by "x = constant" or "y = constant" planes. 
+The constant a and b affect the aspect ratio of the elliptical cross sections, and the constant c affects the steepness of the dish. 
+(Larger values of c produce steeper paraboloids)

@@ -1,0 +1,9 @@
+A function, any function, has three features: 
+	1) a domain set X, 
+	
+	2) a codomain set Y, 
+	
+	3) a rule of assigment that associates to each element x in the domain X a unique element, usually denoted f(x), in the codomain Y. 
+We will fequently use the notation f: X -> Y for a function, 
+Such notation indicates all the ingredients of a particular function, althought it does not make the nature of the rule of assigment explicit. 
+This notation also suggests the "mapping" nature of a function. 

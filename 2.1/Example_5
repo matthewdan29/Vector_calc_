@@ -1,0 +1,4 @@
+Let L: R^n -> R be given by L(x) = ||x||. 
+This is a "length function" in that it computes the length of any vector x in R^n. 
+Note that L is not one-one, since L(e(sub(i))) = L(e(sub(j)) = 1, where e(sub(i)) and e(sub(j)) are any two of the standard basis vectors for R^n. 
+L also fails to be onto, since the length of a vector is always nonnegative. 

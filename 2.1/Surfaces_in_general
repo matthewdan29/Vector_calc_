@@ -1,0 +1,8 @@
+Not all curves in R² can be described as the graph of a single function of one varibale. 
+Perhaps the most familiar example is the unit circle shown in Figure 2.21. 
+Its graph cannot be determined by a single equation of the form y = f(x) (Or, for that matter, be one of the form x = g((y))). 
+As we know, the graph of the circle may be described analytically by the equation x² + y² = 1. 
+In general, a curve in R² is determined by an arbitrary equation in x and y, not necessarily one that isolates y alone on one side. 
+In other word, this means that a general curve is given by and equation of the form F(x, y) = c (i.e. a level set of a function of two variables). 
+The analogous situation occurs with surface in R³. 
+Frequently a surface is determined by an  equation of the form F(x, y, z) = c, not necessarily one of the form z = f(x, y) 

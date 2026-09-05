@@ -1,0 +1,26 @@
+We can think of the velocity of a fluid as a vector in R³. 
+This vector depends on (at least) the point at which measures the velocity and also the time  at which one makes the measurement. 
+In other words, velocity may be consideered to be a function v: X ⊆ R⁴ -> R³. 
+The domain X is a subset of R⁴ because three variables x, y, z are required to describe a point in the fluid and a fourth variable t is needed to keep track of time. 
+(see Figure 2.7)
+For instance, such a function v might be given by the expression 
+
+	v(x, y, z, t) = xyzti + (x² - y²)j + (3z + t)k. 
+
+You may have noted that the expression for v in Example 9 is considerably more complicated than those for the functions given in Examples 4-8. 
+This is becuase all the variables and vector componenets have been written out explicitly. 
+In general, if we have a function f: X ⊆ R^n -> R^m, then x ∈ X can be written as x = (x₁, x₂, ..., x(sub(n))) and f can be written in terms of its component functions f₁, f₂, ..., f(sub(m)). 
+The component functions are scalar-valued functions of x ∈ X that define the components of the vector f(x) ∈ R^m. 
+What results is a morass of symbols: 
+
+	f(x) = f(x₁, x₂, ..., x(sub(n)))		(Emphasizing the variables)
+
+	     = (f₁(x), f₂(x), ... f(sub(m)(x)))		(emphasizing the component functions)
+
+	     = (f₁(X₁, X₂, ..., X(sub(n)), f₂(X₁, X₂, ..., X(sub(n)), ... f(sub(m) ), (X₁, X₂, ..., X(sub(n)))))) 		(writing out all components)
+
+
+Although writing a function in terms of all its variables and components has the advantage of being eplicit, quite a lot of paper and ink are used in the process. 
+The use of vector notation not only saves space and trees but also helps to make the meaning of the function clear by emphasizig that a function maps points in R^n to points in R^m. 
+Vector notation makes a function of 300 variables look "just like" a function of one varibale. 
+Try to avoid writing out components as much as you can (except when you want to impress your friends)

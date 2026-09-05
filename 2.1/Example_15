@@ -1,0 +1,50 @@
+A sphare is a surface in R³ whose points are all equidistant from a fixed point. 
+If this fixed point is the origin, then the equation for the sphere is
+
+		||x - 0|| = ||x|| = a, 
+
+where a is a positive constant and x = (x, y, z) is a point on the sphare. 
+If we squsate both sides of equsation 3 and expand the (implicit) dot product, hen we obatin perhaps the familiar equation of a sphere of raidus a centered at the origin: 
+
+		x² + y² + z² = a². 
+
+If the center of the sphere is at the point x₀ = (x₀, y₀, z₀), rather than the origin, then equation 3 should be modified to 
+
+		||x = x₀|| = a
+
+See Figure 2.22
+When equation 5 is expanded, the following general equation for a sphare is obtained: 
+
+		(x - x₀)² + (y - y₀)² + (z - z₀)² = a²
+
+In the equation for a sphere, there is no way to solve for z uniquely in terms of x and y. 
+Indeed, if we try to isolate z in equation 4, then
+
+		z² = a² - x² - y², 
+
+so we are forced to make a choice of positive or negative square roots in order to solve for z: 
+
+		z = √(a² - x² - y²) or z = -√(a² - x² - y²). 
+
+
+The positive square root corresponds to the upper hemisphere and the negative suqre root to the lower one. 
+In any case, the entire sphere cannot be the graph of a single function of two varibales. 
+
+Of course, the graph of a function of two variables does describe a surface in the "level set" sense. 
+If a surface happens to be given by an equation of the form 
+
+		z = f(x, y)
+
+for some appropriate function f:X ⊆ R² -> R, then we can move z to the opposite side, obtaining 
+
+		f(x, y) - z = 0. 
+
+If we define a new functionF of three variables by 
+
+		F(x, y, z) = f(x, y) - z, 
+
+then the graph of f is previsely the level set at height 0 of F. 
+We reiterate this point since it is all too often forgotten. 
+The graph of a function of two variables is a surface in R³ and is a level set of a function of three variables. 
+However, not all level sets of functions of three variables are graphs of functions of two variables. 
+We urge you to understand this distinction

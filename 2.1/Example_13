@@ -1,0 +1,44 @@
+We compare the graphs of the function f(x, y) = 4 - x² - y² of example 11 with that of 
+
+	h:R² - {(0, 0)} -> R, h(x, y) = Ln(x² + y²). 
+
+The level curve of h at height c is 
+
+	{(x, y) ∈ R² | ln(x² + y²) = c} = {(x, y) | x² + y² = e^c}. 
+
+Since e^c > 0 for all c ∈ R, we see that the level curve exists for any c and is a circle of radius √(e^c) = e^(c/2). 
+
+The collection of level curves is shown in Figure 2.18 and the graph in Figure 2.19. 
+Note that the section of the graph by x = 0 is 
+
+	{(x, y, z) ∈ R³ | z = ln(x² + y²), x = 0} = {(0, y, z) | z = ln(y²) = 2ln|y|}
+
+The section by y = 0 is entirely similar: 
+
+	{(x, y, z) ∈ R³ | z = ln(x² + y²), y = 0} = {(x, 0, z) | z = ln(x²) = 2ln|x|}. 
+
+In fact, if we switch from Cartesian to cylindrical coordinates, it is quite easy to understand the surfaces in both Examples 11 and 13. 
+In view of the Cartesian/cylindrical relation x² + y² = r², we see that for the function f of example 11, 
+
+	z = 4 - x² - y² = 4 - (x² + y²) = 4 - r². 
+
+For the function h of example 13, we have 
+
+	z = ln(x² + y²) = ln(r²) = 2lnr, 
+
+where we assume the usual convention that the cylindrical coordinate r is nonnegative. 
+Thus both of the graphs in Figures 2.15 and 2.19 are of surfaces of revolution obatined by revlving different curves about the z-axis. 
+As a result, the level curves are, ijn general, circular. 
+
+The preceding discussion has been devoted entirely to graphing scalar-valued functions of just two variables. 
+However, all the ideas can be extended to more variables and higher dimensions. 
+If f: X ⊆ R^n -> R is a (scalar-valued) function of n variables, then the graph of f is the subeset of R^(n + 1) given by 
+
+	Graph f = {(x, f(x)) | x ∈ X} = {(x₁,..., x(sub(n)), x(sub(x+1))) ∈ X, X(sub(n+1)) = f(x₁, ..., x(sub(n)))}
+
+The level set at height c of such a function is defined by
+
+	Level set at height c = {x ∈ R^n | f(x) = c} = {(x₁, x₂, ..., x(sub(n)) | f(x₁, x₂, ..., (sub(n)))) = c}
+
+While the graph of f is a subset of R^(n+1), a level set of f is a subset of R^n. 
+This makes it possible to get some geometric insight into graphs of functions of three variables, even though we cannot actually visualize them 

@@ -1,0 +1,10 @@
+Conic sections, those curves obtained from the intersection of a cone with various planes, are among the simplest, yet also the most interesting, of the plane curves: THey are the circle, the ellipse, the parabola, and the hyperbola. 
+Besides being produced in a similar geometric manner, conic sections have an elegant algebraic connection: Every conic section is descibed analytically by a polynomial eqauation of degree two in two variables. 
+That is, every conic can be described by an equation that looks like 
+
+	Ax² + Bxy + Cxz + Dy² + Eyz + Fz² + Gx + Hy + Iz + J = 0. 
+
+To pass from this equation to the appropriate graph is, inj general, a cumbersome process without the aid of either a computer or more linear algebra than we currently have at our disposal. 
+So, instead, we offer examples of those quadric surfaces whose axes of symmetry lie along the coordinate axes in  R³ and whos corresponding analytic equations are relatively simple. 
+In the discussion that follows, a, b, and c, are constants, which, for convenience, we take to be positive. 
+

@@ -1,0 +1,38 @@
+(Figure 2.28)
+
+	z²/c² - x²/a² - y²/b² = 1. 
+
+
+The fact that the left-hand side of the defining equation is the opposite of the left side of the equation for the previous hyperboliod is what causes this surface to consist of two pieces instead of one.
+More precisely, consider the sections of the surface by planes of the form z = k for different constants k. 
+These sections are thus given by
+
+		k²/c² - x²/a² - y²/b² = 1. z = k 
+
+or, equivalently, by
+
+		x²/a² + y²/b² = k²/c² -1, z = k, 
+
+If -c < k < c, then 0 =< k²/c² < 1. 
+thus, k²/c² - 1 < 0, and so the preceding equation has no soulution in x and y. 
+Hence, the section by z = k, where |k| < c, is empty. 
+If |k| > c, then the section is an ellipse. 
+The sectinos by "x = constant" or "y = constant" planes are hyperbolas. 
+
+In the same way that the hyperbolas 
+
+		x²/a² - y²/b² + or - 1
+
+are asymptotic to the cone 
+
+		z²/c² = x²/a² + y²/b², 
+
+This is perhaps clear from Figure 2.29, but let's see how to prove it rigorously. 
+In our present context, to see that the hyperboloids are asymptotic to the cones means that they look more and more like the cones as |z| becomes (arbitrarily) large. 
+Analytically, this should mean that equations for the hyperboloids should approximate the equation for the cone for sufficiently large |z|. 
+The equations of the hyperboloids can be written as follows: 
+
+		x²/a² + y²/b² = z²/c² + or - 1 = z²/c²(1 + plus or - c²/z²).
+
+As |z| -> ∞, so that right side of the equation for the hyperboloids approahes z²/c². 
+Hence, the equations for the hyperboloids approximate that of the cone, as desired.

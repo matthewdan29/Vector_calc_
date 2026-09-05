@@ -1,0 +1,7 @@
+(Figure 2.23)
+
+		x²/a² + y²/b² + z²/c² = 1. 
+This is the three-dimensional analogue of an ellipse in the plane. 
+The secions of the ellipsoid by planes perpendicular tgo the coordinate axes are all ellispses. 
+For example, if the ellipsoid is intresected with the plane z = 0, one obtains the standard ellipse x²/a² + y²/b² = 1, z = 0. 
+If a = b = c, then the ellipsoid is a sphere of radius a. 
