@@ -1,0 +1,6 @@
+A set X ⊆ R^n is said to be open in R^n if, for each point x ∈ X, there is some open ball centered at x that lies entirely within X. 
+A point x ∈ R^n is said to be in the boundary of set X ⊆ R^n if every open ball centered at x, no mater how small, contains some points that are in X and also some pointws that are not in X. 
+A set X ⊆ R^n is said to be closed in R^n if it contains all of its boundary points 
+Finally, a neighborhood of a point x ∈ X is an open set containing x and contained in X.
+
+Look at figure 2.32 and figure 2.34 

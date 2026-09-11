@@ -1,0 +1,9 @@
+For scalar-valued functions of a single variable, one often adopts the following attitude toward the notion of continuity: A function f:X ⊆ R -> R is continuous if its graph can be drawn without taking the pen off the paper. 
+By this criterion, Figure 2.41 describes a continuous function y = f(x), while Figure 2.24 does not. 
+
+We can try to extend this idea to scalar-valued functions of two variables: A function f:X R² -> R is continuous if its graph (in R³) has no breaks in it. 
+Then the function shown in Figure 2.43 fails to be continuous, but 2.44 depicts a continuous function. 
+Althought this graphical approach to continuity is pleaseantly geometric and intuitive, it does have real and fatal flaws. 
+For one thing, we can't visualize graphs of functions of more than two variables, so how will we be able to tell in general if a function f:X ⊆ R^n -> R^m is continuous?
+Moreover, it is not always so easy to produce a graph of a function of two variables that is sufficient to make a visual determination of continuity. 
+This said, we now give a rigorous definition of continuity of functions of several variables. 

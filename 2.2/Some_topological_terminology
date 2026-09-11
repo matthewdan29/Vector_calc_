@@ -1,0 +1,16 @@
+Before discussing the geometric meaning of the limit of a function, we need to introduce some standard terminology regarding sets of points in R^n. 
+The underlying geomentry of point sets of a space is known as the topology of the space. 
+Recall from 2.1 that the vector equation ||x - a|| = r, where x and a are in R³ and r > 0, defines a sphere of radius r centered at a. 
+If we modify this equation so that it becomes the inequality
+
+		||x - a|| < r
+
+describes points x ∈ R³ that are a distance of less than r from a. 
+Such points determine a point ball of radius r centered at a, that is, a solid ball without the boundary sphere. 
+
+There is nothing about the inequalities 1 and 2 that tie them to R³. 
+In fact, if we take x and a to be points of R^n, then 1 and 2 define, respectively, closed and open n-dimensional balls of radius r centered at a. 
+While we cannot draw sketches when n < 3, we can see what 1 and 2 means when n is 1 or 2. 
+(See Figures 2.32 and 2.33)
+
+It is an easy consequence of Definition 2.3 that a set X is closed in R^n precisely if its complement R^n - X is open. 

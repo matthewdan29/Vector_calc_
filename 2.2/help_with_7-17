@@ -1,0 +1,68 @@
+So that you have some feeling for woking with Definition 2.2, let's see rigorously that 
+
+		lim (sub((x, y, z) -> (1, -1, 2))) (3x - 5y + 2z) = 12
+
+(as should be "obvious"). 
+This means that given any number ∈ > 0, we can find a corresponding 
+δ > 0 such that
+
+	if 0 < ||(x, y, z) - (1, -1, 2)|| < δ, then |3x - 5y + 2z - 12| < ∈. 
+
+(Note the uses of vector lengths and absoulte values)
+We'll present a formal proof in the next paragraph, but for now we'll do the necessary background calculations in order to prove such a proof. 
+First, we need to rewrite the two imequalities in such a way as to make it more plausible that the ∈-inequality could arise algebraically from the δ-inequality. 
+From the definition of vector length, the δ-inequality becomes 
+
+		0 < √((x - 1)² + (y + 1)² + (z - 2)²) < δ
+
+If this is true, then we certainly have the thre inequalities 
+
+		√(x - 1)² = |x - 1| < δ, 
+
+		√(x + 1)² = |y + 1| < δ,
+
+		√(z - 2)² = |z - 2| < δ, 
+
+Now, rewite the left side of the ∈-inequality and use the triangle inequality of 1.6: 
+
+	|3x - 5y + 2z - 12| = |3(x - 1) - 5(y + 1) + 2(z - 2)|
+			    
+			   =< |3(x - 1)| + |5(y + 1)| + |2(z - 2)|
+
+			    = 3|x - 1| + 5|y + 1| + 2|z - 2| 
+
+Thus, if 
+
+		0 < ||(x, y, z) - (1, -1, 2)|| < δ
+
+then 
+
+		|x - 1| < δ, |y + 1| < δ, and |z - 2| < δ, 
+
+so that
+
+		|3x - 5y + 2z - 12| =< 3|x - 1| + 5|y + 1| + 2|z - 2| < 3δ + 5δ + 2δ = 10δ
+
+
+If we think of δ as a positive quantity that we can make as small as desired, then 10δ can also be made small. 
+In fact, it is 10δ that plays the role of ∈. 
+Now for a formal, "textbook" proof Given any ∈ > 0, choose δ > 0 so that δ =< ∈/10 .
+Then, if 
+
+		0 < ||(x, y, z) - (1, -1, 2)|| < δ, 
+
+if follows that 
+
+		|x - 1| < δ, |y + 1| < δ, and |z - 2| < δ, 
+
+so that
+
+		|3x - 5y + 2z - 12| =< 3|x - 1| + 5|y + 1| + 2|z - 2| < 3δ + 5δ + 2δ =< 10(∈/10) = ∈
+
+Thus, lim(sub(x, y, z) -> (1, -1, 2)) (3x - 5y + 2z) = 12, as desired. 
+
+Using the same methods as in Example 4, you can show that 
+
+	lim(sub(x -> b)) (a₁x₁ + a₂x₂ + ... + a(sub(n))b(sub(n)))
+
+for any a(sub(i)), i = 1, 2, ..., n 

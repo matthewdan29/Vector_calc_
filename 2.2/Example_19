@@ -1,0 +1,33 @@
+The function f: R² -> R³ defined by 
+
+		f(x, y) = (x + y, x²y, ysin(xy))
+
+is continuous. 
+In view of the remarks above, we can see this by checking that the three component functions
+
+	f₁(x, y) = x + y,  f₂(x, y) = x²y,  and f₃(x, y) = ysin(xy)
+
+are each continuous (as scalar-valued functions). 
+Now f₁ and f₂ are continuous, since they are polynomials in the two variables x and y.
+See example 17
+The function f₃ is the product of two further functions; that is, 
+
+		f₃(x, y) = g(x, y)h(x, y), 
+
+where g(x, y) = y and h(x, y) = sin(xy). 
+The function g is clearly continuous. 
+(It's a polynomial in two variables - one variable doesn't appear explicity)
+The function h is a composite of the sine function (which is continuous as a function of one variable) and the continuous function p(x, y) = xy. 
+From these remarks, it's not difficult to see that 
+
+		lim(sub(x, y) -> (a, b)) h(x, y) = lim(sub(x, y) -> (a, b)) sin(x, y) = sin(lim(sub(x, y) -> (a, b)))p(x, y), 
+
+since the sine function is continuous. 
+Thus, 
+
+		lim(sub(x, y) -> (a, b))h(x, y) = sin(p)(a, b) = h(a, b), 
+
+
+because p is continuous. 
+Thus, h, hence f₃, and, consequently, f are all continuous on all of R². 
+This leads us to the Theorem 2.8

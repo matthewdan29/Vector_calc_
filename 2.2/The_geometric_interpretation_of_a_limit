@@ -1,0 +1,14 @@
+Suppose that f: X ⊆ R^n -> R^m. 
+Then the geometric meaning of the statement 
+
+		lim(sub(x -> a)) f(x) = L 
+
+is a follows: Given any ∈ 0, you can find a corresponding δ > 0, you can find a corresponding δ > 0 such that if points x ∈ X are inside an open ball of radius δ centered at a, then the corresponding points f(x) will remain inside an open ball of radius ∈ centered at L. 
+(See Figure 2.38)
+
+We remark that for this definition to make sense, the point a must be such that every neighborhood of it in R^n contains points x ∈ X distinct from a. 
+Such a point a is called an accumulatrion point of X. 
+(Technically, this assumption should also be made in Definition 2.2)
+A point a ∈ X is called an isolated point of X if it is not an accumulation point, that is, if there is some neighborhood of a in R^n containing no points of X other than a. 
+From these consideratins, we see that the statemsnt lim(sub(x -> a)) f(x) = L really does mean that as x moves toward a, f(x) moves toward L. 
+The significance of the "open ball" geometry is that entirely arbitrary motion is allowed. 

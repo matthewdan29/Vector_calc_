@@ -1,0 +1,4 @@
+As you may recall, limit processes are central to the development of calculus. 
+The mathematical and philosophoical debate in the 18th and 19th centuries surronding the meaning and soundness of techniques of taking limits was intense, questioning the very foundations of calculus.
+By the middle of the 19th century, the infamous "∈ - δ" definition of limits had been devised, chiefly by Karl Weierstrass and Augustin Cauchy, much to the chagrin of many 20th (and 21th) century students of calculus. 
+In the ensuing discussion, we study both the intuitive and rigorous meaning of the limit of a function f: X ⊆ R'' -> R''' and how limits lead to the notion of a continuous function, our main object of study he remander of this repo

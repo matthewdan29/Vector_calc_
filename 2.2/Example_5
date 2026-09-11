@@ -1,0 +1,21 @@
+The rectangular region 
+
+		X = {(x, y) ∈ R² |-1 < x < 1, -1 < y < 2}
+
+is open in R². 
+(See figure 2.34)
+Each point in X has an open disk around it contained entirly in the rectangle. 
+The boundary of X consists of the four sides of the rectangle. 
+(See Figure 2.35)
+
+The set X consisting of the nonnegative coordinate axes in R³ in Figure 2.36 is closed since the boundary of X is just X itself
+
+Don't be fooled into thinking that sets are always either open or closed. 
+(That is, a set is not a door)
+The set
+
+	X = {(x, y) ∈ R³ | 0 =< x < 1, 0 =< y < 1}
+
+shown in Figure 2.37 is neither open nor closed. 
+It's not open since, for example, the point (1/2, 0) that lies along the bottom edge of X has no open disk around it thatlies completely in X. 
+Futhermore, X is not closed, since the boundary of X includes points of the form (x, 1) for 0 =< x =< 1 (why?), which are not part of X

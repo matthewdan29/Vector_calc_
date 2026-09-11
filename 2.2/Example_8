@@ -1,0 +1,44 @@
+Let f:R² - {(0, 0)} -> R be defined by 
+
+		f(x, y) = (x² - y²)/(x² + y²)
+
+Let's see what happens to f as x = (x, y) approaches 0 = (0, 0). 
+(Note that f is underfined at the origin, although this is of no consequence insofar as evaluating limits is concerned)
+Along the  x-axis (i.e., the line y = 0), we calculate the value of f to be 
+
+		f(x, 0) = (x² - 0)/(x² + 0) = 1
+
+Thus, as x approahces 0 along the line y = 0, the values of f remain constant, and so 
+
+		lim(sub(x -> 0 along y = 0)) f(x) = 1. 
+
+Along the y-axis, however, the value of f is 
+
+		f(0, y) = (0 - y²)/(0 + y²) = -1
+
+Hence, 
+
+		lim(sub(x -> 0 along x = 0)) f(x) = -1
+
+Indeed, the value of f is constant along each line through the origin. 
+Along the line y = mx,m constant, we have
+
+		f(x, mx) = (x² - m²x²)/(x² + m²x²) = (x²(1 - m²))/(x²(1 + m²)) = (1 - m²)/(1 + m²)
+
+Therefore, 
+
+		lim(sub(x -> 0 along y = mx)) f(x) = (1 - m²)/(1 + m²)
+
+As a result, the limit of f as x appraches 0 does not exist, since f has diffeent "limiting values" depending on which direction we approach the origin. 
+(see Figure 2.39)
+That is, no matter how close we come to the origin, we can find points x such that f(x) is not near any numebr L ∈ R. 
+(In other words, every open disk centered at (0,0), not matter how small, is mapped onto the interval [-1, 1])
+If we graph the surface having equation 
+
+		z = (x² - y²)/(x² + y²)
+
+(Figure 2.40), we can see quite clearly that there is no limiting value as x approahces the origin
+
+WARNING: Example 8 might lead you to think you can establish that lim (sub(x -> a)) f(x) = L by showing that the values of f as x approaches a along straightline paths all tend toward the same value L. 
+Although this is certainly good evidence that the limit should be L, it is by no means conclusive. 
+

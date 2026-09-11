@@ -1,0 +1,19 @@
+Let f: R² -> R² be defined by f(x) = 5x. 
+(That is, f is five times the identity function)
+Then it should be obvioud intuitively that 
+
+		lim f(x) = lim (sub(x -> i+j)) = lim (sub(x -> i+j)) 5x = 55i + 5j 
+
+Indeed, if we write x = xi + yj, then 
+
+	||f(x) - (5i + 5j)|| = ||(5xi + 5yj) - (5i + 5j)||
+
+			     = ||5(x - 1)i + 5(y - 1)j|| = √(25(x - 1)² + 25(y - 1)²)   = 5√((x - 1)² + (y - 1)²). 
+
+This last quantity can be made as small as we wish by keeping 
+
+		||x - (i + j)|| = √((x - 1)² + (y - 1)²)
+
+sufficiently small. 
+
+

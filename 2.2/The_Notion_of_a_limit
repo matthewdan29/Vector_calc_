@@ -1,0 +1,22 @@
+For a scalar-valued function of a single varibale, f:X ⊆ R -> R, you have seen the statement
+
+		lim (sub(x -> a)) f(x) = L 
+
+and perhaps have an intuitive understanding of its meaning. 
+In imprecise terms, the preceding equaiton (read "The limet of f(x) as x approaches a is L") means that you can make the numerical value of f(x) arbitrarily close to L by keeping x sufficiently close (but not equal) to a. 
+The idea generalizes immediatesly to functions f: X ⊆ R'' -> R'''. 
+In particular, by writing the equation
+
+		lim (sub(x -> a)) f(x) = L, 
+
+where f: X ⊆ R'' -> R''', we mean that we can make the vector f(x) arbitrarily close to the limit vector L by keeping the vector x ∈ X sufficiently close (but not equal) to a. 
+
+The word "close" means that the distance ( in the sense of 1.6) between f(x) and L is small. 
+Thus, we offer a first definition of limit using the notion for distance. 
+
+			(Look at Definition 2.1)
+
+In the case of a scalar-valued function f: X ⊆ R'' -> R, the vector length ||f(x) - L|| can be replaced by the absoulte value |f(x) - L|. 
+Similarly, if f is a function of just one varibale, then ||x - a|| can be replaced by |x - a|. 
+
+

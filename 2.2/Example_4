@@ -1,0 +1,59 @@
+This is the rigorous method of finding the limit with Definition 2.2
+
+		lim (x, y, z) -> (1, -1, 2) (3x - 5y + 2z) = 12
+
+(as should be "obvious"). 
+This means that given any numerb ∈ > 0, we can find a corresponding δ > 0 such that 
+
+	if 0 < ||(x, y, z) - (1, -1, 2)|| < δ,  then |3x - 5y + 2z - 12| < ∈. 
+
+First, we need to rewrite the two inequalities in such a way as to make it more plauseible that the ∈-inequality could arise algebraically from the δ-inequality. 
+From the definition of vector length, the δ-inequality becomes
+
+		0 < √((x - 1)² + (y + 1)² + (z - 2)²) < δ
+
+If this is true, then we certainly have the three inequalities
+
+		√((x - 1)²) = |x - 1| < δ, 
+
+		√((y + 1)²) = |y + 1| < δ, 
+
+		√((z - 2)²) = |z - 2| < δ. 
+
+Now, rewrite the left side of the ∈-inequality and use the triangle (2) of 1.6: 
+
+		|3x - 5y + 2z - 12| = |3(x - 1) - 5(y + 1) + 2(z - 2)| =< |3(x - 1)| + |5(y + 1)| + |2(z - 2)| = 3|x - 1| + 5|y + 1| + 2|z - 2|. 
+
+Thus, if 
+
+		0 < ||(x, y, z) - (1, -1, 2)|| < δ, 
+
+then 
+		|x - 1| < δ, |y + 1| < δ, and |z - 2| < δ, 
+
+so that 
+
+		|3x - 5y + 2z - 12| =< 3|x - 1| + 5|y + 1| + 2|z - 2| < 3δ + 5δ + 2δ = 10δ
+
+If we think of δ as a positive quantity that we can make as small as desired, then 10δ can also be made small. 
+In fact, it is 10δ that plays the role of ∈. 
+Now for a formal, "textbook" proof: given any ∈ > 0, chose δ > 0 so that δ =< ∈/10. 
+Then, if 
+
+		0 < ||(x, y, z) || < δ, 
+
+it follows that 
+
+		|x - 1| < δ, |y + 1| < δ, and |z - 2| < δ, 
+
+so that
+
+		|3x - 5y + 2z - 12| =< 3|x - 1| + 5|y + 1| + 2|z - 2| < 3δ + 5δ + 2δ
+
+		= 10δ =< 10(∈/10) = ∈. 
+
+thus, lim(sub((x, y, z) -> (1, -1, 2))) (3x - 5y + 2z) = 12, as desired. 
+
+Using the same methods as in Example 4, you can show that 
+		
+	lim (sub(x -> b))(a₁x₁ + a₂x₂ + ... + a(sub(n))x(sub(n))) = a₁b₁ + a₂ + ... + a(sub(n))b(sub(n)) for any a(sub(i)), i = 1, 2, ..., n 
