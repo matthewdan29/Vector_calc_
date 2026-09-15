@@ -1,0 +1,5 @@
+Recall that if F: X ⊆ R -> R is scalar-valued function of one variable, then the derivative of F at a number a ∈ X is 
+
+	F'(a) = lim(sub(h -> 0)) (F(a + h) - F(a))/(h)
+
+Moreover, F is said to be differentiable at a precisely when the limit in equation 1 exits

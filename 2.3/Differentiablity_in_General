@@ -1,0 +1,56 @@
+It is not difficult now to see how to generalize Definition 3.4 to three (or more) variables:
+
+For a scalar-valued function of three variables to be differentiable at a point(a, b,c), we must have that (i) the three derivatives exist at (a, b, c) and (ii) the function h:R³ -> R defined by
+
+	h(x, y, z) = f(a, b, c) + f(sub(x))(a, b, c) (x - a) + f(sub(y))(a, b, c) (y - b) + f(sub(z))(a, b, c) (z - c)
+
+
+is a good linear approximation to f near (a, b, c). 
+In other words, (ii) means that 
+
+	lim(sub(x, y, z) -> (a, b, c)) (f(x, y, z) - h(x, y, z))/(||(x, y, z) - (a, b, c)||) = 0. 
+
+The passage from three variables to arbitrarily meany is now straightforwrard. 
+
+We can use vector and matrix notaion to rewrite thing a bit. 
+Define the gradient of a scalar-value function f:X ⊆ R^n -> R to be the vector
+
+	∇f(x) = ((δf)/(δx₁), (δf)/(δx₂), ..., (δf)/(δx(sub(n)))). 
+
+Consequently, 
+
+	∇f(a) = (fx₁(a), fx₂(a), ..., f(sub(x sub(n)))(a)). 
+
+Alternatively, we can use matrix notation and define the derivate of f at a, denoted Df(a), to be the row matirx whose entries are the components ∇f(a); that is, 
+
+	Df(a) = [fx₁(a) fx₂(a) ... f(sub(x sub(n)))(a)]. 
+
+Then, by identifying the vector x - a with the n x 1 column matrix whos entries are componants of x - a, we have 
+
+
+		(look at the Example_7_insert_1)
+
+Hence, vector notation allows us to rewrite equation (6) quite compactly as 
+
+		h(x) = f(a) + ∇f(a) * (x - a). 
+
+Thus, to say that h is a good linear approximation of f near a in equation (6) means that 
+
+		(Look at example 7 insert 2)
+
+Compare equation (7) with equation (5).
+Differentiablit of functions of one and serveral varibales should really look very much the same to you. 
+It is worth noting that the analogues of Theorem 3.5 and 3.6 hold in the case of n varibales. 
+The gradient of a function is an extremely important construction, and we consider it in greater detail in 2.6. 
+
+You may be wondering what, if any, geometry is embedded in this general notation of differentiablity. 
+Recall that the graph of the function f:X ⊆ R^n -> R is the hypersuface in R^(n + 1) given by the equation x(sub(x + 1)) = f(x₁, x₂, ..., x(sub(n))). 
+(See equation (2) of 2.1)
+If f is differentiable at a, then the hypersuface determined by the graph has a tangent hyperplane at (a, f(a)) given by the equation 
+
+
+		(Look at example 7 insert 3)
+
+Compare equation (8) with equation (3) for the tangent line to the curve y = F(x) at (a, F(a)). 
+Although we cannot visualize the graph of a function of more than two variables, nonetheless, we can use vector notation to lend real meaning to tangency in n dimensions. 
+	

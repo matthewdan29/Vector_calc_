@@ -1,0 +1,25 @@
+For the most part, partial derivatives are quite easy to compute, once you become adept at treating variables like constants. 
+If 
+
+		f(x, y) = x²y + cos(x + y), 
+
+then we have 
+
+		(∂f)/(∂x) = 2xy - sin(x + y). 
+
+(Imagine y to be constant throughtout the defferentiation process)
+Also 
+
+		(∂f)/(∂y) = x² - sin(x + y)
+
+(imagine x to be a constant.)
+Similarly, if g(x, y) = (xy)/(x² + y²), then from the quotient rule of ordinary calculus, we have
+
+	
+	g(sub(x)) (x, y) = ((x² + y²)y - xy(2x))/(x² + y²)² = y(y² - x²)/(x² + y²)², 
+
+and
+
+	g(sub(y)) (x, y) = ((x² + y²)x - xy(2y))/((x² + y²)²) = (x(x² - y²))/(x² + y²)²
+
+Note that, of course, neither g nor its partial derivatives are defined at (0, 0).

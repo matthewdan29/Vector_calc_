@@ -1,0 +1,1 @@
+If f:X ⊆ R^n -> R^m is such that, for i = 1, ..., m and j = 1, ...,n, all (δf(sub(i)/(δx(sub(j))))) exist and are continuous in a neighborhood of a in X, then f is differentiable at a. 

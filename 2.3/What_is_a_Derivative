@@ -1,0 +1,32 @@
+It is time to get some prespective on the concept of the derivative. 
+In the case of a (differentiable) scalar-valued function of a single cariable, f:X ⊆ R -> R, the derivative f'(a) is simply a real number, the slope of the tangent line to the graph of f at the point (a, f(a)). 
+From a more sophisticated (and slightly less geometric) point of view, the derivative f'(a) is the number such that the function
+
+		h(x) = f(a) + f'(a) (x - a)
+
+is a good linear approximation to f(x) for x near a. 
+(And, of course, y = h(x) is the equation of the tangent line.)
+If a function f:X ⊆ R^n -> R of n variables is differentiable, there must exist n parital derivatives (δf)/(δx₁), ..., (δf)/(δsub(x sub(n))). 
+These partial derivatives from the components of the gradient vector ∇f (or the entries of the 1 x n matrix Df). 
+It is the gradient that should properly be considered to be the derivative of f, but the following sense: ∇f(a) is the vector such that the function h:R^n -> R given by 
+
+	h(x) = f(a) + ∇f(a)*(x - a)
+
+is a good linear approximation to f(x) for x near a. 
+Finally, the derivative of a differentiable vector-valued function f:X ⊆ R^n -> R^m may be taken to be the matrix Df of partial derivatives, but in the sense that the function h:R^n -> R^m given by 
+
+		h(x) = f(a) + Df(a) (x - a)
+
+is a good linear approximation to f(x) near a. 
+You should view the derivative Df(a) not as a "static" matrix of numbers, but rather as a matrix that defines a linear mapping from R^n to R^n. 
+(See example 5 of 1.6)
+This is embodied in the limit equation of Definition 3.8 and though a subtle idea, is truly the heart of differential calculus of several variables. 
+In fact, we could have approached our discussion of differentiablity much more abstractly right from the beginning. 
+We could have defined a function f:X ⊆ R^n -> R^m to be differentiable at a point a ∈ X to mean that there exist some linear mapping L:R^n -> R^m such that
+
+		(look at file insert_from_d-dx)
+
+Recall that any linear mapping L:R^n -> R^m is really nothing more than multiplication by a suitable m x n matrix A (i.e., that L(y) = Ay). 
+It is possible to show that if there is a linear mapping that satifies the aforementioned limit equation, then the matrix A that defines it is both uniquely determined and is precisely the matrix of partial derivatives Df(a). 
+However, to begin with such a definition, though equivalent to Definition 3.8, strikes us as less well motivated than the approach we have taken. 
+Hence, we have presented the notions of differentiablity and the derivative from what we hope is a somewhat more concrete and geometric perspective. 

@@ -1,0 +1,66 @@
+If F:X ⊆ R -> R is a scalar-valued function of one variable, then to have F differentiable at a number a ∈ X means precisely that the graph of the curve y = F(x) has a tangent line at the point (a, F(a)). 
+See Figure 2.49
+Moreover, this tangent line is given by the equation
+
+		y = F(a) + F'(a)(x - a). 
+
+If we define the function H(x) to be F(a) + F'(a)(x - a) (i.e., H(x) is the right side of equation 3 that gives the equation for the tangent line), then H has two properties: 
+
+	1) H(a) = F(a)
+
+	2) H'(a) = F'(a)
+
+In other words, the line defined by y = H(x) passes through the point (a, F(a)) and has the same slope at (a, F(a)) as the curve defined by y = F(x). 
+(Hence, the term "tangent line")
+
+Now suppose f:X ⊆ R² -> R is a scalar-valued function of two variables, where X is open in R². 
+Then the graph of f is a surface. 
+What should the tangent plane to the graph of z = f(x, y) at the point (a, b, f(a, b)) be?
+
+Geometrically, the situation is a depicted in Figure 2.50. 
+From our earlier observations, we know that the partial derivative f(sub(x)) (a, b) is the slope of the line tangent at the point (a, b, f(a, b)) to the curve obtained by intersecting the surface z = f(x, y) with the plane y = b. 
+(see Figure 2.51)
+This means that if we travel along this tangent line, then for every unit change in the positive x-direction, there's a change of f(sub(x)) (a, b) uniots in the z-direction. 
+Hence, by using formula 1 and §1.2, the tangent line given in vector parametric form as 
+
+		I₁(t) = (a, b, f(a, b)) + t(1, 0, f(sub(x)) (a, b))
+
+Thus, a vector parallel to this tangent line is 
+
+		u = i + f(sub(x)) (a, b)k
+
+Similarly, the partial derivative f(sub(y)) (a, b) is the slope of the line tangent at the point (a, b, f(a, b)) to the curve obtained by intersecting the surface z = f(x, y) with the plane x = a. 
+(Again see Figure 2.51)
+Consequently, the tangant line is given by
+
+		
+		I₂(t) = (a, b, f(a, b)) + t(0, 1, f(sub(y)) (a, b)), 
+
+so a vector parallel to this tangent line is
+
+		v = j + f(sub(y)) (a, b)k 
+
+Both of the aformentioned tangent lines must be contained in the plane tangent to z = f(x, y) at (a, b, f(a b)), if one exists. 
+Hence, a vector n normal to the tangent plane must be paerpendicular to both u and v. 
+Therefore, we may take n to be 
+
+		n = u x v = -f(sub(x)) (a, b)i - f(sub(y)) (a, b)j + k
+
+Now, use equation 1 of §1.5 to find that the equation for the tangent plane -- that is, the plane through (a, b, f(a, b), 1) * (x - a, y - b, z - f(a, b)) = 0
+
+or, equivalently, 
+
+		-f(sub(x)) (a, b) (x - a) - f(sub(y)) (a, b) (y - b) + z - f(a, b) = 0
+
+By rewriting this last equation, we have shown the following results of Theorem 3.3.
+
+Note that if we define the function h(x, y) to be equal to f(a, b) + f(sub(x)) (a, b) + f(sub(x)) (a, b) (x - a) + f(sub(y)) (a - b) (i.e., h(x, y)) is the right side of equation 4, then h has the following properties: 
+
+	1) h(a, b) = f(a, b)
+
+	2) (∂h)/(∂x) (a, b) = (∂f)/(∂x) (a, b)  and (∂h)/(∂y) (a, b) = (∂f)/(∂y) (a, b)
+
+In other words, h and its partial derivatives agree with those of f at (a, b). 
+It is tempting to think that the surface z = f(x, y) has a tangent plane at (a, b, f(a, b)) as long as you can make sense of equation 4, that is, as long as the partial derivatives f(sub(x)) (a, b) and f(sub(y)) (a, b) exits. 
+Indeed, this would be analogous to the one-variable situation where the existence of the derivative and the existence of the tangent line mean exactly the same thing. 
+However, it is possibale for a function of two variables to have well-defined partial derivatives (so the equation 4 makes sense) yet not have a tangent plane. 

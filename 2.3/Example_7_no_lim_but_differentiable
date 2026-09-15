@@ -1,0 +1,22 @@
+Let the function f:R² -> R be defined by 
+
+		
+		f(x, y) = {
+				(x² + y²)/(x⁴ + y⁴)  if (x, y) != (0, 0)
+
+				0 		     if (x, y) = (0, 0)
+			  {
+
+The function f is not continuous at the origin, since lim(sub(x, y) -> (0, 0)) f(x, y) does not exist. 
+(However, f is continuous everywhere else in R²)
+By Theorem 3.6 f therefore cannot be differentiable at the origin. 
+Nonetheless, the partial derivatives of f do exist at the origin, and we have
+
+		f(x, 0) = (0)/(x⁴ + 0) ≡ 0 -> (δf)/(δx)(0, 0) = 0, 
+
+and 
+
+		f(0, y) = (0)/(0 + y⁴) ≡ 0 -> (δf)/(δy)(0, 0) = 0, 
+
+since the partial functions are constant. 
+Thus, we see that if we want something like Theorem 3.6 to be true, the existence of partial derivatives alone is not enough. 

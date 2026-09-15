@@ -1,0 +1,6 @@
+Our goal for is to define the derivative of a function f:X ⊆ R^n -> R^m, where n and m are arbitrary positive integers. 
+Predictably, the derivative of a vector-function of several variables is more complicated object than the derivative of a scalar-valued function of a single variable. 
+In addition,m the notion of differentiability is quite subtle in the case of a function of more than one variable. 
+We first define the basic computational tool of partial derivatives. 
+After doing so , we can begin to understand differentiability via the geometry of tangent planes to surfaces.
+Finally, we generlize these relatively concrete ideas to higher dimensions. 

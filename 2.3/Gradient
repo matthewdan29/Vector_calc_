@@ -1,0 +1,4 @@
+The gradient of a scalar-valued differentiable function f of several variables is the vector field ∇f whose value at a point p gives the direction and the rate of fastest increase. 
+The gradient transforms like a vector under change of basis of the space of varibales of f. 
+If the gradient of a function is non-zero at a point p, the direction of the gradient is the direction in which the function increases most quickly from p, and the magnitude of the gradient is the rate of increase in the direction, the greatest absolute directional derivative. 
+Further, a point where the gradient is the zero vector is know as a stationary point. 

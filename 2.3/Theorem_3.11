@@ -1,0 +1,1 @@
+A function f:X ⊆ R^n -> R^m is differentiable a ∈ X (in the sense of Defintion 3.8) if and only if each of its components functions f(sub(i)): X ⊆ R^n -> R, i = 1, ..., m, is differentiable at a (in the sense of Definition 3.7)

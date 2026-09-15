@@ -1,0 +1,16 @@
+Occasionally, it is necessary to appeal explicitly to limits to evaluate partial derivatives. 
+Suppose f:R² -> R is defined by
+
+
+		
+		f(x, y) = {	(3x²y - y³)/(x² + y²)  if (x, y) != (0, 0)
+			  	
+				
+			  {	0   			if (x, y) = (0, 0)
+
+Then, for (x, y) != (0, 0), we have 
+
+		(∂f)/(∂x) = (8xy³)/(x² + y²)²	and 	(∂f)/(∂x) = (3x⁴ - 6x²y² - y⁴)/(x² + y²)²
+
+
+But what should (∂f)/(∂y)(0, 0) = lim(sub(h -> 0)) (f(0, 0 + h) - f(0, 0))/h  = lim(sub(h -> 0)) (-h - 0)/h  = lim(sub(h -> 0)) -1 = -1

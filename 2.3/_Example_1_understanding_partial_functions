@@ -1,0 +1,28 @@
+If f(x, y) = (x² - y²)/(x² + y²), then the partial functions with respect to x are given by
+
+		F(x) = f(x, a₂) = (x² - a²₂)/(x² + a²₂), 
+
+where a₂ may be any constant. 
+If, for example, a₂ = 0, then the partial function is 
+
+		F(x) = f(x, 0) x²/x² ≡ 1.
+
+Geometrically, this partial function is nothing more than the restriction of f to the horizontal line y = 0.
+Note that since the origiin is not in the domain of f, 0 should not be taken to be in the domain of F 
+(See Figure 2.46)
+
+REMARK: In practice, we usually do not go to the notational trouble of explictly replacing the x(sub(j)) (j != i) by constants when working with partial functions. 
+Instead, we make a mental note that the parital function is obtained by allowing only one variable to vary, while all the other variables are held fixed. 
+
+By definition, the partial derivative is the (instantaneous) rate of change of f when all variables, except the specified one, are held fixed. 
+In the case where f is a (scalar-valued) function of two variables, we can understand
+
+		(∂f)/(∂y) (a,b)
+
+
+geometrically as the slope at the point (a, b, f(a, b)) of the curve obtained by intersecting the surface z = f(x, y) with the plane y = b, as shown in Figure 2.47. 
+Similarly, 
+
+		(∂f)/(∂y) (a, b)
+
+is the slope at (a, b, f(a, b)) of the curve formed by the intersection of z = f(x, y) and x = a, shown in Figure 2.48. 
