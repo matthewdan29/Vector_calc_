@@ -1,0 +1,2 @@
+Thus far in our study of differentiation, we have been concerned only with partial derivatives of first order. 
+Nonetherless, it is easy to imagine computing second and third-order partials by iteration the process of differentiating with respect to one variable, while all other are held constant. 

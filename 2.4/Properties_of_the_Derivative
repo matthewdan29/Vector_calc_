@@ -1,0 +1,5 @@
+We know that the derivative of a function f: X ⊆ R'' -> R''' can be identified with its matrix of partial derivatives. 
+We next note several properties that the derivative must satisfy. 
+The proofs of these results involve Definition 3.8 of the derivative, properties of ordinary differentiation, and matrix algebra. 
+
+

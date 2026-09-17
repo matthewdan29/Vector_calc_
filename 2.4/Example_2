@@ -1,0 +1,15 @@
+If f(x, y, z) = ze^(xy) and g(x, y, z) = xy + 2yz - xz, then (fg)(x, y, z) = (xyz + 2yz² - xz²)e^(xy), 
+
+so that 
+
+		(look at Example_2_insert_1 and Example_2_insert_2)
+
+which checks with part 1 of Proposition 4.2. 
+(Note: The matrix transpose is used simply to conserve space on the page)
+
+The product rule in part 1 of Proposition 4.2 is not the most general result possible. 
+Indeed, if f:X ⊆ R'' -> R is a scalar-valued function and g:X ⊆ R'' -> R''' is a vector-valued function, then if f and g are both differentiable at a ∈ X, so is f g, and the following formula holds (where we view g(a) as an m x 1 matrix): 
+
+		D(fg)(a) = g(a)Df(a) + f(a)Dg(a)
+
+

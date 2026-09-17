@@ -1,0 +1,11 @@
+Let f(x, y, z, w) = xyz + xy²w - cos(x + zw). 
+We then have 
+
+		(Look at example_4_insert)
+
+Although it is generally ill-advised to formulate conjectures based on a single piece of evidence, Example 4 suggests that there might be an outrageously simple relationship among the mixed second partials. 
+Indeed, such is the case, as the next result, due to the 18th-century French mathematician Alexis Clairaut, indicates. 
+
+A proof of Theorem 4.3 is provided in the addendum to this section. 
+I is natural to speculate about the possiblilty of an analogue to Theorem 4.3 for kth-order mixed partials. 
+

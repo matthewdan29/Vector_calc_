@@ -1,0 +1,17 @@
+Let f and g be defined by f(x, y) = (x + y, xy sin(y), y/x) and g(x, y) = (x² + y², ye^(xy), 2x³ - 7y⁵). we have 
+
+
+		(look at Example_1_insert_1)
+
+Thus, by Theorem 3.10, f is differentiable on R² - {y-axis} and g is differentiable on all of R². 
+If we let h = f + g, then part 1 of Proposition 4.1 tells us that h must be differentiable on all of its domain, and 
+
+		(Look at Example_1_insert_2)
+
+Note also that the function k = 3g must be differentiable everywhere by part 2 of Proposition 4.1. 
+We can readily check that Dk(x, y) = 3Dg(x, y): We have
+
+		(Look at Example_1_insert_3)
+
+Due to the nature of matrix multiplication, general versions of the product and quotient rules do not exist in any particularly simiple form. 
+However, for scalal-valued functions, it is possible to prove Prosoition 4.2
