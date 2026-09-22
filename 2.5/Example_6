@@ -1,0 +1,28 @@
+(Palar/rectangular conversions)
+
+Recall that in 1.7 we provided the basic equations relating polar and rectangular coordinates: 
+
+		{ x = r cosθ
+		{ y = r sinθ
+
+Now suppose you have an equation defining a quantity w as a function of x and y; that is, 
+
+		w = f(x, y). 
+
+Then, of course, w may just as well be regarded as a function of r and θ by subtituting r cosθ for x and r sinθ for y. 
+That is, 
+
+		w = g(r, Θ) = f(x(r, Θ), y(r,Θ)). 
+
+Our question is as follows: Assuming all functions involoved are differentiabole, how are the partial derivatives δw/δr, δw/δθ related to δw/δx, δw/δy?
+In the situation just described, we have w = g(r, θ) = (f ⊙ x)(r, θ), so that the chain rule implies 
+
+		Dg(r, θ) = Df(x, y)Dx(r, Θ)
+
+Therefore, 
+
+		(Look at Example_6_insert_formula_1)
+
+By extracting entries, we see that the various partial derivatives of w are related by the following formulas: 
+
+		(Look at Example_6_insert_formula_2)

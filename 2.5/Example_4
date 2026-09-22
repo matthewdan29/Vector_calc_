@@ -1,0 +1,20 @@
+Suppose f:R³ -> R² is given by f(x₁, x₂, x₃) = (x₁ - x₂, x₁x₂x₃) and x:R² -> R³ is given by x(t₁, t₂) = (t₁t₂, t²₁, t²₂). 
+Then f ⊙ x:R² -> R² is given by (f ⊙ x)(t₁t₂) = (t₁t₂ - t²₁, t³₁, t³₂), so that 
+
+		(Look at Example_4_insert_formula_1)
+
+after substituting for x₁, x₂, and x₃. 
+Thus, D(f ⊙ x)(t) = Df(x)Dx(t), as expected. 
+Alternatively, we may use the variable hierarchy diagram shown in Figure 2.66 and compute any individual partial derivative we may desire. 
+For example, 
+
+		(Look at Example_4_insert_formula_2)
+
+by formula (6). 
+Then by abuse of notation. 
+
+		(Look at Example_4_insert_formula_3)
+
+which is indeed the (2.1) entry of the matrix product. 
+
+At last we state the most general version of the chain rule from a techincal standpoint; theres a proof in the book I plan on posting the full book when I'm dont 

@@ -1,0 +1,22 @@
+Suppose f(x, y) = (x + y²)/(2x² + 1) is a tempertaure function on R² and x(t) = (2t, t + 1). 
+The function x gives parametric equations for line. 
+(see figure 2.61)
+
+		(Look at Example_2_insert_formula_1)
+
+is the temperature function along the line, and we have 
+
+		(Look at Example_2_insert_forumla_2)
+
+by the quotient rule. 
+Thus, all the hypotheses of Proposition 5.2 are satifsfied and so the derivative formula must hold. 
+Indeed, we have 
+
+		(Look at Example_2_insert_formula_3)
+
+after substitution of 2t for x and t + 1 for y. 
+Hence, 
+
+		(Look at Example_2_insert_formula_4)
+
+which checks with our previus result for df/dt

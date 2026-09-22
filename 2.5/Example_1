@@ -1,0 +1,33 @@
+Let f(x) = sin(x) and x(t) = t³ + t. 
+We may then construct the composite function f(x(t)) = sin(t² + t)
+The chain rule tells us how to find the derivative of f ⊙ x with respect to t: 
+
+		(Look at Example_1_insert_forula_1)
+
+In general, suppose X and T are open subsets of R and f:X ⊆ R -> R and x:T ⊆ R -> R are functions defined so that the composite function f ⊙ x: T -> R makes sense. 
+(See Figure 2.57)
+In particular, this means that the range of the function x must be contained in X, the domain of f. 
+The key result is following:
+
+	(Look at Figure 2.57 and read Theorem 5.1)
+
+A more common way to write the chain rule is formula in Theorem 5.1 is
+
+
+		(Look at Example_equation_2)
+
+Although equation (2) is moust useful in practice, it does represent an unfortunate abuse of notation in the symbol f is used to denote both a function of x and one of t. 
+It would be more appropriate to define a new function y by y(t) = (f ⊙ x)(t) so that dy/dt = (df/dx)(dx/dt). 
+But our original abuse of notation is actually a convenient one, since it avoids the awkwardness of having too many variable names appearing in a single discussion. 
+In the name of simplicity, many variable names appearing in a single discussion. 
+In the name of simplicity, we will therefore cointinue to commit such abuses and urge you to do likewise. 
+The formulas in equations (1) and (2) are so simple that little more needs to be said. 
+We elaborate, nonetheless, because this will prove helpful then we generalize to the case of several variables. 
+The chain rule tells us the following: 
+	
+	1) The understand hwo f depends on t, we must know how f depends on the "intermediate variable" x  
+
+	2) How this intermediate vcariable depends on the "final" independent variable t.
+
+The diagram in Figure 2.58 traces the hierarchy of the variable dependences. 
+The "paths" indicate the derivatives involved in the chain rule formula. 

@@ -1,0 +1,44 @@
+Suppose 
+
+	f(x, y, z) = x² + y² + z² and x(s, t) = (s cos(t), e^(st), s² - t²). 
+
+Then h(s, t) = f ⊙ x(s, t) = s² cos²(t) + e^(2st) + (s² - t)², so that 
+
+		
+		(Look at Example_3_insert_formula_1)
+
+Hence, we compute 
+
+		(Look at Example_3_insert_formula_2)
+
+just as we saw earlier. 
+We leave it to you to use the chain rule to calculate δf/δt in a similar manner. 
+
+Of course, there is no need fo rus to stop here. 
+Suppose we have an open set X in R''', an open set T in R'', and functions f:X -> R and x:T -> R''' such that h = f ⊙ x:T -> R can be defined. 
+If f is of class C¹ and x is differentiable, then, from the previous remarks, h must also be differentiable and, moreover, 
+
+		(Look at Example_3_insert_formula_3)
+
+Since the component functions of a vector-valued function are just scalar-valued functions, we can say even more. 
+Suppose f:X ⊆ R''' -> R^p and x: T ⊆ R'' -> R''' are such that h = f ⊙ x:T ⊆ R'' -> R^p can be defined. 
+(As always, we assume that X is open in R''' and T is open in R'')
+See Figure 2.64 for a representation of the situation. 
+If f is of class C¹ and x is differentiable, then the composite h = f ⊙ x is differentiable and the following general formula holds: 
+
+		(Look at Example_3_insert_formula_4)
+
+The plausibility of formula (6) is immediate, given the variable hierarchy diagram shown in Figure 2.65. 
+
+Now comes the real "magic". 
+Recall that if A is a p x m matrix and B is an m x n marix, then the product matrix C = AB is defined and is a p x n matrix. 
+Moreover, the ijth entry of C is given by 
+
+		(Look at Example_3_insert_formula_5)
+
+If we recall that the ijth entry of the matrix Dh(t) is δh(sub(i))/δt(sub(j)), and similarly for Df(x) and Dx(t), then we see that formula (6) expresses nothing more than the following equation of matrixes: 
+
+		Dh(t) = D(f ⊙ x)(t) = Df(x)Dx(t)
+
+The similarity between formulas (7) and (1) is striking. 
+One of the reason (perhaps the principa reason) for defining matrix multiplication as we have is precisely so that the chain rule in several variables can have the el;egant appearance that it has in formula (7). 
