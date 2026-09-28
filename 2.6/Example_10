@@ -1,0 +1,15 @@
+Returning to Example 9, we recall that the hyperboloid is the level set (at height 1) of the function F(x, y, z) = z²/4 - x² - y². 
+We have 
+
+		(δF)/(δz) = z/2. 
+
+Note that for any point (x₀, y₀, z₀) in the hyperboliod, we have |z₀| >= 2. 
+Hence, δF(sub(z)) (x₀, y₀, z₀) != 0.
+Thus, Theorem 6.5 implies that we may describe a portion of the hyperboliod near any point as the graph of a function of two varibales. 
+THis is consistent with what we observed in Example 9. 
+
+Of course, there is nothing special about solving for the particular variable x(sub(n)) in terms of x₁, ..., x(sub(x - 1)). 
+Suppose a is a point on the level set S determined by the equation F(x) = c and suppose ∇F(a) != 0.
+Then F(sub(x)) (a) != 0 for some i. 
+Hence, we can solve  locally near a for x(sub(i)) as a differentiable function of x₁, ..., x(sub(i + 1)), ..., x(sub(n)). 
+Therefore, S is locally a differentiable hypersurface in R^n. 

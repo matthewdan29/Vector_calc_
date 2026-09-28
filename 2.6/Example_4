@@ -1,0 +1,20 @@
+If the pressure function on Nilrebo (fake planet) is 
+
+		f(x, y, z) = 5x² + 7y⁴ + x²z² atm, 
+
+where the origins is located at the center of Nilrebo and distance units are measured in thousands of kilometers, then the rate of change of pressure at (1, -1, 2) in the direction of i + j + k may be calculated as ∇f(1, -1, 2) * u, where u = (i + j + k)/√(3). 
+(Note: that we normalized the vector i + j + k to obtain a  unit vector)
+Using Theorem 6.2m, we compute 
+
+		(Look at Example_4_formula_1)
+
+Additionally, in view of Theorem 6.3, the pressure will increase most rapidly in the direction of ∇f(1, -1, 2), that is, in the 
+
+		(Look at Example_4_formula_2)
+
+Theorem 6.3 is stated in a manner that is independent of dimension - that is, so that it applies to functions f:X ⊆ R'' -> R for any n >= 2. 
+In the case n = 2, there is another geometric interpretation of Theorem 6.3: Suppose you are mountain climbing on the surface z = f(x, y). 
+Think of the value of f as the height of the mountain above (or below) sea level. 
+If you are equipped with a map and compass (which supply information in the xy-plan only), then if you are at the pointon a mountain with xy-coordinates (map coordinates) (a, b), Theorem 6.3 says that you should move in the direction parallel to the gradient ∇f(a, b) in order to climb the mountan most rapidly. 
+(See Figure 2.69)
+Similarly, you should move in the direction parallel to - ∇f(a, b) is a vector in R² that gives the optimal north - south, east - west direction of travel. 

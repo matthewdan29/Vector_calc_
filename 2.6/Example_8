@@ -1,0 +1,51 @@
+We determine the plane tangent to the paraboloid z = x² + 3y² at the point (-2, 1, 7) in two ways: 
+
+		1) by using formula 4 in 2.3, 
+
+		2) by using our new formula 
+
+First, the equation z = x² + 3y² explicitly describes the paraboloid as the graph of the function f(x, y) = x² + 3y²,  that is, by an equation of the form z = f(x, y). 
+Therefore, formula 4 of 2.3 applies to tell us that tangent plane at (-2, 1, 7) has equation 
+
+		z = f(-2, 1) + f(sub(x)) (-2, 1)(x + 2) + f(sub(y)) (-2, 1)(y - 1)
+
+or, equivalently, 
+
+		z = 7 - 4(x + 2) + 6(y - 1). 
+
+Second, if we write the equation of the paraboloid as x² + 3y² - z = 0, then we see that it describes the paraboloid as the level set of height 0 of the three-variable function F(x, y, z) = x² + 3y² - z.
+Hence, formula 6 applies and indicates that an eqauation for the tangent plane at (-2, 1, 7) is 
+
+	F(sub(x)) (-2, 1, 7)(x + 2) + F(sub(y)) (-2, 1, 7)(y - 1) + F(sub(z)) (-2, 1, 7)(z - 7) = 0
+
+or 
+
+	-4(x + 2) + 6(y - 1) - 1(z - 7) = 0
+
+As can be seen, equation 7 agrees with equation 8
+
+Example 8 may be viewed in a more general context. 
+If S is the surface in R³ given by the equation z = f(x, y) (where f is differentiable), then formula 4 of 2.3 tells us that an equation for the plane tangent to S at the point (a, b, f(a, b)) is 
+
+	z = f(a, b) + f(sub(x)) (a, b)(x - a) + f(sub(y)) (a, b)(y - b)
+
+At the same time, the equation for S may be written as 
+
+		f(x, y) - z = 0
+
+Then, if we let F(x, y, z) = f(x, y) - z, we see that S is the level set of F at height 0. 
+Hence, formula 6 tells us that the tangent plane at (a, b, f(a, b)) is 
+
+	F(sub(x)) (a, b, f(a, b))(x - a) + F(a, b, f(a, b))(y - b) + F(sub(z)) (a, b, f(a, b))(z - f(a, b)) = 0
+
+By construction of F, 
+
+			(Look at Example_8_formula_insert_1)
+
+Thus, the tangent plane formula becomes 
+
+			(Look at Example_8_formula_insert_2)
+
+The last equation for the tangent plane is the same as the one given above by equation 4 of 2.3
+
+The result shows that equations 5 and 6 extend the formula 4 of 2.3 to the more general setting of level sets. 

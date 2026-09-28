@@ -1,0 +1,15 @@
+COnsider the surface S defined by the equation x³y - yz² + z⁵ = 9. 
+We calculate the plane tangent to S at the point (3, -1, 2).
+To do this, we define f(x, y, z) = x³y - yz² + z⁵. 
+Then: 
+
+		(Look at Example_5_formual_1)
+
+is normal to S at (3, -1, 2) by Theorem 6.4. 
+Using formula 6, we see that the tangent plane has equation
+
+		-27(x - 3) + 23(y + 1) + 84(z - 2) = 0
+
+or, equivalently, 
+
+		-27x + 23y + 84z = 64

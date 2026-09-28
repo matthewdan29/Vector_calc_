@@ -1,0 +1,36 @@
+The converse of Theorem 6.2 does not hold. 
+That is, a function may have directional derivatives in all directions at a point yet fail to be differentiable. 
+To see how this can happen, consider the function f:R² -> R defined by 
+
+		(Look at Example_3_formula_1)
+
+This function is not continuous at the origin. 
+Why?
+So, by Theorem 3.6, it fails to be differentiable there: however, we claim that all direcional derivatives exist at the origin. 
+To see this, let the direction vector v be vi + wj. 
+Hence, by Definition 6.1, we observe that 
+
+		(Look at Example_3_formula_2)
+
+Thus, the directional derivative exists whenever v != 0. 
+When v = 0 (in which case v = j), we, again, must calculate 
+
+		(Look at Example_3_formula_3)
+
+Consequently, this diretional derivative (which is, in fact, δf/δy) exists as well. 
+
+The reason we have restricted the direction vector v to be of unit length in our disscussion of directional derivatives has to do with the meaning of D(sub(v))f(a), not with any technicalities pertaining to Defintion 6.1 or Theorem 6.2. 
+Indeed, we can certainly define the limit in Definition 6.1 for any vector v, not just one of unit length. 
+So, suppose w is an arbitrary nonzero vector in R'' and f is differentiable. 
+Then the proof of Theorem 6.2 goes through without change to give 
+
+		(Look at Example_3_formula_4)
+
+The problem is as follows: if w = kv for some (nonzero) scalar k, then 
+
+		(Look at Example_3_formula_5)
+
+That is, the "generalized directional derivative" in the direction of kv is k times the derivative in the direction of v. 
+But v and kv are parallel vectors, and it is undersirable to have this sort of ambiguity of terminology. 
+So we avoid the trouble by insisting upon using unit vectors (i.e, by allowing k to be -+ 1 only) when working with directional derivatives 
+		

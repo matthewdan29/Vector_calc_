@@ -1,0 +1,14 @@
+In 2.1, we indicated that not all surfaces can be described by equations of the form z = f(x, y). 
+Indeed, a surface as simple and familiar as the sphere is not the graph of any single function of two variables. 
+Yet the sphere is certainly smooth enough for us to see intuitively that it must have a angent plane at every point. 
+(see figure 2.70)
+How can we find the equation of the tangent plane?
+In the case of the unit sphere x² + y² + z² = 1, we could proceed as follows: First decide whether the point of tangency is in the top or bottom hemisphere. 
+Then apply equation 4 of 2.3 to the graph of z = √(1 - x² - y²) or z = -√(1 - x² - y²), as appropriate. 
+The calculus is tedious but not conceptually difficult. 
+However, the tangent planes to points on the equator are all vertiacl and so equation 4 of 2.3 does not apply. 
+(It is possible to modify this approach to accommodate such points, but we will not do so)
+In general, given a surface described by an equation of the form F(x, y, z) = c (where c is a constant), it may be entirely impractical to solve for z even as several functions of x and y. 
+Try solving for z in the equation xyz + ye^(xz) - x² + yz² = 0 and you'll see. 
+We need some other way to get our hands on tangent planes to surfaces described as level sets of functions of three variables. 
+

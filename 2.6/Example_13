@@ -1,0 +1,41 @@
+We show that, near the point (x₁, x₂, x₃, y₁, y₂) = (-1, 1, 1, 2, 1), we can solve the system 
+
+		{ x₁y₂ + x₂y₁ = 1 
+		{ x²₁x₃y₁ + x₂y³₂ = 3				(11)
+
+for y₁ and y₂ in terms of x₁, x₂, x₃. 
+
+We apply the general implicit function theorem (Theorem 6.6) to the system 
+
+		{F₁(x₁, x₂, x₃, y₁, y₂) = x₁y₂ + x₂y₁ = 1
+		{F₂(x₁, x₂, x₃, y₁, y₂) = x²₁x₃y₁ + x₂y³₂ = 3
+
+The relevant determinant is 
+
+		(Look at Example_13_insert_formula_1)
+
+Hence, we may solve locally, at least in principle. 
+We can also use the equations in (11) to determin, for example, δy₂/δx₁ (-1, 1, 1), where we treat x₁, x₂, x₃ as independent variables and y₁ and y₂ as functions of them.
+Differrentiating the equations in (11) implicitly with respect to x₁ and using the chain rule, we obtain
+
+		(Look at Example_13_insert_formula_2)
+
+Now, suppose we have a system of n equations that defines the variables y₁,...,y(sub(n)) in terms of the variables x₁,...,x(sub(n)), that is, 
+
+		(Look at Example_13_insert_formula_3)
+
+Note that the system given in (12) can be written in vactor form as y = f(x).
+The question we ask is, when can we invert this system? 
+In other words, when can we solve for x₁,...,x(sub(n)) in terms of y₁,...,y(sub(n)), or equivalently, when can we find a function g so the x = g(y)?
+The solution is to apply Theorem 6.6 to the system 
+
+		(Look at Example_13_insert_formula_4)
+
+where F(sub(i)) (x₁,...,x(sub(n)), y₁,...,y(sub(n))) = f(sub(i)) (x₁,...,x(sub(n))) - y(sub(i)). 
+(In vector form, we are setting F(x, y) = f(x) - y)
+Then solvability for x in terms of y near x = a, y = b is governed by the nonvanishing of the determinant
+
+		(Look at Example_13_insert_formula_5)
+
+and is called the Jacobian of f = (f₁,..., f(sub(n))). 
+A more precise and complete statement of what we are observing is the following for Theorem 6.7 (The Inverse Function Theorem)

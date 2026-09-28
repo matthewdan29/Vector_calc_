@@ -1,0 +1,27 @@
+Let f(x, y) be a scalar-valued function of two variables. 
+In 2.3, we understood the partial derivative (δf)/(δx) (a, b) as the slope, at the point (a, b, f(a, b)), of the curve obtained as the intersection of the surface z = f(x, y) with the plane y = b. 
+The other partial derivative (δf)/(δy) (a, b) has a similar geometric interpretation. 
+However, the surface z = f(x, y) contains infinitely many curves passing through (a, b, f(a, b)) whose slope we might choose to measure. 
+THe directional derivative enables use to do this
+
+An alternative way to view (δf)/(δx) (a, b) is as the rate of change of f as we move "infinitesimally" from a = (a, b) in the i-direction, as suggested by Figure 2.67. 
+This is easy to see since, by the definition of the partial derivative, 
+
+		(Look at Directional_Derivative_lim_example)
+
+Note that we are identifying the point (a, b) with the vector a = (a, b) = ai + bj. 
+Similarly, we have 
+
+		(Look_at_Directional_derivative_y)
+
+Writing paritial derivatives as we just have enables us to see that they are special cases of a more general type of derivative. 
+Suppose v is any unit vector in R². 
+(The reason for taking a unit vector will be made clear later.)
+The quantity
+
+		(Look at Directional_Derivative_v)
+
+is nothing more than the rate of change of f as we move (infinitesimally) from a = (a, b) in the direction specified by v = (A, B) = Ai + Bj. 
+It's also the slope of the curve obtained as the intersection of the surface z = f(x, y) with the vertical plane B(x - a) - A(y - b) = 0. 
+See Figure 2.68
+We can use the limit expression in 1 to define the derivative of any scalar-valued function in particular direction. 

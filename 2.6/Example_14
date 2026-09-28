@@ -1,0 +1,14 @@
+Consider the equations that relate polar and Cartesian coordinates: 
+
+		{ x = r cosθ
+		{ y = r cosθ
+
+These equations define x and y as functions of r and θ. 
+We use Theorem 6.7 to see near which points of the plane we can invert these equations, that is, solve for r and θ in terms of x and y. 
+To use Theorem 6.7, we compute the Jacobian
+
+		(Look at Example_14_insert_formula_1)
+
+Thus, we see that, away from the origin (r = 0), we can solve (locally) for r and θ uniquely in terms of x and y. 
+At the origin, however, the inverse function theorem does not apply. 
+Geometrically, this makes perfect sense, since a the origin the polar angle θ can have any value.

@@ -1,0 +1,8 @@
+The function f(x, y) = x² - 3xy + 2x - 5y we considered in Example 1 has continuous partial and hence, by Theorem 3.5, is differentiable. 
+Thus, Theorem 6.2 applies to teel us that, for any unit vector v = vi + wj ∈ R², 
+
+		D(sub(v)) f(0, 0) * v = (f(sub(x))(0, 0)i + f(sub(y))(0, 0)j) * (vi + wj)
+
+					= (2i - 5j) * (vi + wj)
+
+					= 2v - 5w

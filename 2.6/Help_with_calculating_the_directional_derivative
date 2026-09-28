@@ -1,0 +1,4 @@
+The Partial Derivative at a point times the direction vector is the Directional Derivative. 
+
+Formula ∇f(x, y) * v 
+D(sub(u))f = ∇f * u = u₁(δf/δx) + u₂(δf/δy)

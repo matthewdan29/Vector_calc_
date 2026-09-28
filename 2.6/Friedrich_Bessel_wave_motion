@@ -1,0 +1,7 @@
+FIRST: Bessel functions are a class of special functions that commonly appear in problems involving wave motion, heat conduction, and other physical phenomena with circular or cylindrical symmetry. 
+They are named after the German astronomer and mathematician Friedrich Bessel, who studied them systematically in 1824. 
+Bessel functions are solutions to a particular type of ordinary differential equation: where α is a number that determines the shape of the solution. 
+This number is called the order of the Bessel function and can be any complex number. 
+Although the same equation arises for both α and -α, mathematicians define separate Bessel functions for each to ensure the functions behave smoothly as the other changes. 
+
+Friedrich Wilhelm Bessel was the first astronomer who determined reliable values for the distance from the Sun to another star by method of parallax.

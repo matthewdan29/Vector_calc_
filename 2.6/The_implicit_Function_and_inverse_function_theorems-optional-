@@ -1,0 +1,5 @@
+We have previously noted that not all surfaces that are described by equations of the form F(x, y, z) = c can be described by an equation of the form z = f(x, y). 
+We close this section with a brief but theoretically important digression about when and how the level set {(x, y, z) | F(x, y, z) = c} can also be described as the graph of the function of two variables, that is, as the graph of z = f(x, y). 
+We also consider the more general question of when we can solve a system of equations for some of the variables in terms of the others. 
+
+Look at example 9 after this file 

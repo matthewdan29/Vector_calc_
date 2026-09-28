@@ -1,0 +1,32 @@
+Suppose f(x, y) = x² - 3xy + 2x - 5y. 
+Then, if v = (v, w) ∈ R² is any unit vector, it follows that 
+
+		(look at Example_1_formula_1)
+
+Thus, the rate of change of f is 2v - 5w if we move from the origin in the direction given by v. 
+The rate of change is zero if v = (5/√(29), 2/√(29)) or (-5/√(29), -2/√(29)). 
+
+Consequently, we see that the partial derivatives of a function are jus the "tip of the iceberg"
+However, it turns out that when f is differentiable, the partial derivatives actullay determin the directional derivatives for all derivections v. 
+To see this rather remarkable result, we begin by defining a new function F of a single variable by 
+
+		F(t) = f(a + tv). 
+
+Then, by Definition 6.1, we have 
+
+		(Look at Example_1_formula_2)
+
+That is, 
+
+		(Look at Example_1_formula_3)
+
+The significance of equation 2 (its under Example_1_formula_3) is that, when f is differentiable at a, we can apply the chain rule to the right-hand side. 
+Indeed, let x(t) = a + tv. 
+Then, by the chain rule 
+
+		(Look at Example_1_formula_4)
+
+The purpose of equation 3 (It is the last equation in the file Example_1_formula_4) is to emphasize the geometry of the situation. 
+The result above says that the directional derivative is just the dot product of the gradient and the direction vector v. 
+Since the grandient is made up of the partial derivatives, we see that the more general notion of the directional derivative depends entirely on just the direction vector and the partial derivatives. 
+To be more formal, it is summarized in the theorem 6.2 file 

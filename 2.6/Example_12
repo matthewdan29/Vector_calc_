@@ -1,0 +1,27 @@
+Consider the set of points S defined by the equation x²z² - y = 0.
+Then S is the level set at height 0 of the function F(x, y, z) = x²z² - y. 
+Note that 
+
+		∇F(x, y, z) = (2xz², -1, 2x²z). 
+
+Since δF/δy never vanishes, we see that we can always solve for y as a function of x and z. 
+(This is, of course, obvious from the equation)
+On the other hand, near points where x and z are nonzero, both δF/δx and δF/δz are nonzero. 
+Hence, we can solve for either x or z in this case. 
+For example, near (1, 1, -1), we have 
+
+		(Look at Example_12_insert_formula_1)
+
+As just mentioned, Theorem 6.5 is actually a special case of a more general result. 
+In theorem 6.5 we are attempting to solve the equation
+
+		(Look at Example_12_insert_formual_2)
+
+for x(sub(n)) in terms of x₁, ..., x(sub(n - 1)). 
+In the general case, we have a system of m equations 
+
+		(Look at Example_12_insert_formula_3)
+
+and we desire to solve the system for y₁...,y(sub(m)) in terms of x₁,...,x(sub(n)).
+Using vector notation, we can also write this system as F(x, y) = c, where x = (x₁,...,x(sub(n))), functions of F. 
+With this notation, the general result is the following of THEOREM 6.6: (The Implicit Function Theorem, General Case)

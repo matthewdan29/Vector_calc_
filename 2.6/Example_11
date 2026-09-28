@@ -1,0 +1,16 @@
+Let S denote the ellipsoid x²/4 + y₂/36 + z²/9 = 1. 
+Then S is the level set (at height 1) of the function 
+
+		F(x, y, z) = x²/4 + y²/36 + z²/9
+
+At the point (√(2), √(6), √(3)), we have 
+
+			(Look at Example_11_insert_formula_1)
+
+Thus, S may be realized near (√(2), √(6), √(3)) as the graph of an equation of the form z = f(x, y), namely, z = 3√(1 - x²/4 - y²/36). 
+At the point (0, -6, 0), however, we see that (δF)/(δz) vanishes. 
+On the other hand, 
+
+		(Look at Example_11_insert_formula_2)
+
+Consequently, near (0, -6, 0), the ellipsoid may be described by solving for y as a function of x and z, namely, y = -6√(1 - x²/4 - z²/9).

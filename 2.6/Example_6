@@ -1,0 +1,14 @@
+Consider the surface defined by z⁴ = x² + y². 
+This surface is the level set (at height 0) of the function
+
+		f(x, y, z) = x² + y² - z⁴. 
+
+The gradient of f is 
+
+		∇f(x, y, z) = 2xi + 2yj - 4z³k. 
+
+Note that the point (0, 0, 0) lies on the surface. 
+However, ∇f(0, 0, 0) = 0, which makes the gradient vector unusable as a normal vecor ot a tangent plane. 
+Thus,formula 6 doesn't apply. 
+What we conclude from this example is that the surface fails to have a tangent plane at the origin, a fact that is easy to believe from the graph. 
+See Figure 2.72
