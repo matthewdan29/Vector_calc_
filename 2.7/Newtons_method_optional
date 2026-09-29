@@ -1,0 +1,3 @@
+When you studied single-variable calculus, you may have learned a method, known as Newton's method (or the Newton-Raphson method), for approximating the solution to an equation of the form f(x) = 0, where f: X ⊆ R -> R is a differentiable function. 
+Here's a reminder of how the method works. 
+

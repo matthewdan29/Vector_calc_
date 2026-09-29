@@ -1,0 +1,80 @@
+We wish to find a number r such that f(r) = 0. 
+To approximate r, we make an itiial guess x₀ for r and, in general, we expect to find that f(x₀) != 0. 
+So next we look at the tangent line to the graph of f at (x₀, f(x₀)). 
+See Figure 2.75
+Since the tangent line approximates the graph of f near (x₀, f(x₀)), we can find where the tangent line crosses the x-axis. 
+The crossing point (x₁, 0) will generally be closer to (r, 0) than (x₀, 0) is, so we take x₁ as a revised and improved approximation to the root r of f(x) = 0. 
+
+To find x₁, we begin with the equation of the tangant line
+
+		y = f(x₀) + f'(x₀)(x - x₀), 
+
+then set y = 0 to find where this line crosses the x-axis. 
+Thus, we solve the equation 
+
+		f(x₀) + f'(x₀)(x₁ - x₀) = 0
+
+for x₁ to find that
+
+		x₁ = x₀ - f(x₀)/f'(x₀)
+
+Once we have x₁, we can start the process again using x₁ in place of x₀ and produce what we hope will be an even better approximation x₂ via the formula 
+
+		x₂ = x₁ - f(x₁)/f'(x₁)
+
+Indeed, we may iterate this process and define x(sub(k)) recursively by 
+
+		x(sub(k)) = x(sub(k - 1)) - f(x(sub(k - 1)))/f(x(sub(k - 1))) k = 1, 2, ...
+
+and thereby produce a sequence of numbers x₀, x₁,..., x(sub(k)), ...
+
+It is not always the case that the sequance {x(sub(k))} converges. 
+However, when it does, it must converge to a root of the equation f(x) = 0. 
+To see this, let L = lim(sub(k -> ∞ x(sub(k)))). 
+Then we also have lim(sub(k -> ∞ x(sub(k - 1)))) = L. 
+Taking limits in formula 1, we find
+
+		L = L - f(L)/f'(L),
+
+which immediately implies that f(L) = 0. 
+Hence, L is a root of the eqution. 
+Now that we have some understanding of derivatives in the multivariable case, we turn to generalization of Newton's method for solving systems of n equations in n unknowns. 
+We may write such a system as 
+
+		(Look at Newton_insert_formula_1 file)
+
+We consider the map f:X ⊆ R'' -> R'' defined as f(x) = f₁(x),...,f(sub(n)(x)) 
+(i.e., f is the map whose component functions come from the equations in 2. 
+The domain X of f may be taken to be the set where all the component functions are defined. )
+Then to solve system 2 means to find a vector r = (r₁, ..., r(sub(n))) such that f(r) = 0. 
+To approximate such a vector, we may, as in the single-variabel case, make an initial guess x₀ for what r might be. 
+If f is differentiable, then we know that y = f(x) is approximated by the equation
+
+		y = f(x₀) + Df(x₀)(x - x). 
+
+(Here we think of f(x₀) and the vectors x and x₀ as n x 1 matrices.)
+Then we set y equal to 0 to find where this approximating functions is zero. 
+Thus, we solve the matrix equation  
+
+		f(x₀) + Df(x₀)(x1s - x₀) = 0
+
+for x₁ to give a revised approximatioon to the root r. 
+Evidently 3 is equivalent to 
+
+		Df(x₀)(x₀ - x₀) = -f(x₀). 
+
+To continue our argument, suppose that Df(x₀) is an invertible n x n matrix, meaning that there is a second n x n matrix [Df(x₀)]^(-1) with the property that [Df(x₀)]^(-1) Df(x₀) = Df(x₀)[Df(x₀)]^(-1) = I(sub(n)), the n x n identity matrix. 
+Then we may multipy equation 4 on the left by [Df(x₀)]^(-1) to obtain
+
+		I(sub(n))(x₁ - x₀) = -[Df(x₀)]^(-1) f(x₀). 
+
+Since I(sub(n))A = A for any n x k matrix A, this last eqution implies that 
+
+		x₁ = x₀ - [Df(x₀)]^(-1) f(x₀). 
+
+As we did in the one-variable case of Newton's method, we may iterate formula 5 to define recursively a sequence {x(sub(k))} of vectors by 
+
+		x(sub(k)) = x(sub(k - 1)) - [Df(sub(k - 1))]^(-1) f(x(sub(k - 1)))
+
+Note the similarity between formulas 1 and 6. 
+Moreover, just as in the case of formula 1, although the sequence {x₀,x₁, ..., x(sub(k)), ..., } may not converge, if it does, it must converge to a root of f(x) = 0. 

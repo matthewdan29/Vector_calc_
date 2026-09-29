@@ -1,0 +1,29 @@
+We use Newton's method to find solutions to the system 
+
+		{ x³ - 5x² + 2x - y + 13 = 0
+		{ x³ + x² - 14x - y - 19 = 19
+
+As in the previous example, we define f: R² -> R² by f(x, y) = (x³ - 5x² + 2x - y + 13, x³ + x² - 14x - y - 19). 
+Then 
+
+		(Look at Example_2_insert_formula_1)
+
+so that det Df(x, y) = 12x - 16 and 
+
+
+This is the formula we iterate to obtain approximate solutions to 8. 
+If we begin we x₀ = (x₀, y₀) = (8, 10), then the successive approximations x(sub(k)) quickly converge to (4, 5), as demonstrated in the table below. 
+
+		(Look at Example_2_insert_formula_3)
+
+On the other hand, if we begin with x₀ = (-2, 12), then the dequence of points generated converges to a different solution, namely, (-4/3, -25/27): 
+
+		(Look at Example_2_insert_formula_4)
+
+
+In fact, when a system of equations has multiple solutions, it is not always easy to predict to which solution a given starting vector x₀ will converge under Newton's method (if, indeed, there is convergence at all). 
+
+Finally, we make two remarks. 
+First, if at any stage of the iteration process the matrix Df(x(sub(k))) fails to be invertible (i.e., [Df(x(sub(k)))]^(-1) does not exist), then formula 6 cannot be used. 
+One way to salvage the situation is to make a different choice of initial vector x₀ in the hope that the sequence {x(sub(k))} that it generates will not involve any nonivertible matrixes. 
+Second, we note that if, at any stage, x(sub(k)) is exactly a root of f(x) = 0, then formula 6 will not change it. 

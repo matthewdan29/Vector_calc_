@@ -1,0 +1,54 @@
+Consider the problem of finding the intersection points of the circle x² + y² = 4 and the hyperbola 4x² - y² = 4. 
+See Figure 2.76
+Analytically, we seek simultaneous solutions to the two equations
+
+		x² + y² = 4 and 4x² - y² = 4, 
+
+or, equivalently, solutions to the system 
+
+		{ x² + y² - 4 = 0
+		{ 4x² - y² - 4 = 0
+
+To use Newton's method, we define a function f: R² -> R² by f(x, y) = (x² + y² -4, 4x² - y² - 4) and try to approximate solutions to the vector eqution f(x, y) = (0, 0). 
+We may begin with any initial guess, say, 
+
+
+		(Look At Example_1_insert_formula_1)
+
+and then produce successive approximations x₁, x₂, ..., to a solution using formula 6. 
+In particular, we have 
+
+		(Look at Example_1_insert_formula_2)
+
+Note that Df(x, y) = -20xy. 
+You may varify that 
+
+
+		(Look at Example_1_insert_formula_3)
+
+Beginning with x₀ = y₀ 1, we have 
+
+		(Look at Example_1_insert_formula_4)
+
+It is also easy to hand off the details of the computation to a calculatro or a computer. 
+One finds the following results: 
+
+		(Look at Example_1_insert_formula_5)
+
+Thus, it appears that, to eight decimal places, an intersection point of the curves is (1.264911.6, 1.54919334). 
+In this particullar example, it is not difficult to find the solutions to 7 exactly. 
+We add the two equations in 7 to obtain
+
+		5x² - 8 = 0  <=>  x² = 8/5
+
+Thus, x = +- √(8/5). 
+If we substitue these values for x into the first equation of 7, we obtain
+
+		8/5 + y² - 4 = 0  <=>  y² - 12/5
+
+Hence, y = -+ √(12/5). 
+Therefore, the fore intersections points are 
+
+		(Look at Example_1_insert_formula_6)
+
+Since √(8/5) ≈ 1.264911064 and √(12/5) ≈ 1.54919334, we see that Newton's method provided us with an accurate approximate solution very quickly. 
