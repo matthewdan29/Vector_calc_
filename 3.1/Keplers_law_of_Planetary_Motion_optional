@@ -1,0 +1,31 @@
+Since classical antiquity, individuals have sought to understand the motions of the planets and stars. 
+The majority of the ancient astronomers, using a combination of crude observation and faith, believed all heavenly bodies revolved around the earth. 
+Fortunately, the heliocentric (or "sun-centered") theory of Nicholas Copernicus (1473-1543) did eventually gain favor as observational techniqueas improved. 
+However, it was still believed that the planets traveled in circular orbits around the sun. 
+This circular orbit theory did not correctly predict planetary positions, so astronomers postulated the existence of epicycles, smaller circular orbits traveling along the major circular arc, an example of which is shown in Figure 3.8. 
+Although positional calculations with epicycles yield results closer to the observaed data, they still were not correct. 
+Attempts at further improvements were made using second- and third-order epicycles, but any gains in predictive power where made at a cost of considerable calculational complexity. 
+A new idea was needed. 
+Such inspiration came from Johannes Kepler (1571), son of a saloonkeeper and assistant to the Danish astronomer Tycho Brahe. 
+The clasical astronomers were "stucl on circles" for they believed the circle to be a perfect form and that G-d would use only such perfect figures for planetary motion. 
+Kepler, however, considered the other conic sections to be as elegant as the circle and so hypothesized the simple theory that planetary orbits are elliptical. 
+Empirical evidence bore out this theory. 
+
+Kepler's three laws of planetary motion are 
+
+	1) The orbit of a planet is elliptiacal, with the sun at a focus of the ellicpse. 
+	
+	2) During equal periods of time, a planet sweeps through equal areas with respect to the sun (see Figure 3.9)
+
+	3) The square of the period of one elliptical orbit is proportional to the cube of the length of the semimajor axis of the ellipse 
+
+Kepler's laws changed the face of astronomy. 
+We emphasize, however, that they were discovered empirically, not analytically derived from general physical laws. 
+The firs analytic dierivation is fequiently credited to Newton, who claimed to have established Kepler's laws (at least the first and third laws) in Book 1 of his Philosophiae Naturalis Pricipia Mathematica (1687). 
+However, a number of scientists and histroians of science now consider Newton's proof of Kepler's first law to be flawed and that Johann Bernoulli (1667) offered the first rigorous derivation in 1710. 
+In the discussion the follows, Newton's law of universal gravitation is used to prove all three of Kepler's laws. 
+
+In our work below, we assume that the only physical effects are those between the sun and a single planet - the so-called two-body problem. 
+(The n-body problem, where n => 3 is, by contrast, an important area of current mathematical research. )
+To set the stage for our calculations, we take the sun to be fixed at the origin 0 in R³ and the plenet to be at the moving position P. 
+We also need the following two "vector product rules". 

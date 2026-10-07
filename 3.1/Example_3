@@ -1,0 +1,23 @@
+The map z: R -> R³ defined by 
+
+		z(t) = (acos(t), asin(t), bt), a,b constants (a > 0)
+
+is called a circular helix, so named because its projection in the xy-plane is a circle of radius a. 
+THe helix itself lies in the right circular cylinder x² + y² = a² (Figure 3.3). 
+The value of b determines how tightly the helix twists. 
+
+We distinguish between a path x and its range or image set x(I), the latter being a curve in R''. 
+By definition, a path is a function, a dynamic object (at least when we imagine the independent variabel t to represent time), whereas a curve is a static figure in space. 
+With such a point of view, it is natrual for us to consider the derivative Dx(t), which we also wrtie as x'(t) pr v(t), to be the velocity vector of the path. 
+We can readily justify such terminology. 
+Since 
+
+		x(t) = (x₁(t), x₂(t),..., x(sub(n)(t)))
+
+is a function of just one variable, 
+
+		(Look at Example_3_insert_formula_1)
+
+Thus, v(t) is the instantaneous rate of change of position x(t) with respect to t (time), so it can appropriately be called velocity 
+Figure 3.4 provides an indication as to why we draw v(t) as a vector tangent to paht at x(t). 
+Continuing in this vein, we introduce the following terminology that is in the File Definition_1.2

@@ -1,0 +1,70 @@
+If Roger Ramjet is fired from a cannon, then we can use vectors to discribe his trajectory. 
+See Figure 3.6
+
+We'll assume that Roger is given an initial velocity vector v₀ by virtue of the firing of the cannon and that thereafter the only force acting on Roger is due to gravity (so, in particular. we neglect any air resistance). 
+Let us choose coordinates so that Roger is initially at the origin, and throughout our calculations we'll neglect the height of the cannon. 
+Let x(t) = (x(t), y(t)) denote Roger's path. 
+Then the information we have is 
+
+		a(t) = x^n(t) = -gj
+
+(i.e, the acceleration due to gravity is constant and points downward); hence, 
+
+			v(0) = x'(0) = v₀
+
+and 
+
+			x(0) = 0. 
+
+Since a(t) v'(t), we simply integrate the expression for acceleration componentwise to find the velocity: 
+
+			(Look at Example_6_insert_formula_1)
+
+Here c is an arbitrary constant vector (the "constant of integration"). 
+Since v(0) = v₀, we must have c = v₀, so that 
+
+			v(t) = -gtj + v₀. 
+
+Integrating again to find the path, 
+
+			(Look at Example_6_insert_formula_2)
+
+where d is another arbitrary constant vector. 
+From the remaining fact that x(0) = 0, we conclude that 
+
+		x(t) = -(1/2)gt²j + tv₀
+
+describes Roger's path. 
+
+To understand equation 4 better, we write v₀ in terms of its components: 
+
+		v₀ = v₀ cosθi + v₀ sinθj 
+
+Here v₀ = ||v₀|| is the initial speed. 
+(We're really doing nothing more than expressing the rectangular components of v₀ in terms of polar coordinates. 
+See Figure 3.7)
+Thus, 
+
+	(Look at Example_6_insert_formula_3)
+
+From this, we may read off the parametric equations: 
+
+		{ x = (v₀ cosθ)t
+		{ y = (v₀ sinθ)t -(1/2)gt²
+
+from which it is not difficult to check that Roger's path traces a parabola. 
+
+Here are two practical questions conserning the set-up of Example 6: 
+		1) for a given initial velocity, hwo far does Roger travel horizontally?
+
+	        2) For the given intial speed, how should the cannon be aimed so that Roger travels (horizontally) as far as possible?
+
+for t. 
+Hence, y = 0 when t = 0 (which is when Roger blasts off) and when t = (2v₀sinθ)/g.
+At this later time, 
+
+			(look at Example_6_insert_formula_5)
+
+Formula 5 is Roger's horizontal range for a given initial velocity.
+To maximize the range for a given inital speed v₀, we must choose θ so that (v²₀ sin(2θ))/g is as large as possible. 
+Clearly, this happens when sin(2θ) = 1 (i.e., when θ = π/4)

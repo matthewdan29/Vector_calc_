@@ -1,0 +1,5 @@
+The path y: [0, 2π) -> R² given by 
+
+		y(t) = (3cos(t), 3sin(t)) 
+
+can be thought of as the path of a particle that travels once, conuterclockwise, around a circle of radius 3 (Figure 3.2)

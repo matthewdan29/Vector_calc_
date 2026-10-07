@@ -1,0 +1,21 @@
+The helix x(t) = (a cos(t), a sin(t), bt) has 
+
+	v(t) = -a sin(t)i + a cos(t)j + bk 	and a(t) = -a cos(t)i - a sin(t)j.
+
+Thus, the acceleration vector is parallel to the xy-plane (i.e., is horizontal). 
+The speed of this helical path is 
+
+		||v(t)|| = √(-a sin(t)² + (a cos(t)² + b²)) = √(a² + b²), 
+
+which is constant. 
+
+The velocity vector v is important for another reason, namely, for finding equations of tangent lines to paths. 
+The tangent line to a differentiable path x, at the point x₀ = x₀(t₀), is the line through x₀ that is parallel to any (nonzero) tangent vector to x at x₀. 
+Since v(t), when nonzero, is always tangent to x(t), we may use equation 1 of 1.2 to obtain the following vector parametric equation for the tangent line: 
+
+		I(s) = x₀ + sv₀
+
+Here v₀ = v(t₀) and s may be any real numebr. 
+
+In equation 1, we have I(0) = x₀. 
+To relate the new parameter s to the original parameter t for the path, we set s = t - t₀ and establish the following results that is in the Propostition_1.3_file

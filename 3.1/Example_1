@@ -1,0 +1,9 @@
+Let a and b be vectors in R³ with a != 0.
+Then the function x: (-∞, ∞) -> R³ given by 
+
+		x(t) = b + ta
+
+defines the path along the straight line parallel to a and passing through the endpoint of the postition vector of b as Figure 3.1. 
+(See formula 1 of 1.2)
+
+

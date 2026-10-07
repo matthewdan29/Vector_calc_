@@ -1,0 +1,7 @@
+This Chapter concerns vector-valued functions of two special types: 
+
+	1) Continuous mappings of one varibale (i.e., functions x:I ⊆ R -> R^n, where I is an interval, called pahts in R^n). 
+
+	2) Mappings from (subsets of) R^n to itself (called vector fields). 
+
+An understanding of both concepts is required later, when we discuss line and surface integrals. 

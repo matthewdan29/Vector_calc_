@@ -1,0 +1,18 @@
+If x(t) = (3t + 2, t² - 7, t - t²), we find parametric equations for the line tangent to x at (5, -6, 0) = x(I). 
+For this path, v(t) = x'(t) = 3i + 2tj + (1 - 2t)k, so that 
+
+		v₀ = v(I) = 3i + 2j - k. 
+
+Thus, by formula 3, 
+
+		I(t) = (5i - 6j) + (t - 1)(3i + 2j - k). 
+
+Taking components, we read off the parametric equations for the coordinates of the tangent line as 
+
+		{ x = 3t + 2
+		{ y = 2t - 8
+		{ z = 1 - t
+
+The physical significance of the tangent line is this: 
+Suppose a particle of mass m travels along a path x. 
+If, suddenly, at t = t₀, all forces cease to act on the particle (so that, by Newton's second law of motion F = ma, we have a(t) ّّ= 0 for t >= t₀), then the particle will follow the tangent line path of equation 3. 
