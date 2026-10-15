@@ -1,0 +1,45 @@
+As we have seen, the moving frame provides us with an intrinsic set of vectors, like coordinate axes, that are special to the particular curve traced by a path. 
+In contrast, the velocity and acceleration vectors of a path are definitely not intrinsic quantities but depend on the particular parametrization chosen as well as on the shap of the path. 
+(The speed of a paht is entirely independent of the geometry of the curve traced.)
+We can get some feeling for the relationship between the intrisnsic notion of the moving frame and the extrinsic quantities of velocity and acceleration by expression the latter two vector functions in terms of the moving frame vectors. 
+
+Thus, we begin with a C² paht x: I -> R³ having x' != 0 and x' x(cross mult) x'' != 0. 
+Fro notational convenience, let ṡ denote ds/dt and s(diaeresis) denote d²s/dt². 
+From Definition 2.2, we know that T = v/||v|| and so, since the speed ṡ = ds/dt = ||v||, we have 
+
+			v(t) = ṡT
+
+This formula says that the velocity is always parallel to the unit tangent vector, something we know well. 
+To obtain a similar result for acceleration, we can defferentiate 14 and apply the product rule: 
+
+		(look at Example_apply_rule)
+
+Next, we express dT/dt in terms of the T, N, B frame. 
+Fromula 11 givbes the derivative of dT/ds in terms of N. 
+The chain rule says that dT/ds = (dT/dt)(ds/dt). 
+Thus, from formula 11, we have 
+
+		(dT/dt) = ṡ(dT/ds) = ṡkN. 
+
+Hencem, ,we may rewrite equation 15 as 
+
+		a(t) = ṡT + kṡ²N
+
+
+WARNING: 
+	s(diaeresis) = d²s/dt² is the derivative of the speed, which is a scalar function. 
+The acceleration a is the derivative of velocity and so is a vector function. 
+Note that formula 16 shows that the acceleration has no component in the direction of the binormal vector B. 
+Therefore, both velocity and acceleration are vectors that lie in the osculating plane of the path. 
+See figure 3.25
+At first glance, it may not appear to be especially easy to use formula 16 to resolve acceleration into its tangential and normal components because of the curvature term. 
+However, 
+
+	(Look at file Look_at_me)
+
+since T and N are perpendicular vectors. 
+Consequently, we may calculate the components as follows: 
+
+	Tangential component of acceleration = A(sub(tang)) = s(diaeresis) 
+
+	Normal component of acceleration = A(sub(norm)) = kṡ² = √(||a||² - a²(sub(tang)))

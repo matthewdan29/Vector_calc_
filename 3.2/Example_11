@@ -1,0 +1,9 @@
+Let x(t) - (e^t cos(t), e^t sin(t), e^t). 
+We calculate T, N, and B and identify the curvature and torsion of x. 
+To begin, we have
+
+	(Look at Example_11_insert_formula_1)
+
+From this, we may compute 
+
+	(Look at Example_11_insert_formula_2)

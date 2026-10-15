@@ -1,0 +1,20 @@
+For now, let x:[a, b] -> R³ be a C¹ path in R³. 
+Then we can approximate the length L of x as follows: First, partition the interval [a, b] into n subintervals. 
+That is, choose numbers t₀, t₁, ..., t(sub(n)) such that a = t₀ < t₁ < .. < t(sub(n)) = b. 
+If, for i = 1,...,n, we let Δs(sub(i)) denote the distance between the points x(t(sub(i - 1))) and x(t(sub(i))) on the path, then 
+
+		(Look at Length_of_a_path_insert_1)
+
+Now, we find a way to rewrite equation 2 as an intergral. 
+On each subinterval [t(sub(i - 1)), t(sub(i))], apply the mean value theorem (three times) to conclude the following: 
+
+		(Look at Length_of_a_path_insert_2)
+
+When the limit appearing in equation 3 is finite, it gives the value of the definite integral 
+
+		(Look at Length_of_a_path_insert_3)
+
+Note that the integrand is precisely ||x'(t)||, the speed of the path. 
+(This makes perfect sense, of course. 
+Speed measures the rate of distance traveled per unit time, so integrationg the speed over the elapsed time interval should give the total distance traveled. )
+Moreover, it's not hard to see how we should go about defining the length of a path in R^n for arbitrary n. 

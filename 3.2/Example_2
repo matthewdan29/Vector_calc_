@@ -1,0 +1,28 @@
+For the helix x(t) = (a*cos(t), a*sin(t), bt),  =< t =< 2π, we have 
+
+		x'(t) = -a*sin(t)i + a*cos(t)j + bk, 
+
+so that ||x'(t)|| = √(a² + b²), and
+
+		(Look at Example_2_insert_formula_1)
+
+When b = 0, the helix reverts to a circle and the length integral agrees with the previous example. 
+
+Although we have defined the length integral only for C¹ (or "smooth-looking") paths, there is no problem with extending our definition to the piecewise C¹ case. 
+By definition, a C¹ path is one with a continuously varying velocity vector, and so it typically looks like the path in Figure 3.17. 
+A piecewise C¹ typically looks like the path in Figure 3.18. 
+Each of the three portions of he path defined for (i) a =< t =<t₁, (ii) t₁ =< t =< t₂, and (iii) t₂ =< t =< b is of class C¹, but the velocity, if nonzero, would be discontinous at t = t₁ and t = t₂. 
+To define the length of a piecewise C¹ path, all we need do is break up the path into its C¹ pieces, calculate the length of each piece, and add to get the total length. 
+For the piecewise C¹ path shown in Figure 3.18, this means we would take 
+
+		(Look at Example_2_insert_formula_2)
+
+to be the length
+
+WARNING: Even if a paht is continuous, the definite integral in Definition 2.1 may fail to exist. 
+An example of such an unfortunate situation is furnished by the path: [0, 1] -> R², 
+
+		(Look at Example_2_insert_formula_3)
+
+Such a path is called nonrectifiable. 
+It is a fact that any C¹ path with endpoints is rectifiable, which is why we made such a condition part of Definition 2.1

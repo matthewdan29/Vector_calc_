@@ -1,0 +1,14 @@
+If a and b are vectors in R³, then the straight-line path x(t) = at + b has, as we saw in Example 7, T = a/||a||. 
+Thus, both dT/dt and dT/ds are identically zero. 
+Hence, k ≡ 0 (as shown in Example 7) and N cannot be defined using formula 9. 
+From geometric considerations, any unit vector perpendicular to T can, in principle, be used for N. 
+(See Figure 3.24)
+If we choose one such vector, then B can be calculated from formula (12). 
+Since T, N, and B are all constant, τ must be zero. 
+This is an example of a moving frame that is not uniquely determined by the path x and serves to illustrate why the assumption x' x(cross mult) x'' != 0 was made. 
+
+It is important to realize that the moving frame, curvature, and torsion are quantities that are intrinsic to the curve traced by the path. 
+That is, any parametized path that traces the same curve (in the same direction) must necessarily is because all of these quantities can be defined entirely in terms of the intrinsic arclength parameter s. 
+(See Definition 2.2)
+Another important fact is that the curvature function k and the torsion function τ together determine all the deometric information regarding the shapte of the curve, except for the curve's particular position in space. 
+To be more precise, we have the followin theorem, in file Theorem 2.5

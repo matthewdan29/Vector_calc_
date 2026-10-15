@@ -1,0 +1,38 @@
+We now derive formula 13, the basis for the definition of the torsion of a curve. 
+That is, we show that the derivative of the binormal vector B (with respect to arclength) is always parallel to the principal normal N (i.e., that dB/ds is a scalar function times N)
+The two main ingredients in our derivation are part 1 of Proposition 2.3 and the product rule. 
+
+We begin by noting that, since the ordered triple of vectors (T, N, B) forms a frame for R³, any moving vector, including dB/ds, can be expressed as a linear combination of these vectors; that is, we must have 
+
+		dB/ds = a(s)T + b(s)N + c(s)B
+
+where a, b, and c are appropriate scalr-valued functions. 
+(Because T, N, and B are mutually perpendicular unit vectors, any (moving) vector w in R³ can be decomposed into its components with respect to T, N, and B in much the same way that it can be decomposed into i, j, and k components see Figure 3.27)
+To find the particular values of the component functions a, b, and c, it turns out that we solve eact function by applying appropriate dot products to equation 18. 
+Specifically, 
+
+		(Look at file dot_product_equation)
+
+From Proposition 1.7 dB/ds is perpendicular to B and, hence, c must be zero. 
+To find a, we use an ingenious trick with the product rule: Because T * B = 0, it follows that d/ds(T * B) = 0. 
+Now, by the product rule, 
+
+		(Look at file _product_rule_applied)
+
+No further reductions are possible, and we have proved that the derivation of B is parallel to N. 
+The torsion τ can, therefore, be defined by τ(s) = -b(s). 
+Formulas 11 and 13 gave us intrinsic expressions for dT/ds and dB/ds, repectively. 
+We can complete the set by finding an expression for dN/ds. 
+The method is the same as the one just used. 
+Begin by writing
+
+		(Look at file 19-13)
+
+		(Look at file after_19_13)
+
+and are known as the Frenet-Serret formulas for a curve in space. 
+They are so named for Frederic-Jean Frenet and Joseph Alfred Serret, who published them separately in 1852 and 1851, respectively. 
+The Frenet-Serret formulas give a system of differental equations for a curve and are key to proving a result like Theorem 2.5. 
+They are often written in matrix form, in which case, they have an eqecially appealing appearance, namely, 
+
+		(Look at file Frent-formulas)

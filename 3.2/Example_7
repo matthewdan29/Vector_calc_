@@ -1,0 +1,6 @@
+If a and b are constant vectors in R³ and a != 0, the path
+
+		(Look at Example_7_insert_formula_1)
+
+which is a constant vector. 
+Thus, T'(t) ≡ 0 and formula 8 implies immediately that k is zero, which agrees with the intuitive fact that a line doesn't curve. 

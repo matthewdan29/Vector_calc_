@@ -1,0 +1,7 @@
+Let x: I ⊆ R -> R³ be a C³ path and assume that x' is never zero
+
+		(Look at Definition_2.2_normalization_of_the_velocity_vector)
+
+We see from Definition 2.2 that the unit tangent vector is undefined when the speed of the path is zero. 
+Also note that, from equation (6), T is dx/ds, where s is the arclength parameter. 
+Geometrically, T is the tangent vector of unit length that points in the direction of increasing arclength, as suggested by Figure 3.20

@@ -1,0 +1,20 @@
+The calculation of the length of a paht is not only useful (and moderately interesting) in itself, but it also provides a way for us to reparametrize the path with a parameter that depends solely on the geometry of the curve traced by the path, not on the way in which the curve is traced. 
+
+Let x be any C¹ path and assume that the velocity x' is never zero. 
+Fix a point P₀ on the path and let a be such that x(a) = P₀. 
+We define a one-variable function s of the given parameter t that measures the length of the path of P₀ to any other (moving) point P by 
+
+	(Look at Arclength_reparametrization_function)
+
+(See Figure 3.19. 
+The Greek letter tau, τ, is used purely as a dummy variable - the standard convention is never to have the same variable appearing in both the integrand and either of the limits of integration. )
+If t happens to be less than a, then the value of s in formula 4 will be negative. 
+This is nothing more than a consequence of how the "base point" P₀ is chosen. 
+Here's how to get the new parameter: From formula (4) and from the fundamental theorem of caluclus, 
+
+		(Look at Arclength_parameter_from_formula_4)
+
+Since we have assumed that x'(t) != 0, it follows that ds/dt is nonzero. 
+Hence, ds/dt is always positive, so s is a strictly increasing function of t. 
+Thus, s is, in fact, an invertible function; that is, it is at least theoretically possible to solve the equation s = s(t) for t in terms of s. 
+If we imagine doing this, then we can reparmetrize the path x, using the arclength parameter s as independent variable. 

@@ -1,0 +1,22 @@
+Let x(t) = (t, 2t, t²). 
+Then v(t) = i + 2j + 2tk and a(t) = 2k. 
+We have ṡ = ||v(t)|| = √(5 + 4t²). 
+Therefore, 
+
+		(Look at Example_13_insert_function_1)
+
+Formulas 14 and 16 enable us to find an alternative equation for the curvature of the path. 
+We simply calculate that 
+
+		(Look at Example_13_insert_function_2)
+
+Recalling that ṡ = ||v||, we have, by taking magnitudes, 
+
+		||v x a|| = k||v||³ ||B|| = k||v||³, 
+
+since B is a unit vector. 
+Thus, 
+
+		k = ||v x a|| / ||v||³
+
+The relatively simple formula express the curvature (an intrinsic quantity) in terms of the nonintrinsic quantites of velocity and acceleration

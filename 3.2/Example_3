@@ -1,0 +1,13 @@
+For the helix x(t) = (a*cos(t), a*sin(t), bt), if we choose the "base point" P₀ to be x(0) = (a, 0, 0), then we have 
+
+	
+	(Look at Example_3_insert_formula_1)
+
+or 
+
+	(Look at Example_3_insert_formula_2)
+
+(What the preceding tells us is that this reparametrization just rescales the time varibale)
+Hence, we can rewrite the helical path as 
+
+	(Look at Example_3_insert_formula_3)
