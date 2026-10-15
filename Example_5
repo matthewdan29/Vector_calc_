@@ -1,0 +1,15 @@
+For the helix x(t) = (a*cos(t), a*sin(t), bt), we have 
+
+		(Look at Example_5_insert_formula_1)
+
+On the other hand, if we parametrize the helix using arclength so that 
+
+		(Look at Example_5_insert_formula_2)
+
+This agrees (as it should) with the first expression for T, since s = √(a² + b² t), as shown in Example 3. 
+
+Using the unit tangent vector, we can define a quantity that measures how much a path bends as we travel along it. 
+To do so, note that following key facts 
+
+		(Look at file Proposition_2.3
+)

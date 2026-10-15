@@ -1,0 +1,4 @@
+In mathematics, the inverse function of a function f(also called the inverse of f) is a function that undoes the operation of f. 
+The inverse of f exists if and only if f is bijective, and if it exists, is denoted by f^(-1). 
+
+For a function f:X -> Y, its inverse f^(-1): Y -> X admits an explicit description: it sends each element y ∈ Y to the unique element x ∈ X such that f(x) = y. 

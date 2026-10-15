@@ -1,0 +1,17 @@
+Returning to our friend the helix
+
+	x(t) = (a*cos(t), a*sin(t), bt), 
+
+we have already seen that 
+
+		(Look at Example_8_insert_formula_1)
+
+We see that the curvature of the helix is constant, just like the circle. 
+In fact, as b approaches zero, the helix degenerates to a circle, and the resulting curvature is consistent with that of Example 6. 
+
+We can also compute the curvature from the parameterization given by arclength. 
+The same helix is alos described by
+
+		(Look at Example_8_insert_formula_2)
+
+wich checks. 

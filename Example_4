@@ -1,0 +1,28 @@
+The explicit determination of the arclength parameter for a given parametrized path is a delicate matter. 
+Consder the path
+
+		(Look at Example_4_path_to_consder_hard)
+
+On the other hand, the path y(t) = (t, t², t³) is quite similar to x, yet it has no readily calculable arclength parameter. 
+In this case, y'(t) = (1, 2t, 3t²) and the resulting integral for s(t) is 
+
+		(Look at Example_4_resulting_integral_for_s(t))
+
+It can be shown that this integral has no "closed form " formula (i.e., a formula that involves only finitely many algebraic and transcendental functions)
+
+The significance of the arclength parameter s is that it is an intrinsic parameter; it depends only on how the curve itself bends, not on how fast (or slowly) the curve is traced. 
+To see more precisely what this means, we resort to the chain rule. 
+Consdier s as an intermediate variable and t as a final varable. 
+Then we have 
+
+		(Look at Example_4_t_as_final_value)
+
+Therefore, x'(s) is precisely the normalization of the original velocity vector, and so it is unit vector. 
+Hence, the reparmetrized path x(s) has unit speed, regardless of the speed of the origiinal path x(t). 
+(This result makes good geometric sense, too. 
+If arclength, rather than time, is the parameter, then speed is measured in units of "length per length" which necessarily must be one)
+
+The only unfortunate note to our story is that the integral in formula 4 is unusally impossible to compute exactly, thus making it impossible to compute s as a simple function of t. 
+(The case of the helix is a convenient and rather speical exception)
+One generally prefers to work indirectly, letting the chain rule come to the rescue. 
+We shall see this indirect approach next. 

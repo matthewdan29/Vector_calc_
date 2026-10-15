@@ -1,0 +1,38 @@
+We now introduce a triple of mutually orthogonal unit vectors that "travel" with a given path x: I -> R³, known as the moving frame of the path. 
+(Note: In general, the term "frame" means an ordered collection of mutually orthogonal unit vectors in R'')
+These vectors should be thought of as a set of special vector "coordinate axes" that move from point to point along the path. 
+To begin, assume that (i) x'(t) != 0 and (ii) x'(t) != 0 for all t in I. 
+(The first condition assures us that x never has zero speed and the second that x is not a straight-line path)
+THen the first vector of the moving frame is just the unit tangent vector: 
+
+	(Look at Moving_frame_tangent_vector)
+
+(Now you see why condition (i) is needed.)
+For a second vector orthogonal to T, recall that part 1 of Proposition 2.3 says that dT/dt must be perpendicular to T. 
+Hence, we define
+
+	(Look at dT-dt_perpendicular)
+
+(That dT/dt is not zero follows from assumptions (i) and (ii).)
+The vector N is called the principal normal vector of x. 
+By the chain rule, N is also given by 
+
+	(Look at princpial_normal_vector_formula)
+
+Since k = ||dT/ds|| by formula (8), we also see that 
+
+	(Look at moving_frame_fomula_11)
+
+At a given point P along the path, the vectors T and N (and also the vectors x' and x'') determine what is called the osculating plane of the path at P. 
+(See Figure 3.23)
+This is the plane that "instantaneously" contains the path at P. 
+(Precisely, it is the plane obtained by taking points P₁ and P₂ on the path near P and finding the limiting position of the plane through P, P₁, and P₂ as P₁ and P₂ approach P along x. 
+The word "osculating" derives from the Latin osculare, meaning "to Kiss")
+Now that we have defined two orthogonal unit vectors T and N, we can produce a third unit vector perpendicular to both: 
+
+	(Look at finding_the_perpendicular_vector)
+
+The vector B, called the binormal vector, is defined so that the ordered triple (T, N, B) is a right-handed system. 
+Thus, B is a unit vector since 
+
+		(Look at why_b)

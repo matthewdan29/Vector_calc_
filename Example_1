@@ -1,0 +1,18 @@
+To check our definition in a well-knowon situation, we compute the length of the path
+
+		x:[0, 2π] -> R², x(t) = (a * cos(t), a * sin(t)), a > 0.
+
+We have 
+
+		x'(t) = -a * sin(t)i + a * cos(t)j, 
+
+so 
+	
+		||x'(t)|| = √(a²sin²(t) + a²cos²(t)) = a. 
+
+
+Thus, Definition 2.1 gives 
+
+		(Look at Example_1_insert_formula_1)
+
+Since the path traces a circle of radius a once, the length integral works out to be the circumference of the circle, as it should. 

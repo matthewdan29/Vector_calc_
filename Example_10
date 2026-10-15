@@ -1,0 +1,12 @@
+Consider again the case of circular motion. 
+Thus, let x(t) = (a*cos(t), a*sin(t)). 
+Then as shown in Example 6 
+
+		(Look at Example_10_insert_formula_1)
+
+we now calculate 
+
+		(Look at Example_10_insert_formula_2)
+
+Hence, dB/ds ≡ 0, so there is no torsion. 
+This makes sense, since a circle does not twist out of the plane. 

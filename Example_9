@@ -1,0 +1,17 @@
+For the helix x(t) = (a*cos(t), a*sin(t), bt), the moving frame vectors are 
+
+		(Look at Example_9_insert_formula_9)
+
+Equation (11) says that the derivative of T (with respect to arclength) is a scalar function (namely, the curvature) multiple of the princpal normal N. 
+This is not surprising, since N is defined to be parallel to the derivative of T. 
+A more remarkable resutl (see the addendum at the end of this section) is that the derivative of the binormal vector is also always parallel to the principal normal; that is, 
+
+		dB/ds = (scalar function) N. 
+
+The standard convention is to write this scalar function with a negative sign, so we have
+
+		dB/ds = -τN
+
+The scalar function τ thus defined is called the torsion of the path x. 
+Roughtly speacking, the torsion measures how much the path twists out of the plane, how "three-dimenisonal" x is. 
+Note that, according to our conventions, thecurvature k is always nonegative (why?), while τ can be positive, negative, or zero

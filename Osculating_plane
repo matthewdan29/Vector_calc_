@@ -1,0 +1,14 @@
+In mathematics, particularly in differential geometry, an osculating plane is a plane in a Euclidean space or affine space which meets a submanifold at a point in such a way as to have a second order of contact at the point. 
+The word osculate is from Latin osculari 'to kiss'; an osculating plane is thus a plane which "kisses" a submanifold. 
+
+The osculating plane in the geometry of Euclidean space curves can be described in terms of the Frenet-Serret formulas as the linear span of the tangent and normal vectors. 
+
+
+
+
+
+--------------------------------------------------------------------------------
+The osculating plane at a point on a space curve is the plane that most closely fits the curve near that point. 
+It is spanned by the curve's unit tangent vector and unit pricipal normal vector, and it contains the curvature vector. 
+Given a smooth space curve r(t) with nonzero curvature at a point r(t₀), the osculating plane is the plane through r(t₀) with normal vector B(t₀) = T(t₀) X N(t₀), where T is the unit tangent vector and N is the unit pricipal normal vector. 
+Equivalently, it is spanned by r'(t₀) and r''(t₀), provided they are linearly independent. 

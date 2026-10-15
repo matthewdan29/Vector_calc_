@@ -1,0 +1,21 @@
+For the path x(t) = (2t³ + 1, t⁴, t⁵), we have 
+
+		v(t) = 6t²i + 4t³j + 5t⁴k 
+
+and 
+	
+		a(t) = 12ti + 12t²j + 20t²k. 
+
+You can check that 
+
+		||v|| = t²√(25t⁴ + 16t² + 36)
+
+and 
+
+		||v x a|| = ||4t⁴(5t²i - 15tj + 6k)|| = 4t⁴√(25t⁴ + 225t² + 36)
+
+Therefore, formula 17 yields 
+
+		(Look at Example_14_insert_formula_1)
+
+which is certainly a more conveninet way to determine curvature in this case
