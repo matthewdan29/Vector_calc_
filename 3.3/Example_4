@@ -1,0 +1,20 @@
+We calculate the flow lines of the constant vector field F(x, y, z) = 2i = 2j + k 
+A picture of this vector field (see Figure 3.35) makes it easy to believe that the flow lines are straight-line paths. 
+Indeed, if x(t) = (x(t), y(t), z(t)) is a flow line, then, by Definition 3.2, we have 
+
+	x'(t) = (x'(t), y'(t), z'(t)) = (2, -3, 1) = F(x(t)). 
+
+Equating compnents, we see
+
+		{ x'(t) = 2
+		{ y'(t) = -3
+		{ z'(t) = 1
+
+These differential wquations are readily solved by direct integration; we obtain
+
+		{ x(t) = 2t + x₀
+		{ y(t) = -3t + y₀
+		{ z(t) = t + z₀
+
+where x₀, y₀. and z₀ are arbitrary constants. 
+Hence, as expected, we obtain parametric equations for a straight-line path through an arbitrary point (x₀, y₀, z₀)

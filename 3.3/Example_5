@@ -1,0 +1,31 @@
+Your intuition should lead you to suspect that a flow line of the vector field F(x, y) = -yi + xj should be circlar as shown in FIgure 3.36. 
+Indeed, if x:[0, 2π) -> R² is given by x(t) = (a cos(t), a sin(t)), where a is constant, then 
+
+	x'(t) = -a sin(t)i + a cos(t)j = F(a cos(t), a sin(t)), 
+
+so such paths are indeed flow lines. 
+Finding all possible flow lines of F(x, y) = -yi + xj is a more involved task. 
+If x(t) = (x(t), y(t)) is a flow line, then, by Definition 3.2, we must have 
+
+	x'(t) x'(t)i + y'(t)j = -y(t)i + x(t)j = F(x(t)). 
+
+Equationg components, 
+
+		x'(t) = -y(t)
+		y'(t) = x(t)
+
+This is an example of a first-order system of differential equations. 
+It turns out that all solutions to this system are of the form 
+
+		x(t) = (a cos(t) - b sin(t), a sin(t) + b cos(t)), 
+
+where a and b are arbitrary constants. 
+It's not dificult to see that such paths trace circles when at least one of a or b is nonzero
+
+In general, if F is a vector field on R'', finding the flow lines of F is equivalent to solving the first-order system of differential equations
+
+		(Look at Example_5_insert_formula_1)
+
+for the functions x₁(t), ..., x(sub(n))(t) that are the components of the flow line x. 
+(The function F(sub(i)) is just the ith compnent function of the vector field F. )
+Such a problem takes us squarely into realm of the theory of differential equations, a fascinating subject

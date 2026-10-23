@@ -1,0 +1,30 @@
+Inverse square fields are interesting not only for their origin in basic physical situations, but also because they are examples of gradient fields. 
+A gradient field on R'' is a vector field F:X ⊆ R'' -> R'' such that F is the gradient of some (differentiable) scalar-valued function f:X -> R. 
+this is, 
+
+	
+	F(x) = ∇f(x) 
+
+at all x in X. 
+The function f is called a (scalar) potential function for the vector field F. 
+To see what this means in the case of the inverse square field (1), we write out the components of F explicitly: 
+
+	
+		(Look at Inverse_square_field_copmponents_formula)
+
+
+Remark: 
+In physics and engineering, a negative sign is often introduced in the definition of a potential function (i.e. so that a potential function g for a vector field F is one such that F = -∇g). 
+The motivation behind such a convention is that in physical applications, it is desirable to have the potential function represent potential enegery in some sencse. 
+For example, in the case of the gravitational field F = -(GMm/||r||²)u, a physicist would take the potential function to be -GMm/||r||, not +GMm/||r|| as we do. 
+The advantage to the physicist in doing so is that the physicist's potential function increaes with increasing ||r||. 
+The corresponds to the notion that the greater the distance between two bodies, the greater should be the stroed gravitiational potential energy. 
+
+From Theorem 6.4 of Chapter 2 we know that the gradient of any C¹ scalar-valued function f:X ⊆ R'' -> R is perpendicular to the level sets of f. 
+Thus, if F is a gradient vector field on R'', F(x) must be perpendicular to the level set of a potential function of F containing the point x. 
+If f as such potential function, the level set {x | f(x) = c} is called an equipotential set (or equipotential surface if n = 3, or equipotential line if n = 2) of the vector field F. 
+See Figure 3.31
+You've seen examples of equipotiential lines every time you've looked at a weather map. 
+Usually curves of constant barometirc pressure (called isobars) or of constant tempertature (isotherms) are drawn. 
+See Figure 3.2.
+Perpendicular to such equipotoential lines are associated gradient vector fields that point in the direction of most rapid increase of pressure or temperature. 

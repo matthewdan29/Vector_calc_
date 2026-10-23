@@ -1,0 +1,20 @@
+Let's depict G: R² -> R², G(x, y) = yi - xj. 
+We can begin to do this by calculating some specific values of G, as in the adjacent table. 
+However, it is difficult to get much of a feeling for G as a whole in this way. 
+To understand G somewhat better, we need to "play around" a bit. 
+Not that
+
+		||G(x, y)|| = ||yi - xj|| = √(y² + x²) = ||r||, 
+
+where r = xi + yj, the position vector of the point (x, y). 
+From this observation, if follows that G has constant length a on the circle x² + y² = a². 
+In addition we have 
+
+		r * G(x, y) = (xi + yj) * (yi - xj) = 0. 
+
+Hence, G(x, y) is always perpendicular to the position vector of the point (x, y). 
+These facts, together with a table like the preceding one, make it possible to see that G looks like Figure 3.29. 
+
+Remark: Sometimes a saclar-valued function f:X ⊆ R'' -> R is called a scalar field. 
+One thinks of a vector field on R'' as attaching vector information (such as wind velocity) to each point and a scalar field as attaching real number information (such as temperature or pressure). 
+We'll use the term "scalar field" only occasionally, but we don't want to shock you when we do 

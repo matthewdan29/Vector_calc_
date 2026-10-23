@@ -1,0 +1,30 @@
+Let r = xi + yj + zk. 
+The so-called inverse square vector field in R³ is a function F:R³ - {0} -> R³ given by 
+
+		F(x, y, z) = c/||r||³ (r), 
+
+where c is any (nonzero) constant. 
+If the term "inverse sequare" seems inappropriate to you, we'll try to convicne you otherwise. 
+So u = r/||r|| so that r = ||r||u. 
+Then F is given by 
+
+	(Look at Example_3_insert_formula_1)
+
+Therefore, F is a vector field whose direction at the point P(x, y, z) != (0, 0, 0) is parallel to the vector from the origin to P and whose magnitude is inversely proportional to the square of the distance from the origin to P. 
+Note that F points away from the origin if c is positive and toward the origin if c is negative.
+We have seen an example of an inverse square field in 3.1 namely, the Newtonian gravitational field between two bodies. 
+If one of the bodies is at the origin and the other at (x, y, z), then we have 
+		
+
+		(Look at EXample_3_insert_formula_2)
+
+In this case, the proportionality constant c is -GMm, which is negative. 
+THis means that the gravitational force is attractive (i.e., it points in the direction that reduces the distance between the two bodies). 
+Such a vector field is shown in Figure 3.30. 
+An example of a repelling inverse square field is the electrosttic force between two particles with like static charges (both positive or both negative). 
+This force is expressed by Coulomb's law 
+
+			(Look at eXample_3_insert_formula_3) 
+
+where r is the vector from pariticle 1 (at the origin) to particle 2, u = r/||r||, q₁ and q₂ are the respective charges (positive or negative) on the particles, and k is a constant appropriate for the units being used. 
+In mks units, distance is measrued in meters, charged in coulombs, force in newtons, so that k is equal to 8.9875 X 10⁹ Nm²/C²

@@ -1,0 +1,3 @@
+When you draw a sketch of a vector field on R² or R³, it is easy to imagine that the arrows represent the velocity of some fluid moving throught space as in Figure 3.33. 
+It's natural to let the arrows blend into complete curves. 
+WHat you're doing analytically is drawing paths whose velocity vectors coinside with those of the vector field.
