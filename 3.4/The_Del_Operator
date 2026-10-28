@@ -1,0 +1,19 @@
+The del operator, denoted ∇, is an odd creature. 
+It leads a double life as both differential operator and vector. 
+In Cartesian coordiantes on R³, del is defined by the curious expression 
+
+
+		(Look at file cartesian_coordinates_for_del)
+
+The "empty" partial derivatives are the components of a vector that awaits suitable scalar and vector fields on which to act. 
+Del operates on (i.e., transforms) fields via "multiplication" of vectors, interpreted by using partial differentiation. 
+For example, if f:X ⊆ R³ -> R is a differentiable functino (scalar field), the gradient of f may be considered to be the result of multiplying the vector ∇ by f, we actually compute the appropriate parital derivative: 
+
+		(Look at fiel appropriate_partial_derivative)
+
+The del operator can also be defined in R'', for arbitrary n. 
+If we take x₁, x₂,...,x(sub(n)) to be coordinates for R'', then del is simply
+
+		(Look at file Arbitrary_n_for_del_operation)
+
+where e(sub(i)) = (0,...,1,....0), i = 1,....,n, is the standard basis vector for R''.

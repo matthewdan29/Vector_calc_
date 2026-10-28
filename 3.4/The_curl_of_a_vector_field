@@ -1,0 +1,6 @@
+If the gradient is the result of performing "scalar multiplication" with the del operator and a scalar field, and the divergence is the reuslt of performing the "dot product" of del with a vector field, then there seems to be only only simple differential operation left to be built from del. 
+We call it culr of a vecotr field: 
+
+		(Look file Definition_4.2)
+
+There is no good reason to remember the formula for the components of the curl instead, simply compute the cross product explicity. 

@@ -1,0 +1,6 @@
+It turns out that the vector field F in Example 5 is also a gradient field. 
+Indeed, F = ∇f, where f(x, y, z) = x³z + xy² - z². 
+(We'll leave it to you to verify this. )
+In fact, this is not mere coincidence but an illustration of a basic result about scalar-valued functions and the del operator: 
+
+		(Look at Files Theorem_4.3 and Theorem_4.4)

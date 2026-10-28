@@ -1,0 +1,4 @@
+WHereas taking the gradient of a scalar field yields a vector field, the process of taking the divergence does just the opposite: It turns a vector field into a scalar field. 
+
+It is essential that Cartesian coordinates be used in the formula of Definition 4.1. 
+(Later in this section we shall see what div F looks like in cylindrical and spherical coordinates for R³)

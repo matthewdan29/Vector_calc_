@@ -1,0 +1,19 @@
+If F = x²yi + xzj + xyzk, then 
+
+	(Look at eXample_1_insert_formula_1)
+
+The notation for the divergence involving the dot product and the del operator is especially apt: if we write
+
+		F = F₁e₁ + F₂e₂ + .. + F(sub(n))e(sub(n)), 
+
+then, 
+
+	(Look at eXample_1_insert_formula_2)
+
+where, once again, we interpret "multiplying" a function by a partial differentital operator as performing that partial differentiation on the given function. 
+Intuitively, the value of the divergence of a vector field at a particular point gives a measure of the "net mass flow" or "flux density" of the vector field in or out of that point. 
+To understand what such a statment means, imagine that the vector field F represents velocity of a fluid. 
+If ∇ • F is zero at a point, then the rate at which fluid is flowing into the point is equal to the rate at which fluid is flowing out. 
+Positive divergence at a point signifies more fluid flowing out than in, whil negative divergence signifies just the opposite. 
+We will make these assertions more precise, even prove them, when we have some integral vector calculus at our disposal. 
+For now, however, we remark that a vector field F such that ∇ • F = 0 everywhere is called incompressible or solenoidal. 

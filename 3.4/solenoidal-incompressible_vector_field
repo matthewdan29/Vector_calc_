@@ -1,0 +1,6 @@
+In vector calculus and differential equations, a divergence free vector field is a vector field v with divergence zero at all points in the field: 
+
+	∇ • v = 0
+
+In electromagnetic theory, a divergence-free vector field is commonly called solenoidal vector field, while in hydrodynamics it si commonly called an incompressible vectro field, and in mathematical physics it is sometimes called a transverse vector field. 
+A common way of expressing this property is to sya that the field has no souces or sinks, but oone must be careful with this interpretation because there are vector fields without sorces or sinks that still have non-zero divergence. 

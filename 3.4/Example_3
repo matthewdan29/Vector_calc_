@@ -1,0 +1,7 @@
+The constant vector field F(x, y, z) = a shown in Figure 3.40 is incompressinle. 
+Intuitively, we can see that each point of R³ has an arrow representing a with its tail at that point and another arrow, also representing a, with its head there. 
+The vector field G = yi - xj has 
+
+		∇ • G = δ/δx(y) + δ/δy(-x) ≡ 0. 
+
+A sketch of G reveals that it looks like the velocity field of a rotating fluid, without either a source or a sink. (see Figure 3.41)

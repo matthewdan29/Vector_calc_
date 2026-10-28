@@ -1,0 +1,12 @@
+If F = x²yi - 2xzj + (x + y - z)k, then 
+
+		(Look at example_4_insert_formula_1)
+
+One would think that, with a name like "curl," ∇ x F should measure how much a vector field curls. 
+Indeed, the curl does measure, in a sense, the twisting or circulation of a vectro field, but in a subtle way: Imagine that F represents the velocity of a stream or lake. 
+Drop a small twig in the lake and watch it travel. 
+The twig may perhaps be pushed by the current so that it travels in a large circle, but the curl will not detect this. 
+What curl F measures is how quickly and in what orientation the twig itself rotates as it moves. 
+(See Figure 3.42)
+We prove this assertion later, when line and surface integrals start to play a larger role. 
+For now, we simply point out some terminology: A vector field F is said to be irrotational if ∇ x F = 0 everywhere. 

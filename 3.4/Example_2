@@ -1,0 +1,10 @@
+The vector field F = xi + yj has 
+
+		∇ • F = δ/δx(x) + δ/δy(y) = 2
+
+This vector field is shown in Figure 3.38. 
+At any point in R², the arrow whose tail is at that point is longer than the arrow whose head is there. 
+Hence, ther is greater flow away from each point than into it; that is, F is "diverging" at every point. 
+(Thus, we see the origin of the term "divergence")
+
+The vector field G = -xi - xj points in the direction opposite to the vector field F of Figure 3.38 (See figure 3.39), and it should be clear how G's divergence of -2 is reflected in the diagram

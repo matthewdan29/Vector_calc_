@@ -1,0 +1,11 @@
+In this section, we consider the certain types of differentiation operations on vector and scalar fields. 
+These operations are as follows: 
+	
+	1) The Gradient, which turns a scalar field into a vector field. 
+
+	2) The dievergence, which turns a vector field into a scalar field. 
+
+	3) The curl, which turns a vector field into another vector field. (Note: The curl will be defined only for vector fields on R³)
+
+We begin by defining these operations from a purely computational point of view. 
+Gradually, we shall come to understand their geometric significance. 

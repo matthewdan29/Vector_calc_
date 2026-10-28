@@ -1,0 +1,8 @@
+A conservative vector field is a vector field that is the gradient of some funciton. 
+A conservative vector field has the property that its line integral is path independent; the choice of path between two points does not change the value of the line integral. 
+Path independence of the line integral is equivalent to the vector field under the line integral being conservative. 
+A conservative vector field is also irrotational; in three dimensions, this means that it has vanishing curl. 
+An irrotational vector field is necessarily conservative provided that the domain is simply connected. 
+
+Conservative vector fields appear naturally in machanics: They are vector fields representing forces of physical systems in which energy is conserved. 
+For a conservative system, the work done in moving along a path in a configuration space depends on only the endpoints of the path, so it is possible to dine potential energy that is independent of the actural path taken. 

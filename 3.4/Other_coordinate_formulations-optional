@@ -1,0 +1,8 @@
+We have introduced the gradient, divergence, and curl by formulas in Cartesian coordinates and have, at least briefly, discussed their geometric significance. 
+Since certain situations may necessitate the use of cylindrical or spherical coordinates, we next list the formulas for the gradient, divergence, and curl in these coordinate systems. 
+Before we do, however, a remark about notation is in order. 
+Recall that in cylindrical coordinates, there are three untie vectors e(sub(r)), e(sub(θ)), and e(sub(z)) that point in the directions of increasing r, Θ, and z coordinates, respectively. 
+Thus, a vector field F on R³ may be written as 
+
+	(Look at other-coordinates_formula_1)
+
