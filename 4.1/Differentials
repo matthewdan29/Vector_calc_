@@ -1,0 +1,15 @@
+Before we explore higher-order versions of Taylor's theorem in several variables, we consider the linear (or first-order) approximation in further detail. 
+Let h = x - a. 
+Then formula (3) becomes 
+
+	(Look at file Differentials_insert_formula_1)
+
+We focus on the sum appearing in formula (5) and summarize its salient features as follows: 
+
+		(Look at file Difinition_1.4)
+
+Sometimes h(sub(i)) is replaced by the expression Δx(sub(i)) or dx(sub(i)) to emphasize that it represents a change in the ith independent variable, in which case we write
+
+		(Look at file Differentials_insert_formula_2)
+
+(We've suppressed the evaluation of the parital derivatives at a, as is customary)

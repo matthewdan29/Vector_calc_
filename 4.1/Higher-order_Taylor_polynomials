@@ -1,0 +1,10 @@
+So far we have said nothing about Taylor polynomials of degree greater than 2 in the case of functions of several variables. 
+The main reason for this are (i) the general formula is quite complicated and has no compact matrix reformulation analogous to (10) and (ii) we will have little need for such formulas in the text. 
+Nonethelss, if your curiosity cannot be denied, here is the third-order Taylor polynomial for a function f:X ⊆ R'' -> R of class C³ near a ∈ X: 
+
+		(Look at file High-order_taylor_1)
+
+(The relevant theorem regarding p₃ is that f(x) = p₃(x) + R₃(x, a), where |R₃(x, a)|/||x - a||³ -> 0 as x -> a)
+If you must know even more, the kth-order Taylor polynomial is 
+
+		(Look at file Higher-order_taylor_2)

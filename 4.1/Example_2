@@ -1,0 +1,9 @@
+Consider Ln(x) with a = 1 again. 
+We calculate 
+
+		(Look at eXample_2_formula_1)
+
+Taylor's theorem as stated in Theorem 1.1 says nothing explicit about the remainder term R(sub(k)). 
+However, it is possible to establish the following derivative form for the remainder: 
+
+IN practice, formula 2 is quite useful for estimating the error involved with a Taylor polynomial approximatio. 

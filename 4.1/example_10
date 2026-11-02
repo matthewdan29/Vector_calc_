@@ -1,0 +1,16 @@
+Let f(x, y) = cos(x) cos(y) and (a, b) = (0, 0). 
+Then 
+		f(0, 0) = 1; 
+
+	(look at eXample_10_insert_formula_1)
+
+We can also solve this problem another way since f is a product of two functions. 
+We can multiply the two Tylor polynomials: 
+
+
+	(look at eXample_10_insert_formula_2)
+
+This mehtod is justified by noting that if q₂ is the Taylor polynomial for cosine and R₂ is the corrresponding remainder term, then 
+
+	(look at eXample_10_insert_formula_3)
+	

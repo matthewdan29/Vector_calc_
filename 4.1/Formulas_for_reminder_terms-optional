@@ -1,0 +1,14 @@
+Under slightly stricter hypotheses than those appearing in Theorems 1.3 and 1.5, integeral formulas for the reminder terms may be derived as follows. 
+Set h = x - a. 
+If f is of class C², then 
+
+		(look at file Remainder_terms_formula_1)
+
+If f is of class C³, then 
+
+		(look at file Remainder_terms_formula_2)
+
+Althought explict, these formulas are not very useful in practice. 
+By artful application of Taylor's formula for a single varibale, we can arrive at derivative versions of these remainder terms (known as Lagrange's form of the remainder) that are similar to those in the one-variable case. 
+
+

@@ -1,0 +1,6 @@
+Recall that the formula for the first-order Taylor polynomial p₁ was writen quite concisely in formula (5) by using vector and matrix notation. 
+It turns out that it is possible to do something similar for the second-order polynomial p₂. 
+The term "Hessian" comes from Ludwig Otto Hesse, the mathematician who first introduced it, not from the German mercenaries who fought in the American revolution. 
+Now let's look again at the formula for p₂ in Theorem 1.5: 
+
+		(Look at Hassain_insert_formula_1)

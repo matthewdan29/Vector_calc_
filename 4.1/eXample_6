@@ -1,0 +1,15 @@
+Let f(x, y) = x - y + 2x² + xy². 
+Then for (a, b) = (2, -1), we have that the increment is 
+
+		(Look at eXample_6_insert_function_1)
+
+We see that df consists of exactly the terms of Δf that are linear in Δx and Δy (i.e., appear to first power only). 
+This will always be the case, of course, since that is the nature of the first-order Taylor approximation. 
+Use of the differential approximation is often sufficient in prcatice, for when Δx and Δy are small, higher powers of them will be small enought to make virtually negligible contributions to Δf. 
+For example, if Δx and Δy are both 0.01, then 
+
+		df = (0.1 - 0.05) = 0.05
+
+and 
+
+		(Look at eXample_6_insert_formula_2)

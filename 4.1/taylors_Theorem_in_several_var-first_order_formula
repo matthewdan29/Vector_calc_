@@ -1,0 +1,16 @@
+For the moment, suppose that f:X ⊆ R² -> R is a function of two variables, where X is open in R² and of class C¹. 
+Then near the point (a, b) ∈ X, the best linear approxiamtion of f is provided by the equation given the tangent plane at (a, b, f(a, b))./ 
+This is, 
+
+		(Several_variable_taylor)
+
+Such an approximation is shown in Figure 4.5. 
+To generalize this situation to the case of a function f:X ⊆ R'' -> R of class C¹, we naturally us the equation for the tangent hyperplane. 
+This is, if 
+
+		(Several_var_2)
+
+Of course, the formula for p₁ can be written more compactly using either ∑-notation or, better still, matrices: 
+
+		(Several_var_3)
+

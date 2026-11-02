@@ -1,0 +1,3 @@
+Among all classes of functions of one or several variables, polynomials are without a doubt the nicest in that they are continuous and differentiable everywhere and display intricate and interesting behavior. 
+Our goal in this section is to provide a means of approximating any-valued function by a polynomial of given degree, known as the Taylor Polynomial. 
+Because of the relative ease with which one can calculate with them, Taylor polynomials are usedful for work in computer graphics and computer-aided design, to name just two areas. 

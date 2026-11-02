@@ -1,0 +1,19 @@
+Let f(x₁, x₂, x₃, x₄) = x₁ + 2x₂ + 3x₃ + 4x₄ + x₁x₂x₃x₄. 
+Then 
+
+		(Look at Example_4_insert_formula_1)
+
+Note that p₁ contains precisely the linear terms of the original function f. 
+On the other hand, if a = (1, 2, 3, 4), then 
+
+		(Look at eXample_4_insert_formula_2)
+
+The relevant theorem regarding the first-order Taylor polynomial is just a restatment of the definition of differentiabiliy. 
+Howevery, since we plan to consider higher-order Taylor polyomials, we state the theorem explicitly. 
+
+		(Look at file Theorem_1.3)
+
+Note that we may also express the first-order Taylor polynomial using the gradient. 
+In place of (4), we would have 
+
+		p₁(x) = f(a) + ∇f(a) * (x - a)

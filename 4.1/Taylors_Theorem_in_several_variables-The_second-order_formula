@@ -1,0 +1,36 @@
+Suppose f: X ⊆ R² -> R is a C² function of two variables. 
+Then we know that the tangent plane gives rise to a linear approximation p₁ of f near a given point (a, b) of X. 
+We can improve on this result by looking for the quadric surface that best approximates the graph of z = f(x, y) near (a, b, f(a, b)). 
+See Figure 4.9 for an illustration. 
+That is, we search for a degree 2 polynomial p₂(x, y) = Ax² + Bxy + Cy² + Dx + Ey + F such that, for (x, y) almost equal (a, b), 
+
+		f(x, y) almost equal p₂(x, y)
+
+
+Analogous to the linear approximation p₁, it is reasonable to require that p₂ and all of its first- and second-order partial derivatives agree with those of f at the point(a, b). 
+That is, we demand
+
+		(look at taylor_second_order_insert_formula_1)
+
+After some algebra, we see that the only second-degree polynomial meeting these requirements is 
+
+		(look at taylor_second_order_insert_formula_2)
+
+
+How does formula (7) generalize to functions of n varibales?
+We need to begin by demanding conditions analogous to those in (6) for a function f: X ⊆ R'' -> R.
+
+For a = (a₁, a₂, ..., a(sub(n))) ∈ X, these conditions are 
+
+		(look at taylor_second_order_insert_formula_3)
+
+If you do some algebra (which we omit), you will find that the only polynomial of degree 2 that satisfies the conditions in (8) is 
+
+		(look at taylor_second_order_insert_formula_4)
+
+(Note that the second sum appearing in (9) is a double sum consisting of n² terms)
+To check that everything is consistent when n = 2, we have 
+
+		(look at taylor_second_order_insert_formula_5)
+
+When f is a C² function, the two mixed particals are the same, so this formula agrees with formula (7)

@@ -1,0 +1,21 @@
+The formula for the volume of a cylinder of radius r and height h is V(r, h) = πr²h. 
+If the dimensions are changed by small amounts Δr and Δh, then the resulting change ΔV in volume is approximated by the differential change dV. 
+That is, 
+
+	(look at example_8_insert_formula_1)
+
+Suppose the cylinder is actually a beer can, so that it has approximate dimensions of r = 1 in and h = 5 in. 
+Then 
+
+		dV = π(10Δr + Δh). 
+
+This statement shows that, for these particular values of r and h, the volume is approxmately 10 times more sensitive to change in radius than changes in height. 
+That is, if the radius is changed by and amount e, then the height must be changed by roughly 10e to keep the volume constant (i.e., to make ΔV zero). 
+We use the word "approximate" because our analysis arises from considering the differetial change dV rather than the actual incremental change ΔV. 
+
+This beer can example has real application to product marketing strategies. 
+Because the volume is so much more sensitive to changes in radius than height, it is possible to make a can appear to be larger than standard by decreasing its radius slightly (little enough so as to be hardly noticeable) and increasing the height so no change in volume results. 
+See Figure 4.8
+This sensitivity analysis shows that even a tiny decrease in radius can force an appreciable compensating increase in height. 
+The result can be quite striking, and these ideas apparently have been adopted at least one brewery. 
+Indeed, this how the author came to fully appreciate differentials and sensitivity anaysis

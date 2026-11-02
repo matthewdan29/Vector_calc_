@@ -1,0 +1,20 @@
+A wooden rectangular block is to be manufactured with dimensions 3 in x 4 in x 6 in. 
+Suppose that the possible errors in measuring each dimension of the block are the same. 
+We use differentials to estimate how accurately we must measure the dimensions so that resulting calculated error in volume is no more than 0.1 in³. 
+Let the dimensions of the block be denoted by x (almost equal 3 in), y ( almost equal 4), and z (almost equal 6). 
+Then the volume of the block is 
+
+		V = xyz and V almost equal 3 * 4 * 6 = 72 in³. 
+
+The error in calculated volume is ∇V, which is approximated by the total differential dV. 
+Thus, 
+
+		(Look at example_7_insert_formula_1)
+
+
+If the error in measuring each dimension is e, then we have Δx = Δy = Δz = e. 
+Therefore, 
+
+		(Look at example_7_insert_formula_2)
+
+So the measurements in each dimension must be accurate within 0.0019

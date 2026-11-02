@@ -1,0 +1,10 @@
+Suppose f(x, y, z) = sin(xyz) + cos(xyz). 
+Then 
+
+		(Look at file eXample_5_insert_function_1)
+
+The geometry of the differential arises, naturally enough, from tangent lines and planes. 
+(See Figures 4.6 and 4.7)
+In particular, the incremental change Δf measures the change in the height of the graph of f when moving from a to a + h; the differential change df measures the corresponding change in the height of the graph of the (hyper)plane tangent to the graph at a. 
+When ||h|| is small (i.e., when a + h is close to a). 
+the differential df approximates the increment Δf and it is often easier from a technical standpoint to work with the differential 

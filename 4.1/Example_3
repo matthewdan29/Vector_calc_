@@ -1,0 +1,10 @@
+the fifth-order Taylor polynomial of f(x) = cos(x) about x = π/2 is 
+
+		(Look at eXample_3_formula_1)
+
+where z is some number between π/2 and x.
+Since |cos(x)| is never larger than 1, we have 
+
+		(Look at eXample_3_formula_2)
+
+In other words, the use of the polynomial p₅ above in place of cos(x) will be accurate to at least 0.0209 throughout the interval [0, π]

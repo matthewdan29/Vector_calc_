@@ -1,0 +1,12 @@
+For f(x, y) = cos(x) cos(y), we have 
+
+		(Look at file Example_12_insert_formula_1)
+
+since all partial derivatives of f will be a product of sines and cosines and, hence, no larger than 1 in magnitude. 
+Expanding the sum, we got 
+
+		(Look at file eXample_12_insert_formula_2)
+
+So thoughtout the square of side 0.2 centered at the origin and shown in Figure 4.10, the second-order Taylor polynomial is accurate to at least 0.00013 as a n approximation of f(x, y) = cos(x)cos(y). 
+In Figure 4.11, we show the graph of f(x, y) = cos(x)cos(y) over the square domain {(x, y) | -1 =< x =< 1, -1 =< y =< 1} together with the graph of its second-order Taylor polynomial p₂(x, y) = 1 - 1/2 x² - 1/2 y². 
+Note how closely the surfaces coincide near the point (0, 0, 1), just as the analysis above indicates
