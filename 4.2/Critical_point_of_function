@@ -1,0 +1,11 @@
+Let X be open in R'' and f:X ⊆ R'' -> R a scalar-valued function. 
+When n = 2, local extrema of f(x, y) are precisely the pits and peaks of the surface given by the graph of z = f(x, y), as suggested by Figure 4.12. 
+We emphasize our use of the adjective "local". 
+When a local maximum of a function f occurs at a point a, this means that the values of f at points near a can be no larger, not that all values of f are no larger. 
+Indeed, f may have local maxima and no global (or absolute) maximum. 
+Consider the graphs in Figure 4.163. 
+(Of course, analogous comments apply to local and global minimua)
+
+Recall that, if a differentiable function of one variable has a local extremum at a point, then the derivative vanishes there (i.e., the tangent line to the graph of the function is horizontal)
+Figures 4.12 and 4.13 suggest strongly that, if a function of two variables has a local maximum or minimum at a point in the domain then the tangent plane at the corresponding point of the graph must be horizontal. 
+Such is indeed the case, as the following genreral result (plus formula 4 of 2.3) implies. 

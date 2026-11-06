@@ -1,0 +1,19 @@
+To get a feeling for what happens in the case of a degenerate critical point (i.e., a critical point a such that det Hf(a) = 0), consider the three functions
+
+		(look at file Example_7_insert_function_1)
+
+We leave it to you to check that the origin (0, 0) is a degernrate critical point of each of these functions. 
+(In fact, the Hessians themselves look very similar)
+Since f is 0 at (0, 0) and strictly positive at all (x, y) != (0, 0), we see that f has a strict minimum at the origin. 
+Similar reasoning shows that g has a strict maximum at the origin. 
+For h, the situation is slightly more complicated. 
+Along the y-axis, we have h(0, y) = y⁴, which is zero at y = 0 (the origin) and strictly positive everywhere else. 
+Along the x-axis, 
+
+	h(x, 0) = x⁴ - x² = x²(x - 1)(x + 1)
+
+For -1 < x < 1 and x != 0, h(x, 0). 
+We have the situation depicted in Figure 4.19. 
+Thus, every neighborhood of (0, 0) cointains some points (x, y) where h is positive and also some point where h is negative. 
+Therefore, h has a saddle point at the origin. 
+The "mroal of the story" is that a degenerate critical point can exhibit any type of behavior, and more detailed consideration of the function itself, rather than its Hessian, is necesary to understand its nature as a site of an extremum

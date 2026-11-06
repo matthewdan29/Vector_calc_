@@ -1,0 +1,20 @@
+Thus far our discussion has been limited to consideration of only local extrema. 
+We have said nothing about how to identify global extrema, because there really is no general, effective method for looking at an arbitrary function and determining whether and where it reaches an absolute maximum or minimum value. 
+For the purpose of applications, where finding an absolute maximum or minimum is essential, such a state of affairs is indeed unfortunate. 
+Nonetheless, we can say something about global extrema for functions defined on a certain type of domain. 
+Recall that X is closed if it contains all the points that make up its boundary.
+
+See Definition 2.3 of 2.2
+To say that X is bounded means that there is some (open or closed) ball B that contains it. 
+(That is, X is bounded if there is some positive number M such that ||x|| < M for all x ∈ X)
+Thus, compact sets contain their boundaries (a consequence of being closed) and have only finite extent (a consequence of being bounded). 
+Some typical compact sets in R² and R³ are shown in Figure 4.20. 
+
+For our purposes the notion of compactness is of value because of the next result, which we state without proof.
+
+We need the compactness hypothesis since a function defined over a noncompact domain may increase or decrease without bound and, hence, fail to have any global extremum, as suggested by Figure 4.21. 
+This is analogous to the situation in one variable where a continuous function defined on an open interval may fail to have any extrema, but one defined on a closed interval (which is a compact subset of R) must attain both maximum and minimum values. 
+See Figure 4.22
+In the one-variable case, extrema can occur either in the interior of theinterval or else at the endpoints. 
+THerefore, you must compare the values of f at any interior critical points with those at the endpoints to determine which is largest and smallest. 
+In the case of functions of n variables, we do something similar, namely, compare the vales of functions of f at any critical points with values at any restricted critical points that may occur along the boundary of the domain. 

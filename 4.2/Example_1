@@ -1,0 +1,9 @@
+If f(x, y) = x² - y², then Df(x, y) = [2x - 2y] so that, clearly, (0, 0) is the only critical point. 
+However, neither a maximum nor a minimum occurs at (0, 0). 
+Indeed, inside every open dixk centered at (0, 0), no matter how small,m there are points for which f(x, y) > f(0, 0) = 0 and so points where f(x, y) < f(0, 0) = 0 and also points where f(x, y) < f(0, 0). 
+See Figure 4.15
+
+The type of critical point is called a saddle point. 
+Its name derives from the fact that the graph of z = f(x, y) looks somewhat like a saddle 
+See Figure 4.16
+

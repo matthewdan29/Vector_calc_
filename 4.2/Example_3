@@ -1,0 +1,80 @@
+			(Hey, I'm using δf/δx and where 'δ' is the partial dirivative sign)
+
+We find the extrema of 
+
+	f(x, y) = x² + xy + y² + 2x - 2y + 5 
+
+Since f is a polynomial, it is differentiable everywhere, and Theorem 2.2 implies that any extremum must occur when δf/δx and δf/δy vanish simultaneously. 
+Thus, we solve
+		
+		(Look at file eXample_3_insert_formula_1)
+
+adn find that the only solution is x = -2, y = 2. 
+Consequently, (-2, 2) is a maximum or minimum (or neither), we could try graphing the function and drawing what we hope would be an obvious conclusion.
+Of course, such a technique does not extend to functions of more than two variables, so a graphical method is of limited value at best. 
+Instead, we'll see how f changes as we move away from the ciritical point: 
+
+		(Look at file eXample_3_insert_function_2)
+
+If the quantity Δf = h² + hk + k² is nonnegative for all small values of h and k, then (-2, 2) yields a local minimum. 
+Similarly, if Δf is always nonpositive, then (-2, 2) must yield a local maximum.Finially, if Δf is positive for some values of h and k and negative for others, then (-2, 2) is a saddle point. 
+To dtermine which possibility holds, we complete the square: 
+
+	Δf = h² + hk + k² = h² + hk + 1/4k² = (h + 1/2 k)² + 3/4 k². 
+
+Thus, Δf >= 0 for all values of h and k, so (-2, 2) necessarily yields a local minimum. 
+
+Example 3 which its attendant algebra clearly demonstrates the need for a better way of dtermining when a critical point yields a local maximum or minimum (or niether). 
+In the case of a twice differentiable function f:X ⊆ R -> R, you already know a quick method, namely, consideration of the sign of the second derivative. 
+This method derives from looking at the second-order Taylor polynomial of f near the critical point a, namely, 
+
+	(Look at file eXample_3_insert_function_3)
+
+sine f' is zero at the critical point a of f. 
+If f''(a) > 0, the graph of y = p₂(x) is an upward-opening parabola, as in Figure 4.17, whereas if f''(a) < 0, then the graph of y = p₂(x) looks like the one shown in Figure 4.18. 
+If f''(a) = 0, then the graph of y = p₂(x) is just a horizontal line, and we would need to use a higher-order Taylor polynomial to determin if f has an extremum at a. 
+(You may recall that when f''(a) = 0, the second derivative test from single-variable caluclus gives no information about the nature of the critical point a.)
+The concept is similar in the context of n variables. 
+Suppose that 
+
+		f(x) = f(x₁, x₂,...,x(sub(n)))
+
+is of class C² and that a = (a₁, a₂, ..., a(sub(n))) is a critical point of f. 
+Then the second-order Taylor approximation of f gives 
+
+		(look at file eXample_3_insert_function_4)
+
+when x ≈ a. 
+See theorem 1.5 and formula 10 in 4.1
+Since f is of class C² and a is a critical point, all the partial derivatives vanish at a, so that we have Df(a) = 0 and, hence, 
+
+		Δf ≈ 1/2 (x - a)^T Hf(a)(x - a)
+
+The approximation in 1 suggest that we may be able to see whether the increment Δf remains positive (respectively, remains negative) for x near a and, hence, whether f has a local minimum (respectively, a local maximum) at a by seeing what happens to the right side. 
+Note that the right side of 1, when expanded, is quadratic in the terms (x(sub(i)) - a(sub(i))). 
+More generally, a quadratic form in h₁, h₂, ..., h(sub(n)) is a function Q that can be written as 
+
+		(Look at file eXample_3_insert_formula_5)
+
+where B = (b(sub(ij))). 
+Note that the function Q is unchanged if we replace all b(sub(ij)) with 1/2 (b(sub(ij)) + b(sub(ji))). 
+Hence, we may always assume that the matrix B associated to Q is symmetric, that is, that b(sub(ij)) = b(sub(ij)) (or, equivalently, that B^T = B). 
+Ignoring the factor of 1/2, we see that the right side of 1 is the quadratic form in h = x - a, corresponding to the matrix B = Hf(a). 
+A quadratic form Q(respectively, its associated symmetric matrix B) is said to be positive definite if Q(h) < 0 for all h != 0 and negative definite if Q(h) < 0 for all h != 0. 
+Note that if Q is positive definite, then Q has a global minimum at h = 0. 
+The importance of quadratic forms to us is that we can judge whether f has a local extremum at a critical point a by seeing if the quadratic form in the right side of 1 has a maximum or minimum at x = a. 
+
+In view of Theorem 2.3, the issue thus becomes to determine when the Hessian Ff(a) is positive or negative definite. 
+Fortunately, linear algebra provides an effective means for making such a determination, which we state without proof. 
+Given a symmetric matrix B (which, as we have seen, corresponds to a quadratic form Q), let B(sub(k)), for k = 1, ..., n, denote the upper leftmost k x k submatrix of B. 
+Calculate the following sequence of determinants: 
+		
+
+		(Look at file eXample_3_insert_function_6)
+
+If this sequence consists entirely of positive numbers, then B and Q are positive definite. 
+If this sequence is such that det B(sub(k)) < 0 for k odd and det B(sub(k)) > 0 for k even, then B and Q are negative definite. 
+Finally, if det B != 0, but the sequence of determinants det B₁, det B₂, ..., det B(sub(n)) is neither of the first two types, then B and Q are neither positive nor negative defintie. 
+Combining these remarks with Theorem 2.3, we can establish the following test for local extrema: 
+
+		(Look at file Second_derivative_test_for_local_extrema)

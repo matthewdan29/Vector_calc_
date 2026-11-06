@@ -1,0 +1,13 @@
+(Second derivative test for functions of two variables)
+Let us generalize Example 4.
+Suppose that f(x, y) is a function of two variables of class C² and further suppose that f has a critical point at a = (a, b). 
+The hassian matrix of f evaluated at (a, b) is 
+
+		(look at file example_5_insert_function_1)
+
+Note that we have used the fact that f(sub(xx)) = f(sub(yx)) (since f is of class C²) in constructing the Hessian. 
+The squence of principal minor thus consists of two numbers: 
+
+		(look at file example_5_insert_function_2)
+
+Note that if f(sub(xx))(a, b) f(sub(yy))(a, b) - f(sub(xy))(a, b)² = 0, then f has a degenerate critical point at (a, b) and we cannot immediately determin if (a, b) is the site of a local extremum of f. 

@@ -1,0 +1,24 @@
+Let f(x, y, z) = x³ + xy² + x² + y² + 3z². 
+To find any local extrema of f, we must first identify the critical points. 
+Thus, we solve
+
+		Df(x, y, z) = [3x² + y² + 2x, 2xy + 2y, 6z] = [0 0 0]
+
+From this, it is not hard to see that there are two critical points: (0, 0, 0) and (-2/3, 0, 0). 
+The Hessian of f is 
+
+		(Look at file example_6_insert_function_1)
+
+At the critical point (0, 0, 0), we have 
+
+		(look at file example_6_insert_function_2)
+
+and its sequence of principal minors is d₁ = 2, d₂ = 4, d₃ = 24. 
+Since these determinants are all postive, we conclude that f has a local minimum at (0, 0, 0). 
+At (-2/3, 0, 0), we calculate that 
+
+		(look at file example_6_insert_function_3)
+
+The sequence of minors is -2, -4/3, -8. 
+Hence, f has a saddle point at (-2/3, 0, 0)
+		

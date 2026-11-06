@@ -1,0 +1,14 @@
+Consider the function f(x, y) = e^(1 - 3x² - y²) defined on all of R² (so the domain is certainly not compact). 
+Verifying that f has a unique critical point at (0, 0) is straightforward. 
+For all (x, y) ∈ R², we have 
+
+		1 - 3x² - y² =< 1
+
+Therefore, because the exponential function is always increasing (i.e., if u₁ =< u₂, then e^(u₁) =< e^(u₂)), 
+
+		e^(1 - 3x² - y²) =< e¹ = e
+
+As f(0, 0) = e, we see that f has a global maximum at (0, 0). 
+
+WARNING: It is tempting to assume that if a function has a unique critical point hat is a local extremum, then it must be a global extremum as well. 
+Although true for the case of a function of a single varibale, it is not true for functions of two or more varibales. 

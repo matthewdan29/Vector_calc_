@@ -1,0 +1,79 @@
+Let T: X ⊆ R² -> R be given by 
+
+		T(x, y) = x² - xy + y² + 1
+
+where X is the closed square in Figure 4.23. 
+(Note that X is compact. )
+Think of the square as representing a flat metal plate and the function T as the temperature of the plate a each point. 
+Finding the global extrma amounts to finding the warmest and coldest points on the plate. 
+According to Theorem 2.5, such oints must exist.
+
+
+We need to find all possible critical points of T. 
+Momentarily considering T as a function on all of R², we find the usual critical points by setting DT(x, y) equal to 0.
+The resutl is the system of two equations 
+
+		2x - y = 0
+		-x + 2y = 0
+
+which has (0, 0) as its only solution. 
+Whether it is a local maximum or minimum is not important for now, because we seek global extrema. 
+Because there is only one critical point, at least one global extremum must occur along the boundary of X (which consists of the four edges of the square)
+We now find all critical points of the restriction of T to this boundary: 
+
+	1) The bottom edge of X is the set 
+
+		E₁ = {(x, y) | y = -1, -1 =< x =< 2}. 
+
+The restriction of T to E₁ defines a new function f₁: [-1, 2] -> R given by
+
+		f₁(x) = T(x) = T(x, -1) = x² + x + 2
+
+As f'₁(x) = 2x + 1, the function f₁ has a critical point at x = -1/2. 
+Thus, we must examine the following points of X for possible extrema: (-1/2, -1), (-1, -1), and (2, -1). 
+(The first point is the critical point of f₁, and the second two are the vertices of X that lie on E₁)
+
+	2) The top edge of X is given by
+	
+		E₂ = {(x, y) | y = 2, -1 =< x =< 2}. 
+
+
+Consequently, we define f₂: [-1, 2] -> R by
+
+		f₂(x) = T(x, 2) = x² - 2x + 5
+
+(f₂ is the restriction of T to E₂)
+We calculate f'₂(x) = 2x - 2, which implies that x = 1 is a critical point of f₂. 
+Hence, we must consider (1, 2), (-1, 2), and (2, 2) as possible sites for global extrema of T. 
+(The points (-1, 2) and (2, 2) are the remaining two vertices of X)
+
+		3) The left edge of X is 
+
+			E₃ = {(x, y) | x = -1, -1 =< y =< 2}
+
+Therefore, we define f₃: [-1, 2] -> R by
+
+			f₃(y) = T(-1, y) = y² + y + 2
+
+We have f'₃(y) = 2y + 1, and so y = -1/2 is the only critical point of f₃. 
+Thus (-1, -1/2) is a potential site of a global extremum. 
+(We need not worry again about the vertices (-1, -1) and (-1, 2))
+
+		4) The right edge of X is 
+	
+			E₄ = {(x, y) | x = 2, -1 =< y =< 2}
+
+We define f₄: [-1, 2] -> R by 
+
+			f₄(y) = T(2, y) = y² - 2y + 5
+
+We have f'₄(y) = 2y - 2, and so y = 1 is the only critical point of f₄. 
+Hence, we must include (2, 1) in our consideration. 
+
+COnsequently, we have nine possible locations for global extrema, shown in Figure 4.24. 
+Now we need only to compare the actual values of T at these points to see that (0, 0) is the coldest point on the plate and both (2, -1) and (-1, 2) are the hottest points. 
+
+In function is defined over a noncompact region, there is no general result like the extreme value theorem (Theorem 2.5) to guarantee existence of any global extrema. 
+However, ad hoc arguments frequently can be used to identify global extrema. 
+
+

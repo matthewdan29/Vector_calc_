@@ -1,0 +1,12 @@
+Consdier the function
+
+		f(x, y) = x² + xy + y² + 2x - 2y + 5
+
+in Example 3. 
+We have already seen that (-2, 2) is the only critical point. 
+The Hessian is 
+
+		(look at file eXample_5_insert_function_1)
+
+The sequence of principal minors is d₁ = f(sub(xx))(-2, 2) = 2 (>0), d₂ = |Hf(-2, 2)| = 3 (>0). 
+Hence, f has a minimum at (-2, 2), as we saw before, but this method uses less algebra. 
