@@ -1,0 +1,21 @@
+Consider the problem of finding the extrema of f(x, y) = x²/4 + y² subject to the condition that x² + y² = 1. 
+We let g(x, y) = x² + y², and so the Lagrange multiplier equation ∇f(x, y) = λ∇g(x, y), along with the constraint equation, yields the system 
+
+		{ x/2  = 2λx 
+		{ 2y = 2λy
+		{ x² + y² = 1
+
+(There are no points simultaneously satisfying g(x, y) = 1 and ∇g(x, y) = (0, 0))
+The first equation of this system implies that either x = 0 or λ = 1/4. 
+If x = 0, then the second two equations, taken together, imply that y = +- 1 and λ = 1. 
+If λ = 1/4, then the second two equations imply y = 0 and x = +- 1. 
+Therefore, there are four constrained critical points: (0, -+ 1), corresponding to λ = 1, and (-+ 1, 0), correspoinding to λ = 1/4. 
+
+We can understand the nature of these critical points by using geometry and the preceding remarks. 
+THe collection of level sets of the function f is the family of ellipses x²/4 + y² = k whose major and minor axes lie along the x- and y- axes, respectively. 
+In fact, the value f(x, y) = x²/4 + y² = k is the square of the length of the semiminor axis of the ellipse x²/4 + y² = k. 
+the optimization problem then is to find those points on the unit circle x² + y² = 1 that, when considered as points in the family of ellipses, minimize and maximize the length of the minor axis. 
+When we view the problem in this way, we see that such points must occur when the circle is tangent to one of the ellispses in the family. 
+A sketch shows that constrained minima of f occur at (-+ 1, ) and constrained maxima at (0, -+ 1). 
+In this case, the Lagrange multipiler λ represents the square of the length of the semiminor axis 
+See Figure 4.26

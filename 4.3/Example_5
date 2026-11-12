@@ -1,0 +1,76 @@
+Suppose the cone z² = x² + y² is sliced by the plane z = x + y + 2 so that a conic section C is created. 
+We use Lagrange multipliers to find the points on C that are the nearest to and farthest from the origin in R³. 
+The problem is to find the minimum and maximum distance from (0, 0, 0) of points (x, y, z) on C. 
+For algebriac simplicity, we look at the square of the distance rather than the actual distance. 
+Thus, we desire to find the extrema of 
+
+		f(x, y, z) = x² + y² + z²
+
+(the sqare of the distance from the origin to (x, y, z)) subject to the constraints
+
+		g₁(x, y, z) = x² + y² - z² = 0
+		g₂(x, y, z) = x + y - z = -2
+
+Note that 
+
+	∇g₁(x, y, z) = (2x, 2y, -2z) and ∇g₂(x, y, z) = (1, 1, -1)
+
+These vectors are linearly dependent only when x = y = z. 
+However, no point of the form (x, x, x) simultaneously satisfies g₁ = 0 and g₂ = -2. 
+Hence, ∇g₁ and ∇g₂ are linearly independent at all points that satisfy the two constraints. 
+Therefore, by Theorem 3.2, we know that any constrained critical points (x₀, y₀, z₀) must satisfy
+
+		∇f(x₀, y₀, z₀) = λ₁∇g₁(x₀, y₀, z₀) + λ₂∇g₂(x₀, y₀, z₀)
+
+
+As well as the two constraint equations. 
+Thus, we must solve the system 
+
+		(Look at file Example_5_insert_function_1)
+
+Eliminating λ₂ from the first two equations yields 
+
+		λ₂ = 2x - 2λ₁x = 2y - 2λ₁y, 
+
+which implies that 
+
+		2(x - y)(1 - λ₁) = 0
+
+
+Therefore, either
+
+		x = y or λ₁ = 1
+
+The condition λ₁ = 1 implies immediately λ₂ = 0, and the third equation of the system becomes 2z = -2z, so z must equal 0.
+If z = 0, then x and y must be zero by the fourth equation. 
+However, (0, 0, 0) is not a point on the plane z = x + y + 2. 
+Thus, the condition λ₁ = 1 leads to no critical point. 
+On the other hand, if x = y, then the constraint equations (the last two in the original system of five) become
+
+		{ 2x² - z² = 0
+		{ 2x - z = -2
+
+Substituting z = 2x + 2 yields 
+
+		2x² - (2x + 2)² = 0
+
+equivalent to 
+
+		2x² + 8x + 4 = 0
+
+whose solutions are x = -2 -+ √(2). 
+Therefore, there are two constrained critical points 
+
+		
+		(Look at example_5_insert_function_2)
+
+so it seems that a₁ must be the point on C lying nearest the origin, and a₂ must be the point that lies farthest. 
+However, we don't know a priori if there is a farthest point. 
+If the conic section C is a hyperbola or a parabola, then there is no point that is farthest from the origin. 
+To understand what kind of curve C is, note that a₁ has positive z-coordinate and a₂ has negative z-coordinate. 
+Therefore, the plane z = x + y + 2 intresects both nappes of the cone z² = x² + y². 
+he only conic section that intersects both nappes of a cone is a hyperbola. 
+Hence, C is a hyperbola, and we see that the point a₁ is indeed the point nearest the origin, but the point a₂ is not the farthest point. 
+Instead, a₂ is the point nearest the origin on the branch of the hyperbola not containing a₁. 
+That is, local constrained minima occur at both a₁ and a₂, but only a₁ is the site of the global minimum. 
+See Figure 4.30

@@ -1,0 +1,19 @@
+In Example 5, we found points on the conic section C defined by equations
+
+		{ g₁(x, y, z) = x² + y² - z² = 0
+		{ g₂(x, y, z) = x + y - z = -2
+
+that are (constrained) critical points of the "distance" function
+
+		f(x, y, z) = x² + y² + z² 
+
+To appy the Hessian criterion in this case, we construct the Lagrangian function
+
+	L(l, m; x, y, z) = x² + y² + z² - l(x² + y² - z²) - m(x + y - z + 2)
+
+The Critical points of L, found by setting DL(l, m; x, y, z) equal to 0, are 
+
+		(Look at file example_7_insert_function_1)
+
+Since both numbers are positive, the points (-2 -+ √(2), -2 +- 2√(2)) are both sites of local minima. 
+By comparing the values of f at these two points, we see that (-2 + √(2), -2 + √(2), -2 + 2√(2)) must be the global minimum. 

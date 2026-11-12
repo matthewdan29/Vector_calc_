@@ -1,0 +1,33 @@
+Defintion 2.4
+
+A subset X ⊆ R'' is said o be compact if it is both closed and bound 
+
+-------------------------------------------------------------------------------
+
+Theorem 2.5 (Extreme value Theorem)
+
+If X ⊆ R'' is compact and f: X -> R is continuous, then f must have both a global maximum and a global minimum somewhere on X. 
+That is, there must exist points a(sub(max)) and a(sub(min)) in X such that, for all x ∈ X, 
+
+		f(a(sub(min))) =< f(x) =< f(a(sub(min)))
+272
+
+------------------------------------------------------------------------
+
+Look at the file in 4.2 called critical_points_of_functions and Definition_2.1
+
+------------------------------------------------------------------------------
+
+The Lagrange Multiplier
+
+Theorem 3.1
+
+Let X be open in R'' and f, g: X -> R be functions of class C¹. 
+Let S = {x ∈ X | g(x) = c } denote the leve set of g at height c. 
+Then if f |s (the restriction of f to S) has an extremum at a point x₀ ∈ S such that ∇g(x₀) != 0, there must be some scalar λ such that 
+
+		∇f(x₀) = λ∇g(x₀)
+
+Reread example 2 file 
+
+280

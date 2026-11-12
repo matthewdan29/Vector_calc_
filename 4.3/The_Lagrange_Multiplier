@@ -1,0 +1,29 @@
+The previous discussion points to the desirability of having another method for solving constrained optimization problems. 
+THe key to such an alternative method is the following theorem: 
+
+		(Look at file Theorem_3.1)
+
+The conclusion of Theorem 3.1 implies that to find possible sites for extrema of f subject to the constraint that g(x) = c, we can proceed in the following manner: 
+
+	1) For the vector equation ∇f(x) = λ∇g(x). 
+
+	2) Solve the system 
+
+			{ ∇f(x) = λ∇g(x)
+			{ g(x) = c
+
+for x and λ. 
+When expaneded, this is actually a system of n + 1 equations in n + 1 unknowns x₁, x₂, ..., x(sub(n)), λ, namely, 
+
+			(Look at file example_1_insert_function_5)
+
+The solutions for x = (x₁, x₂, ..., x(sub(n))) in the system above, along with any other points x satisfying the constraint g(x) = c and such that ∇f is undefined, or ∇g vanishes or is undefined, are the candidates for extrema for the problem. 
+
+	3) Determine the nature of f (as maximum, minimum, or neither) at the critcal points found in Step 2. 
+
+The scalar λ appearing in Theorem 3.1 is called a Lagrange multiplier. 
+In practice Step 2 can involve some algebra, so it is important to keep your work organized. 
+(Alternatively, you can use a computer to solve the system)
+In fact, since the Lagrange multiplier λ is usually not of primary intrest, you can avoid solving for it explicity, thereby reducing the algebra and arithmetic somewhat. 
+Determining the nature of a constrained critical point (Step 3) can be tricky business. 
+We'll have more to say about that issue in the examples and discussions that follow. 

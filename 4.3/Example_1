@@ -1,0 +1,57 @@
+An open rectangular box is to be manufactured having a (fixed) volume of 4 ft³.
+What dimensions should the box have so as to minimize the amount of material used to make it?
+
+We'll let the three dimensions of the box be independent variables x, y, and z, shown in Figure 4.25. 
+To determine how to use as little material as possible, we need to minimize the surface area function A given by
+
+		A(x, y, z) = 2xy (front and back) + 2yz (sides) + xz (bottom only)
+
+For x, y, z < 0, this function has neither minimum nor maximum. 
+However, we have not yet made use of the fact that the volume is to be maintained at a constant 4 ft³. 
+This fact provides a constraint equation, 
+
+		V(x, y, z) = xyz = 4
+
+The constraint is absoulutely essential if we are to solve the problem. 
+In particular, the constraint enables us to solve for z in terms of x and y: 
+
+		z = 4/xy 
+
+We can thus create a new area function of only two variables: 
+
+		(Look at file eXample_1_insert_function_1)
+
+Now we can find the critical points of a by setting Da equal to 0: 
+
+		(Look at file eXample_1_insert_fucntion_2)
+
+
+The first equation implies
+
+		(Look at file eXample_1_insert_function_3)
+
+The solutions to this equation are x = 0 (which we reject) and x = 2. 
+Thus, the critical point of a of interest is (2, 1), and the constrained critical point of the original function A is (2, 1, 2). 
+We can use the Hessian criterion to check that x = 2, y = 1 yields a local minimum of a: 
+
+		(Look at file eXample_1_insert_function_4)
+
+The sequence of minors is 2, 12 so we conclude that (2, 1) does yield a local minimum of a. 
+Because a(x, y) -> ∞ as either x -> 0^+, y -> 0^+, x -> ∞, or y -> ∞, we conclude that the critical point must yield a global minimum as well. 
+Thus, the solution to the original question is to make the box with a square base of side 2 ft and height of 1 ft. 
+
+The abstract setting for the situation discussed in Example 1 is to find maxima or minima of a function f(x₁, x₂,..,x (sub(n))) subject ot the constraint that g(x₁, x₂, ..., x(sub(n))) = c for some function g and constant c. 
+(In Example 1, the function f is A(x, y, z), and the constraint is xyz = 4)
+One method for finding constrained critical points is used implicityly in Example 1: Use the constrain equation g(x) = c to solve for one of the variables in terms of the others. 
+Then substitute for this variable in the expression for f(x), thereby creating a new functino of one fewer variables. 
+THis new function can then be maximized or minimized using techniques of 4.2. 
+The theory, this is an entirely appropriate way to approcah such problems, but in practice there is one major drawback: It may be impossible to solve explicitly for any one of the variables in terms of the others. 
+For example, you might wish to maximize
+
+		f(x, y, z) = x² + 3y² + y²z⁴
+
+subject to 
+
+		g(x, y, z) = e^(xy) - x⁵y²z + cos(x/yz) = 2
+
+There is no means of isolating any of x, y, or z on one side of the constraint equation, and so it is impossible for us to proceed any further along the lines of Example 1. 

@@ -1,0 +1,19 @@
+In Example 1, we found the minimum of the area function
+
+		A(x, y, z) = 2xy + 2yz + xz 
+
+of an open rectangular box subject to the condition
+
+		V(x, y, z) = xyz = 4
+
+Using Lagrange multipliers, we found that the open constrained critical point was (2, 1, 2).
+The value of the multiplier λ corresponding to this point is 2. 
+To use the Hessian criterion to check that (2, 1, 2) really does yield a local minimum, we construct the Lagrangian function
+
+		(Look at file example_6_insert_function_1)
+
+The sequence of determinants to consider is
+
+		(Look at file example_6_insert_function_2)
+
+Since these numbers are both positive, we see that (2, 1, 2) indeed minimizes the area of the box subject to the constant volume constraint. 

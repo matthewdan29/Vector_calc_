@@ -1,0 +1,21 @@
+Consider the problem of determining the extrema of f(x, y) = 2x + y subject to the constraint that √(x) + √(y) = 3. 
+We let g(x, y) = √(x) + √(y), so that the Lagrange multiplier equation ∇f(x, y) = λ∇g(x, y), along with the constraint equation, yields the system 
+
+		(Look at file Example_4_insert_function_1)
+
+The first two equations of the system imply that λ = 4√(x) = 2√(y) so that √(y) = 2√(x). 
+Using this in the last equation, we find the 3√(x) = 3 and, hence, x = 1. 
+Thus, the system of equations above yields the unique solution (1, 4). 
+Since the constraint defines a closed, bounded curve segment, the extreme value theorem (Theorem 2.5) applies to guarantee that f must attain both a global maximum and a global minimum on this segment. 
+However, the Lagrange multiplier method has provided us with just a single critical point. 
+But not that the points (9, 0) and (0, 9) satify the constraint √(x) + √(y) 3; they are both points where ∇g is undefined. 
+Moreover, we have f(1, 4) = 2, while f(9, 0) = 18 and f(0, 9) = 9. 
+Evidently then, the minimum of f occures at (1, 4) and the maximum at (9, 0). 
+
+We can understand the geometry of the situation in the following manner. 
+THe collection of level sets of the function f is the family of parallel lines 2x + y = k. 
+Note that the height k of each level set is just the y-intercept of the corresponding line in the family. 
+Thus, the problem we are considering is to find the largest and smallest y-intercepts of any line in the family that meets the curve √(x) + √(y) = 3. 
+These extreme values of k occur either when one of the lines is tangent to the constraint curve or at an endpoint of the curve. 
+See Figure 4.27
+This example illustrates the importance of locating all the points where extremea may occur by considering places where ∇f or ∇g is undefined (or where ∇g = 0) as well as the solutions to the system of equations determined using Lagrange multipliers

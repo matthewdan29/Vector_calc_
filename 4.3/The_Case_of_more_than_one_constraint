@@ -1,0 +1,6 @@
+It is natural to generalize the situation of finding extrema of a function f subject to a single constraint equation to that of finding extrema subject to several constraints. 
+In other words, we may wish to maximixze or minimize f subject to k simultaneous conditions of the form 
+
+		(Look at file constraint_equations)
+
+The result that generalizes Theorem 3.1 

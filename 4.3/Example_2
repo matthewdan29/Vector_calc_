@@ -1,0 +1,32 @@
+Let us use the method of Lagrange multipliers to identify the citical point found in Example 1. 
+Thus, we wish to find the minimum of 
+
+		A(x, y, z) = 2xy + 2yx + xz
+
+subject to constraint 
+
+		V(x, y, z) = xyz = 4
+
+THeorem 3.1 suggests that we form the equation 
+
+		∇A(x, y, z) = λ∇V(x, y, z). 
+
+This relation of gradients coupled with the constraint equation gives rise to the system 
+
+		{ 2y + z = λyz
+		{ 2x + 2z = λxz
+		{ 2y + x = λxy
+		{  xyz = 4
+
+Since λ is not essential for our final solution, we can eliminate it by means of any of the first three equations. 
+Hence, 
+
+		(Look at file example_2_insert_function_1)
+
+so that we find that the onlysolution is y = 1, x = z = 2, which agrees with our work in Example 1. 
+(Note that ∇V = 0 only along the corrdinate axes, and such points do not satisfy the constraint V(x, y, z) = 4)
+
+An interesting consequence of Theorem 3.1 is this: By Theorem 6.4 of Chapter 2, we know that the gradient ∇g, when nonzero, is perpendicular to the level sets of g. 
+Thus, the equation ∇f = λ∇g gives the condition for the normal vector to a level set of f to be parallel to that of a level set of g. 
+Hence, for a point x₀ to be the site of an extremum of f on the level set S = {x | g(x) = c}, where ∇g(x₀) != 0, we must have that the level set R of f that contains x₀ is tangent to S at x₀. 
+
