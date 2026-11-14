@@ -1,0 +1,32 @@
+The usefulness of amounts x₁, x₂, ..., x(sub(n)) of (repectively) different capital goods G₁, G₂, ..., G(sub(n)) can sometimes be measured by a function U(x₁, x₂, ..., x(sub(n))), called utility of these goods. 
+Perhaps the goods are individual electronic components needed in the manufacture of a stereo or computer, or perhaps U measures an individual consumer's utility for different commodities available at different prices. 
+If item G(sub(i)) costs a(sub(i)) per unit and if M is the total amount of money allocated for the purchase of these n goods, then the consumer or the company needs to maximize U(x₁, x₂, ..., x(sub(n))) subject to 
+
+		a₁x₁ + a₂x₂ + ... + a(sub(n)) x(sub(n)) = M
+
+This is a standard constrained optimization problem that can readily be approached by using the method of Lagrage multipliers. 
+
+For instance, suppose that you have a job ordering stationery supplies for an office. 
+The office needs three different types of products a, b, and c, which you will order in amounts x, y, and z, repsectively. 
+The usefulness of these products to the smooth operation of the office turns out to be modeled fairly well by the utility function U(x, y, z) = xy + xyz. 
+If product a costs $3 per unit, product b $2 a unit, and product c $1 a unit and the budget allows a total expenditure of not more than $899, what should you do?
+The answer should be clear: You need to maximize 
+
+		U(x, y, z) = xy + xyz subject to B(x, y, z) = 3x + 2y + z = 899
+
+The Lagrange multiplier equation, ∇U(x, y, z) = λ∇B(x, y, z), and the budget constraint yield the system 
+
+		(Look at file example_4_insert_formula_1)
+
+The last equality implies that either x = 0 or y = (z + 1)/2. 
+We can reject the first possibility, since U(0, y, z) = 0 and the utility U(x, y, z) > 0 whenever x, y, and z are all positive. 
+Thus, we are left with y = (x + 1)/2. 
+This in turn implies that λ = (z + 1)²/6. 
+Substituting for y in the constraint equation shows that x = (898 - 2z)/3, so that equation xy = λ becomes 
+
+		(Look at file example_4_insert_function_2)
+
+
+which is satisfied by either z = -1 (which we reject) or by z = 299.
+The only realistic critical point for this problem is (100, 150, 299). 
+We leave it to you to check that this point is indeed the site of a maximum value for the utility. 

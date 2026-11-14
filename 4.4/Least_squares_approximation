@@ -1,0 +1,68 @@
+The simplest relation between two quantities x and y is, without doubt, a linear one: y = mx + b (where m and b are constants). 
+When a biologist, chemist, psychologist, or economist postulates the most direct connection between two types of observed data, that connection is assumed to be linear. 
+Suppose that Bob Biologist and Carol Chemist have measured certain blood protein levels in an adult population and have graphed these levels versus the heights of the subjects as in Figure 4.33. 
+If Prof. Biologist and Dr. Chemist assume a linear relationship between the protein and height, then they desire to pass a line through the data as closely as possible, as suggested by Figure 4.34. 
+
+To make this standard empirical method of linear regression precise (instead of merely graphical and intuitive), we first need some notation. 
+Suppose we have collected n pairs of data (x₁, y₁), (x₂, y₂),...,(x(sub(n), y(sub(n)))). 
+(In the example just desribed, x(sub(i)) is the protein level of the ith subject and y(sub(i)) his or her height.)
+We assume that there is some underlying relationship of the form y = mx + b, and we want to find the constants m and b so that the line fits the data as accurately as possible. 
+Normally, we use the method of least squares. 
+The idea is to find the values of m and b that minimize the sum of the squares of the differences between the observed y-values and those predicted by the linear formula. 
+That is, we miniimize the quantity
+
+		(Look at LSA_insert_function_1)
+
+where, for i = 1, ..., n, y(sub(i)) represents the observed y-valued of the data, and mx(sub(i)) + b represents the y-valued predicted by the linear relationship. 
+Hence, each expression in D of the form y(sub(i)) - (mx(sub(i)) + b) represents the error between the observed and predicted y-values. 
+(See Figure 4.35)
+They are squared in the expression for D in order to avoid the possiblity of having large negative and positive terms cancel one another, thereby leaving little or no "net error," which would be misleading. 
+Moreover, D(m, b) is the suqre of the distance in R'' between the point (y₁, y₂, ..., y(sub(n))) and the point (mx₁ + b, mx₂ + b, ...., mx(sub(n)) + b). 
+Thus, we have an ordinary minimization problem at hand. 
+To solve it, we need to find the critical points of D. 
+First, we can rewrite D as 
+
+		(Look at LSA_insert_function_2)
+
+When we set both partial derivatives equal to zero, we obtain the following pair of equations, which have been simplified slightly: 
+
+		(Look at LSA_insert_function_3)
+
+(All sums are taken from i = 1 to n.)
+Although (2) may look complicated, it is nothing more than a linear system of two eqautions in the two unknows m and b. 
+
+It is important to see that system (2) has a single solution. 
+Therefore, we have shown the Following: 
+
+		(Look at file Proposition_4.1)
+
+
+Since D(m, b) is a quadratic polynomial in m and b, the graph of z = D(m, b) is a quadric surface. 
+(See 2.1)
+The only such surfaces that are graphs of functions are paraboloids and hyperbolic paraboloids. 
+We show that, in the present case, the graph is that of a paraboloid by demonstrating that D has a local minimum at the critical point (m₀, b₀) given in Proposition 4.1.
+We can use the Hessian criterion to check that D has a local minimum at (m₀, b₀). 
+We have 
+
+		(Look at file LSA_insert_function_4)
+
+
+The principal minors are 2Σx²(sub(i)) and 4nΣx²(sub(i)) - 4(Σx(sub(i)))². 
+The first minor is obviously postive, but determining the sign of the second requries a bit mor algebra. 
+Ignoring the factor of 4, we examine the expression nΣx²(sub(i)) - (Σx(sub(i)))². 
+Expanding the second term yields 
+
+		(Look at file LSA_insert_function_5)
+
+by counting the number of times a particular term of the form x²(sub(k)) appears in the left-hand sum.)
+(think of imaging processing into a reg expression)
+Thus, we have 
+
+		(Look at file LSA_insert_function_6)
+
+
+Because this last expression is a sum of squares, it is nonnegative. 
+Therefore, the Hessian criterion shows that D does indeed have a local minimum at the critical point. 
+Hence, the graph of z = D(m, b) is that of a paraboloid. 
+Since the (unique) local minimum of a paraboloid is in fact a global minimum (consider a typical graph), we see that D is indeed minimized at (m₀, b₀). 
+

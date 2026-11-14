@@ -1,0 +1,33 @@
+Near the surface of the earth, the gravitational field is approximately 
+
+		F = -mgk, 
+
+(We're assuming that, locally, the surface of the earth is repsrented by the plane z = 0)
+Note that F = -∇V, where
+
+		V(x, y, z) = mgz
+
+Now suppose a particle of mass m lies on a small sphere with equation
+
+		h(x, y, z) = x² + y² + (z - 2r)² = r², 
+
+We can find constrained equilibria for this situation, using a Lagrange multipiler. 
+The gradient equation ∇V = λ∇h, along with the constraint, yield the system
+
+		(Look at file example_3_insert_function_1)
+
+Because m and g are nonzero, λ cannot be zero. 
+The first two equations inply x = y = 0. 
+Therefore, the last equation becomes
+
+		(z - 2r)² = r², 
+
+which implies 
+
+		z = r, 3r
+
+are the solutions. 
+Consequently, the positions of equilibrium are (0, 0, r) and (0, 0, 3r) (corresponding to λ = -mg/2r and +mg/2r, respectively). 
+From geometric considerations, we see V is srictly minimized at S at (0, 0, r) and maximized at (0, 0, 3r) ass shown in Figure 4.40. 
+From physical consideratinos, (0, 0, r) is a stable equilibrium and (0, 0, 3r) is an unstable one. 
+(Try balancing a marble on top of a ball)

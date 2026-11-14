@@ -1,0 +1,12 @@
+Let F: X ⊆ R³ -> R³ be a continuous force field acting on a particle that moves along a path x: l ⊆ R -> R³ as in FIgure 4.37. 
+Newton's second law of motion states that 
+
+		F(x(t)) = mx''(t), 					(5)
+
+where m is the mass of the paritcle. 
+For the remainder of this discussion, we wil assume that F is a gradient field, that is, that F = -∇V for some C¹ potential function V: X ⊆ R³ -> R. 
+(See 3.3 for a brief comment about the negative sign.)
+We first establish the law of conservation of energy. 
+The term (1/2)m||x'(t)||² is usually referred to as the kinetic energy of the paritcle and the term V(x(t)) as the potential energy.
+The significance of Theorem 4.2 is that it states that the sum of the kinetic and potential energies of a particle is always fixed (conserved) when the particle travels along a path in a gradient vector field. 
+For this reason, gradient vector fields are also called conservative vector fields. 

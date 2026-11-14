@@ -1,0 +1,36 @@
+In 1928, C. W. Cobb and P.M. Douglas developed a simple model for the gross output Q of a company or a nation, indicated by the function
+
+		Q(K, L) = AK^a L^(1 - a), 
+
+where K represents the capital investment (in the form of machinery or other equipment), L the amount of labor used, and A and a positive constants with 0 < a < 1. 
+(The function Q is known now as the Cobb-Douglas production function)
+If you are president of a company or nation, you naturally wish to maximize output, but equipment and labor cost money and you have a total amount of M dollars to invest. 
+If the price of capital is p dollars per unit and the cost of labor (in the form of wages) is w dollars per unit, so that you are constrained by 
+
+		B(K, L) = pK + wL =< M, 
+
+what do you do?
+
+Again, we have a situation ripe for the use of Lagrange multipliers. 
+Before we consider the technical formalities, however, we consider a graphical solution. 
+Draw the level curves of Q called isoquants, as in Figure 4.41. 
+Note that Q increases as we move away from the origin in the first quadrant. 
+THe budget constraint means that you can only consider values of K and L that lie inside or on the shaded triagnle. 
+It is clear that the optimum solution occurs at the point (K, L) where the level curve is tangent to the constraint line pK + wL = M. 
+Here is the analytical solution: From the equation ∇Q(K, L) = λ∇B(K, L) plus the constraint, we obtain the system
+
+		(Look at file eXample-5_insert_function_1)
+
+Solving for p and w in the first two equations yields substitution of these values into the third equation gives 
+
+		(Look at file example_5_insert_function-2)
+
+This relation says that, at the optimum values, the marginal change in output per dollar's worth of extra capital equals the marginal change per dollar's worth of extra labor. 
+In other words, at the optimum values, exchanging labor for capital (or vice cersa) won't change the output. 
+Ths is by no means the case away from the optimum values. 
+There is not much that is special about the function Q chosen. 
+Most of our observastiojns remain true any C² function Q that satisfies the conditions
+
+		(Look at file example_5_insert_function-3)
+
+If you consider what these relations mean qualitatively about the behavior of the output function with respect to increases in capital and labor, you will see that they entirely reasonable assumptions. 

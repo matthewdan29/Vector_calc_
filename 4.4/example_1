@@ -1,0 +1,31 @@
+To see how the preceeding discussion applies to a specific set of data, consider the situation depicted in Figure 4.36.
+We have n = 5, and the function D to be minimized is 
+
+		(Look at file example_1_insert_function_1)
+
+Of course, linear regression is not always an appropriate technique. 
+It may not be reasonable to assume that the data points fall nearly on a straight line. 
+Some formula other than y = mx + b may have to be assumed to described the data with any accuracy. 
+Such a postulated relation might be quadratic, 
+
+		y = ax² + bx + c, 
+
+or x and y might be inversely related, 
+
+		y = a/x + b
+
+You can still apply the method of least squares to construct a function analogous to D in equation (1) to find the relation of a given form that best fits the data. 
+Another way to least squares arise is ify depends not on one variable but on several: x₁, x₂, ..., x(sub(n)). 
+For example, perhaps adult height is measured against blood levels of 10 different protiens instead of just one. 
+Multiple regression is the statistical method of finding the linear function
+
+		y = a₁x₁ + a₂x₂ + .. + a(sub(n))x(sub(n)) + b
+
+that best fits a data set of (n + 1-tuples)
+
+		
+		(Look at file example_1_insert_function_2)
+
+
+We can find such a "best fit hyperplane" by minimizing the sum of the squares of the differences between the y-values furnished by the data set and those predicted by the linear formula.
+We leave the details to you.(you can tell I just copied this right out the book without looking LOL) 

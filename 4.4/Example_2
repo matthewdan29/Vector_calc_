@@ -1,0 +1,12 @@
+The vector field F = (-6x -2y -2)i + (-2x - 4y + 2)j is conservative and has 
+
+		V(x, y) = 3x² + 2xy + 2x + 2y² - 2y + 4
+
+as a potential function (meaning that F = -∇V, according to our current sign convention). 
+There is only one equilibrium point, namely, (-3/5, 4/5). 
+To see if it is stable, we look at the Hessian of V: 
+
+		(Look at file Example_2_insert_function_1)
+
+The sequence of principal minors is 6, 20. 
+BBy the Hessian criterion, (-3/5, 4/5) is a strict local minimum of V and, by Theorem 4.4, it must be a stable equilibrium point of F. 
