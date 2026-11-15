@@ -1,0 +1,16 @@
+In multivariable calculus, an iterated integral is a result of applying integrals to a function of more than one variable (for example f(x, y) or f(x, y, z))in such a way that each of the integrals considers some of the variables as given constants. 
+For example, the function f(x, y), if y is considered a given parameter, can be integrated with respect to x, ∫ f(x, y)dx. 
+The result is a function of y and therefore its integral can be considered. 
+If this is done, the result is the iterated integral
+		
+	
+		∫(∫f(x, y)dx)dy
+
+The alternative notation for iterated integrals
+
+		∫dy ∫dx f(x, y)
+
+is also used
+
+In the noation that uses parentheses, iterated integrals are computed following the operational order indicated by the parentheses starting from the most inner integral outside. 
+In the alternative notation, writing ∫dy ∫dx f(x, y), the innermost integrand is computed first.		

@@ -1,0 +1,40 @@
+Our purpose in this chapter is to find way to generalize a notion of the definite integral of a function of a single variable to the cases of functions of two or three variables. 
+We also explore how these multiple integrals may be used to meaningfully represent various physcial quntites. 
+Let f be a coninuous function of one variable defined on the closed interval [a, b] and suppose that f has only nonnegative values. 
+THen the graph of f looks like Figure 5.1.
+That f is continuous is reflected in the fact that the graph consists of an unbroken curve. 
+That f is nonnegative-valued means that this curve does not dip below the x-axis. 
+We know from one-variable calculus that the definite integral ∫^b(sub(a)) f(x)dx exists and gives the area under the curve, as shown in Figure 5.2. 
+Now supoose that f is a continuous, nonnegative-valued function of two variables defined on the closed rectangle 
+
+		R = {(x, y) ∈ R² | a =< x =< b, x =< y =< d}
+
+in R². 
+Then the graph of f over R looks like an unbroken surface that never dips below the xy-plane, shown in Figure 5.3. 
+In analogy with the single-variable case, there should be some sort of integral that represents the volume under the part of the graph that lies over R. 
+(See Figure 5.4)
+We can find such an integral by using Cavalieri's principle, which is nothing more than a fancy term for the method of slicing. 
+Suppose we slice by the verticalk plane x = x₀, where x₀ is a constant between a and b. 
+Let A(x₀) denote the cross-sectional area of such a slice. 
+Then, roughly, one can think of the quantity A(x₀)dx as giving the volume of an "infinitely thin" slab of thickness dx and cross-sectional area A(x₀). 
+See Figure 5.5
+Hence, the definite integral 
+
+		(look at file areas_valumes_formula_1)
+
+gives a "sum" of the volumes of such slabs and can be considered to provide a reasonable definition of the total volume of the solid. 
+
+But what about the value of A(x₀)?
+Note that A(x₀) is nothing more than the area under the curve z = f(x₀, y), obtained by slicing the surface z = f(x, y) with the plane x = x₀. 
+Therefore, 
+
+		(look at file areas_volumes_formula_2)
+
+(remember x₀ is a constant), and so we find that 
+
+		(look at file areas_volumes_formula_3)
+
+The right-hand side of formula (1) is called an iterated integral. 
+To calculate it, first find an "antiderivative" of f(x, y) with respect to y (by treating x as a constant), evaluate at the integration limits y = c and y = d, and then repeat the process with respect to x. 
+
+

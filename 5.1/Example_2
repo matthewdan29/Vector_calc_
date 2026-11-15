@@ -1,0 +1,15 @@
+We calculate the volume under the graph of z = 4 - x² - y² (Figure 5.7) over the square
+
+		R = {(x, y) | -1 =< x =< 1, -1 =< y =< 1}. 
+
+Using formula (1) once again, we calculate the volume by first integrating with respect to y (i.e., by treating x as a constant in the inside integral) and then by integrating with respect to x.
+The details are as follows: 
+
+		(Look at file Example-2_insert_function_1)(its a good example)
+
+In our development of formula (1), we could just as well have begun by slicing the solid witht the plane y = y₀ (instead of with the plane x = x₀), as shown in Figure 5.8. 
+Then, in place of formula (1), the formula that results is 
+
+		(Look at file example-2_insert_function_2)
+
+Since the iterated integrals in formulas (1) and (2) both represent the volume of the same goemetric object, we can summarize the preceding discussion as follows. 

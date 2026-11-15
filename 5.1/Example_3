@@ -1,0 +1,14 @@
+We find the volume under the graph of z = cos(x) sin(y) over the rectangle 
+
+		R = {(x, y) | 0 =< x =< π/2, 0 =< y =< π/4}
+
+(See Figure 5.9)
+From formula (1), we calculate that the volume is 
+
+		(look at file Example-3_insert_function_1)
+
+If we use formula (2) instead of formula (1), we obtain
+
+		(look at file Example-3_insert_function_2)
+
+That this result agrees with out first calculation is no surprise given Proposition 1.1
