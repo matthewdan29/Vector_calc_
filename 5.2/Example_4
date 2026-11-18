@@ -1,0 +1,19 @@
+The unit disk, shown in Figure 5.24, is an example of a type 3 elementary region. 
+It is a type 1 region since 
+
+		(Look at file Example_4_insert_function-1)
+
+Now we are ready to define ∫∫(sub(D))fdA, where D is an elementary region and f is continuous on D. 
+We construct a new function f^(ext), the extension of f, by 
+
+		(Look at file Example_4_insert_function-2)
+
+Note that, in general, f^(ext) will not be continuous, but the discontinuities of f^(ext) will all be contained in partical-derve-D, which has no area. 
+Hence, by Theorem 2.5, f^(ext) is integrable on any closed rectangle R that contains D. 
+See Fiugre 5.27
+Note that Definition 2.9 implicitly assumes that the choice of the rectangle R that contains D does not affect the value of ∫∫(sub(R))f^(ext)dA.
+This is almost obvious but still should be proved. 
+We shall not do so directly but instead establish the following key result: 
+
+Theorem 2.10 provides an explicit and straightforward way to evaluate double integrals over elementary regions using iterated integrals. 
+

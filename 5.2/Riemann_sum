@@ -1,0 +1,11 @@
+In mathematics, a Riemann sum is a certain kind of approximation of an integral by a finite sum. 
+It is named after nineteeth century German mathematician Bernhard Riemann. 
+One very common application is in numerical integration, i.e., approximating the area of functions or lines on a graph, where it is also known as a rectangle rule. 
+It can also be applied for approximating the length of curves and other approximations. 
+
+The sum is calculated by partitioning the region into shapes that together form a region that is similar to the region being measured, then calculating the area of each of these shpaes, and finally adding all of these small areas together. 
+This approach can be used to find a numerical approximation for a defintie integral even if the fundamental theorem of calculs does not make it easy to find a closed-form solution.
+
+Because the region by the small shapes is usually not exactly the same shape as the region being measured, the Riemann sum will differ from area being measured. 
+This error can be reduced by dividing up the region more finely, using smaller and smaller shapes. 
+As the shapes get smaller and smaller, the sum approaches the Riemann integral. 

@@ -1,0 +1,14 @@
+Suppose that a 3 cm square metal plate is made, but some nonuniformities exist due to the manufacturing process so that the mass density varies somewhat throughout the plate. 
+If we knew the density function δ(x, y) at every point in the plate, then we could calculate the total mass of the plate as 
+
+		(Look at file example_1_insert_function-1)
+
+where D denotes the square region of the plate in an appropriate coordinate system. 
+In the absence of an analytic expression for δ, we nonetheless can approximate the double integral by means of a Riemann sum: We partition the square region of the plate, take density readings at a test point in each subregion, and combine to approximate the integral for the total mass. 
+(Essentially what we are doing is assuming that the density is nearly constant on each subregion so that multiplying density and area will give the approximate mass of the subregion; adding these approximate masses then gives an approximation for the total mass.)
+For example, we might model the problem as in Figure 5.16, where the region of the plate is partitioned into nine square subregions. 
+Then we have 
+
+		(Look at file example_1_insert_function-2)
+
+

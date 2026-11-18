@@ -1,0 +1,3 @@
+Fubini's theorem gives the conditions under which a double integral can be computed as an iterated integral, i.e. by integrating in one varibale at at time. 
+Intuitvely, just as the volume of a loaf of bread is the same whether one sums over standard slices or over long thin slices, the value of a double integral does not depend on the order of integration when the hypotheses of the theorem are satisfied. 
+The theorem is named after Guido Fubini, who proved a general result in 1907; special cases were known earlier though results such as Cavalieri's principle, which was used by Leonhard Euler.

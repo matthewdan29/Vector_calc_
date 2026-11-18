@@ -1,0 +1,38 @@
+We determin the value of ∫∫(sub(R))xdA, where R = [-2, 2] X [-1, 3]. 
+Here the integrand f(x, y) = x and, if we graph z = f(x, y) over R, we see that we have a portion of a plane, as shown in Figure 5.17. 
+Note that the portion of the plane is positioned so that exactly half of it lies above the xy-plane and half below. 
+Thus, if we regard ∫∫(sub(R))xdA as the net volume under the graph of z = x, then we conclude that ∫∫(sub(R))xdA (if it exists) must be zero. 
+On the other hand, we need not resort to visualization in three dimensions. 
+Consider a Riemann sum corresponding to ∫∫(sub(R))xdA obtained by partitioning R = [-2, 2] X [-1, 3] symmetrically with respect to the y-axis and by choosing the "test points" c(sub(ij)) symmetrically also. 
+See Figure 5.18
+It follows the value of 
+
+		(Look at file Example_2_insert_function-1)
+
+(where x(sub(ij)) denotes the x-coordinate of c(sub(ij))) must be zero since the terms of the sum cancel in pairs. 
+Furthermore, we can arrange things so that, as we shrink the dimensions of the subrectangles to zero (as we must do to get at the integral itself), we preseve all the symmetry just described. 
+Hence, the limit under these restrictions will be zero, and thus, the overall limit (where we do not impose such symmetry restrictions on the Riemann sum), if it exists at all, must be zero as well. 
+
+Example 2 points out fundamental diffculties with Definition 2.3, namely, that we never did determine whether ∫∫(sub(R))fdA really exists. 
+To do this, we would hae to be able to calculate the limit of Riemann sums of f over all possible partitions of R by using all possible choices for the test points c(sub(ij)), a practically impossible task. 
+Fortunately, the following result (which we will not prove) provides an easy criterion for integrability: 
+
+In Example 2, f(x, y) = x is a continuous function and hence integrable by Theorem 2.4. 
+The symmetry arguments used in the example then show that ∫∫(sub(R))xdA = 0. 
+continuous functions are not the only examples of integrable functions. 
+In the case of a function of a single variable, piecewise continuous functions are also integrable. 
+(Recall that a function f(x) is piecewise continuous on the closed interval [a, b] if f is bounded on [a, b] and has at most finitely many points of discontinuity on the interior of [a, b]. 
+Its graph, therefore, consists of finitely many continuous "chunks" as shown in Figure 5.19)
+For a function of two varibales, there is the following result, which generalizes Theorem 2.4. 
+To say that a set X has zero area as we do in Theorem 2.5, we mean that we can cover X with rectangles R₁, R₂, ..., R(sub(n)), ...(i.e., so that X ⊆ U^∞(sub(n = 1))  R(sub(n))), the sum of whose areas can be made arbitrary small. 
+A function f satisfying the hypotheses of Theorem 2.5 has a graph that looks roughly like the one in Figure 5.20. 
+Theorem 2.5 is the most general sufficient condition for integrability that will consider. 
+It is of particular use to us when we define the double integral of a function over an arbitrary region in the plane. 
+Although Theorem 2.4 and 2.5 make it relatively straightforward to check that a given integral exists, they do little to help provide the numerical value of the integral. 
+To mechanize the evaluation of double integrals, we will use the following results: 
+
+		(Look at file Thoerem_2.6)
+
+Fubini's theorem demonstrates that under certain assumptions the double integral over a rectangle (i.e., the limit of Riemann sums) can be calculated by using iterated intergrals and, moreover, that the order of integration for the iterated integral does not matter. 
+We remark that the independence of the order of integration depends strongly on the fact that the region of integration is rectangular; it will not generalize to more arbitrary regions in such a simple way. 
+

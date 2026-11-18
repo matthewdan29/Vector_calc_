@@ -1,0 +1,20 @@
+We calculate ∫∫(sub(D))ydA, where D is the region bounded by the line x - y = 0 and the parabola x = y² - 2. 
+See Figure 5.38
+In this case D is a type 2 elementary region, where the left and right boundary curves may be expressed as x = y² - 2 and x = y, respectively. 
+These curves intersect where 
+
+		y² - 2 = y² - y - 2 = 0 <=> y = -1, 2
+
+Therefore, part 2 of Theorem 2.10 applies to give 
+
+		(Look at file example_8_insert_function-1)
+
+Now, althought D is not a type 1 elementary region, it may be divided into two type 1 subregions along the vertical line x = -1. 
+See Figure 5.39
+The subregion D₁ lying left of the line x = -1 is bounded on both top and bottom by the parabola x = y² - 2; by solving for y we may express the bottom boundary of D₁ as y = -√(x + 2) and the top boundary as y = √(x + 2). 
+The subregion D₂ lying right of x = -1 is bounded on the bottom by y = x and on the top by y = √(x + 2). 
+Putting sall this information togeather, we have 
+
+		(Look at file example_8_insert_function-2)
+
+

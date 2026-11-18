@@ -1,0 +1,32 @@
+We also denote a (closed) rectangle 
+
+		R = {(x, y) ∈ R² | a =< x =< b, c =< y =< d}
+
+by [a, b] X [c, d]. 
+This notation is intended to be analogous to the notation for a closed interval.
+
+An example of a partitioned rectangle is shown in Figure 5.10. 
+We do not assume that the partition is regular (i.e., that all the subrectangles have the same dimensions)
+
+The Riemann sum 
+
+		(Look at file Intergal_over_rectangle_insert_formula_1)
+
+depends on the function f, the choice of partition, and the choice of the "test point" c(sub(ij)) in each subrectangle R(sub(ij)) of the partition. 
+The Riemann sum itself is just a weighted sum of areas ΔA(sub(ij)) of subrectangles of the original rectangle R, the weighted sum of areas ΔA(sub(ij)) of subrectangles of the original rectangele R, the weighting being given by the value f(c(sub(ij))). 
+
+If f happens to be nonnegative on R, then, for i, j = 1, ..., n, the individual terms f(c(sub(ij)))ΔA(sub(ij)) in S may be considered to be volumes of boxes having base area Δx(sub(i))Δy(sub(i)) and height f(c(sub(ij))). 
+Therefore, S can be considered to be an approximation to the volume under the graph of f over R, as suggested by Figure 5.11. 
+If f is not necessarily nonnegative, then the Riemann sum S is an signed sum of such volumes (because, with f(c(sub(ij))) < 0, the term f(sub(ij))ΔA(sub(ij)) is the negative of the volume of the appropriate box - see Figure 5.12)
+
+The crucial idea to remember - indeed, the defining idea - is that the integral  ∫∫(sub(R))fdA is a limit of Riemann sums S, for this concept is what is needed to properly apply double integrals to physical situations. 
+From a geometric point of view, just as the single-variable definite integral ∫^b(sub(a)) f(x)dx can be used to compute the "net area" under the graph of the curve y = f(x) (as in Figure 5.13), the double integral ∫∫(sub(R))fDA can be used to compute the "net volume" under the graph of z = f(x, y) (as in Figure 5.14). 
+
+Another way to view the double integral ∫∫(sub(R))fdA is somewhat less geometric but is more in keeping with the notion of the integral as the limit of Riemann sums and provides a perspective that generlizes to the triple integrals of functions of three variables. 
+Instead of visualizing the graph of z = f(x, y) as a surface and S = ∑^n(sub(i)) (sub j=1) f(c(sub(ij)))Δx(sub(i))Δy(sub(j)) as a (signed) sum of volumes of boxes related to the graph, consider S to be a weighted sum of areas and the integral ∫∫(sub(R))fdA the limiting value of such weighted sums as the dimensions of all the subrectangles approach zero. 
+With this point of view, we do not ndepict the integrand f when we try to visualize the integral. 
+In this way, the distinction between the roles of the integrand and the rectangle R over which we integrate can be made clearer. 
+(See Fiugre 5.15)
+
+
+ 

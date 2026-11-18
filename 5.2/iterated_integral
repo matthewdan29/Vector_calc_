@@ -1,0 +1,3 @@
+In multivariable calculus, an iterated integral is the result of applying integrals to a function of more than one variable (for example f(x, y) or f(x, y, z)) in such a way that each of the integrals considers some of the variables as given constants. 
+For example, the function f(x, y), is y is considered a given parameter, can be integrated with respect to x, ∫f(x, y) dx. 
+The result is a function of y and therefore its integral can be considered. 

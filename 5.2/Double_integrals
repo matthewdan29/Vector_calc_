@@ -1,0 +1,12 @@
+Thus, in this section we define a more general notion of an integral of a function of two variables that will allow us to describe
+
+	1) Integrals of arbitrary functions (i.e., functions that are not necessarily non-negative or continuous) 
+
+	2) Integrals over arbitrary regions in the plane (i.e., rather than integrals over rectangles only)
+
+We focus first on case 1.
+To do this, we start fresh with some careful definitions and notation. 
+The ideas involved in Definitions 2.1-2.3 below are different from those in the previous section. 
+However, we will see that there is a key connection (called Fubini's theorem) between the notion of an iterated integral discussed in 5.1 and that of double integral, which will be described in Defintion 2.3.
+
+

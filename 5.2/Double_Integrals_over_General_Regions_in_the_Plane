@@ -1,0 +1,9 @@
+Our next step is to understand how to define the integral of a function over an arbitrary bounded region D in the plane. 
+Ideally, we would like to give a precise definition of ∫∫(sub(D))fdA, where D is the amoeba-shaped blob shown in Figure 5.21 and where f is bounded on D. 
+In keeping with the definition of the integral over rectangle, ∫∫(sub(D))fdA should be limit of some type of Riemann sum and should represent the net volume under the graph of f over D. 
+Unfortunately, the technicalities involved in making such a direct approach work are prohibitive.
+Instead, we shall assume that the integrand f is continuous over the region of integration (which will allow us to use what we already know about integrals over rectangles). 
+Although this approach will not provide us with a completely general definition, it is sufficient for essentially all the practical situations we will encounter. 
+To begin, we define the types of elementary regions we wish to consider. 
+Thus, a type 1 elementary region D has a boundary (denoted partial differential sign D) consisting of straight segments (possibly single points ) on the left and on the right and graphs of continuous functions of x on the top and on the bottom. 
+A type 2 elementry region has a boundary that is straight on the top and bottom and consists of graphs of continuous functions of y on the left and right. 

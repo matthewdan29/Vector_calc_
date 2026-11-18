@@ -1,0 +1,15 @@
+Let D be the annular region between the two concentric circles of radii 1 and 2 shown in Figure 5.34. 
+Then D is not an elementary region, but we can break D up into for subregions that are of elementary type. 
+(See Figure 5.35)
+If f(x, y) is any function of two variables that is continuous (hence integrable) on D, then we may compute the double integral as the sum of the integrals over the subregions. 
+That is, 
+
+		(Look at file Example_7_insert_function_1)
+
+and 
+
+		(Look at file Example_7_insert_function-2)
+
+The difficulty of evaluating each of the preceding four iterated integrals then depends on the complexity of the integrand. 
+
+

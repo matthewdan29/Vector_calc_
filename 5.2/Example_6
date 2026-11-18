@@ -1,0 +1,31 @@
+Let D be the region shown in Figure 5.30 having a triangular border. 
+Consider ∫∫(sub(D))(1 - x - y)dA. 
+Note that D is a type 3 elementary region, so there should be two ways to evaluate the double integral.
+
+Considering D as a type 1 elementary region (see Figure 5.31), we may apply part 1 of Theorem 2.10 so that
+
+
+		(Look at file example_6_insert_function-1)
+
+We can also consider D as a type 2 elementary region, shown in Figure 5.32.
+Then, using part 2 of Theorem 2.10, we obtain,
+
+		(Look at file example_6_insert_function-2)
+
+We leave it to you to check explicityly that this iterated integral also has a value of 1/6. 
+Instead, we note that 
+
+		(Look at file example_6_insert_function-3)
+
+by exchanging the roles of x and y. 
+Hence, the two integrals must have the same value. 
+In any case, the double integral 
+
+		(Look at file example_6_insert_function-4)
+
+represents the volume under the graph of z = 1 - x - y over the triangular region D. 
+If we picture the situation in R³, as in Figure 5.33, we see that the double integral represnts the volume of a tetrahedron. 
+
+Of course, not all regions in the plane are elementary, including even some relatively simple ones. 
+To integrate continuous fuctions over such regions, the best adivce is to attempt to subdivide the region into finitely many elementary type. 
+ 

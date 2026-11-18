@@ -1,0 +1,16 @@
+We revisit ∫∫(sub(R))xdA in Example 2, where R = [-2, 2] X [-1, 3].
+By Thoerem 2.6, we know that ∫∫(sub(R))xdA exists and by Fubini's theorem, we calculate
+
+		(Look at file Example_3_insert_function-1)
+
+
+Properties 1 and 2 are called the linearity properties of the double integral. 
+They can be proved by considering the appropriate Riemann sums and taking limits. 
+For example, to prove property 1, note that the Riemann sum whose limit 
+
+		(Look at file Example_3_insert_function-2)
+
+Property 3 (known as monotonicity) and property 4 can also be proved using Riemann sums. 
+For property 4, one needs to use the fact that 
+
+		(Look at file Example_3_insert_function-3)
