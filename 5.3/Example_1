@@ -1,0 +1,24 @@
+We calculate the area of the region shown in Figure 5.48. 
+Considering D as a type 1 region, we obtain
+
+		(Look at example_1_insert_formula-1)
+
+The single definite integral that results gives the area under the graph of y = ln(x) over the x-interval [1, e], just as it should. 
+To evaluate this integral, we need to use integration by parts: Let u = ln(x) (so du = 1/x dx) and dv = dx (so v = x). 
+Then
+
+		(Look at example_1_insert_formula-2)
+
+Integration by parts can be avoided if we integrate first with respect to x, as schematically suggested by Figure 5.49. 
+Hence, 
+
+		(Look at example_1_insert_function-3)
+
+Note that the two iterated integrals we used to calculate the area in Example 1, namely, 
+
+		(Look at example_1_insert_function-4)
+
+are not obtained from each other by a simple exchange of the limits of integration. 
+The only time such an exchange is justified is when the region of integration is a rectangle of the form [a, b] x [c, d] so that all limits of integration are constants. 
+
+

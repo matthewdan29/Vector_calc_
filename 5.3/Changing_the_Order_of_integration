@@ -1,0 +1,22 @@
+Frequently, it is useful to think about the evaluation of double integrals over elementary regions essentially as the determination of an appropriate order of integration. 
+When the region of integration is a rectangle, Fubini's theorem (Theorem 2.6) says the order in which we integrate has no significance; that is, 
+
+		(Look at file COI_insert_formula_1)
+
+(See Figure 5.45)
+When the region is elementary of type 1 only, we must integrate first with respect to y (and then when respect to x) if we wish to evaluate the double integral by means of a single iterated integral. 
+(See Figure 5.46)
+Then 
+
+		(Look at file COI_insert_formula_2)
+
+
+In the same way, when the region is elementary of type 2 only, we would typically integrate first with respect to x, so that 
+
+		(Look at file COI_insert_formula_3)
+
+
+(See Figure 5.47)
+When the region is elementary of type 3, however, we can choose either order of integration, at least in principle. 
+Often, this flexibility can be used to advantage, Look at the examples now 
+

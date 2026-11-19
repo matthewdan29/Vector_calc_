@@ -1,0 +1,36 @@
+Sometimes changing the order of integration can make an impossible calculation possible. 
+Consider the evaluation of the following iterated integral: 
+
+		(Look at file example_2_insert_function-1)
+
+After some effort (and maybe some scratchwork), you should find it impossible even to begin this calculation. 
+In fact it can be shown that cos(x²) does not have an antiderivative that can be expressed in terms of elementary functions. 
+Consequently, we appear to be stuck. 
+On the other hand, it is easy to integrate y cos(x²) with respect to y. 
+THis suggests finding a way to change the order of integration. 
+We do so in two steps: 
+
+		1) Use the limits of integration in the original iterated integral to identify the region D in R² over which the integration takes place. (While doing this, you should make a wish that D turns out to be a type 3 region.)
+
+		2) Assuming the region D in Step 1 of type 3, change the order of integration. 
+
+The limits of integration in the preceding example imply that D can be described as 
+
+		(example_2_insert_function-2)
+
+as suggested by Figure 5.50. 
+Now Figure 5.50 can be used to change the order of integration. 
+We have 
+
+		(example_2_insert_function-3)
+
+It is now possible to complete the calculation; this is, 
+
+		(example_2_insert_function-4)
+
+where u = x² and du = 2u dx, so that, finally, 
+
+		(example_2_insert_function-5)
+
+The technique of changing the order of integration is a very powerful one, but it is by no means a panacea for all cumbersome (or impossible) integrals. 
+It relies on an appropriate interaction between the integrals and the region of integration that often fails to occur in practice. 
