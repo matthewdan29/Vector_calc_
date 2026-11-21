@@ -1,0 +1,3 @@
+Let f(x, y, z) be a function of three variables. 
+Analoguous to the double integral, we define the triple integral of f over a solid region in space to be the limit of appropriate Riemann sums. 
+We begin by defining this integral over box-shaped regions and then proceed to degine the integral over more general solid regions. 

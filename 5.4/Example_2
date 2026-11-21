@@ -1,0 +1,11 @@
+Let W be the solid region bounded by the hemisphere x² + y² + z² = 4, where z =< 0, and the paraboloid z = 4 - x² - y². 
+(See Figure 5.60)
+It is an elementary region of type 1 since we may describe it as 
+
+		(Look at file Example_1_insert_function-1)
+
+This description was obtained by noting that W is bounded on top and bottom by a pair of surfaces, each of which is the graph of a function of the form z = g(x, y) and the shadow of W in the xy-plane is a disk D of radius 2, which we have chosen to describe as 
+
+		(Look at file example_1_insert_function-2)
+
+and which we already know is an elementary region (of type 3) in the xy-plane

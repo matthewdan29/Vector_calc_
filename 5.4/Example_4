@@ -1,0 +1,23 @@
+Let W denote the (solid) tetrahedron with vertices at (0, 0, 0), (1, 0, 0), (0, 0, 1), and (0, 0, 1) as shown in Figure 5.67. 
+Suppose that the mass density at a point (x, y, z) inside the tetrahedron varies as f(x, y, z) = 1 + xy. 
+We will use a triple integral to find the total mass of the tetrahedron 
+The total mass M is 
+
+		(Look at file Example_4_insert_function-1)
+
+(See the remark before Theorem 4.4)
+To evaluate this triple integral using iterated integrals, note that we can view the tetrahedron as a type 1 elementary region. 
+(Actually, it is a type 4 region, but that will not matter)
+The slanted face is given by the equation x + y + z = 1, which describes the plane that contains the three points (1, 0, 0), (0, 1, 0), and (0, 0, 1). 
+Hence, by first integrating with respect to z and holding x and y constant, 
+
+		(Look at file Example_4_insert_function-2)
+
+The shadow of W in the xy-plane is just the triangular region shown in Figure 5.68. 
+Thus, 
+
+		(Look at file example_4_insert_function-3)
+
+Note that M can also be written as a single iterated integral, namely, 
+
+		(Look at file example_4_insert_function-4)

@@ -1,0 +1,19 @@
+We calculate the volume of the solid W sitting in the first octant and bounded by the coordinate planes, the paraboloid z = x² + y² + 9, and the parabolic cylinder y = 4 - x². 
+(See Figure 5.69)
+By definition, the triple integral is a limit of a weighted sum of volumes of tiny subboxes that fill out the region of integration. 
+If the weights in the sum are all taken to be 1, then we obtain an approximation to the volume: 
+
+		(Look at file example_5_insert_function-1)
+
+Therefore, taking the limit as the dimensions of the subboxes all approach zero, it makes sense to define
+
+		(Look at file example_5_insert_function-2)
+
+In our situation, W is a type 1 region whose shadow in the xy-plane looks like the region shown in Figure 5.70. 
+Thus, by Theorem 4.4, 
+
+		(Look at file example_5_insert_function-3)
+
+
+
+

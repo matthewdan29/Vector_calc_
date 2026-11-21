@@ -1,0 +1,10 @@
+Let
+
+	B = [-2, 3] X [0, 1] X [0, 5], and let f(x, y, z) = x²e^y + xyz
+
+Thus, f is continuous and hence certainly satisfies the hypotheses of Fubini's theorme. 
+Therefor, 
+
+		(Look at file Example_1_insert_function_1)
+
+You can check that integrating in any of the other five possible orders produces the same result. 

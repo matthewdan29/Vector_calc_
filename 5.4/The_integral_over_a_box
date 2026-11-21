@@ -1,0 +1,22 @@
+Let B be a closed box in R³ whose faces are parallel to the coordinate planes. 
+That is, 
+
+	B = {(x, y, z) ∈ R³ | a =< x =< b, c =< y =< d, p =< z =< q}. 
+
+(See Figure 5.51)
+We also use the follwoing shorthand notation for B: 
+
+	B = [a, b] X [p, q]
+
+
+You can think of the Riemann sum Σf(c(sub(ijk)))ΔV(sub(ijk)) as weighted sum of volumes of subboxes of B, the weighting given by the value of the function f at particular "test points" c(sub(ijk)) in each subbox. 
+
+The key point to remember is that the triple integral is the limit of Riemann sums. 
+It is this notion that enables useful and important applications of integrals. 
+For example, if we view the integrand f as a type of generalized density function ("generalized" because we allow negative density!), then the Riemann sum S is a sum of approximate masses (densities times volumes) of subboxes of B. 
+THese approximations should improve as the subboxes because smaller and smaller. 
+Hence, we can use the triple integral ∫∫∫(sub(B))f dV, when it exists, to compute the total mass of a solid box B whose density varies according to f, as suggested by Figure 5.53. 
+Analogus to Theorem 2.5, we have the following result regarding integrability of functions: 
+
+To say that a set X has zero volume as we do in Theorem 4.4, we mean that we can cover X with boxes B₁, B₂,..., B(sub(n)), ..., (i.e., so that  ⊆ U^∞(sub(n = 1)B(sub(b)))), the sum of whose volumes can be made arbitrarily small. 
+To evaluate a triple integral over a box, we can use a three-dimensional version of Fubini's theorem.

@@ -1,0 +1,33 @@
+We find the volume inside the capsule bounded by the paraboloids z = 9 - x² - y² and z = 3x² + 3y² - 16
+See Figure 5.71
+Once again, we have 
+
+		(Look at file Example_6_insert_function_1)
+
+and again the region W of interest is elementary of type 1. 
+The shadow, or projection, of W in the xy-plane is determined by 
+
+		{(x, y) ∈ R² | there is some z such that (x, y, z) ∈ W}
+
+Physically, one can imagine the shadow as the hole produced by allowing W to "fall through" the xy-plane. 
+In other words, the shadow is the widest part of W perpendicular to the z-axis. 
+From Figure 5.71, one can see that it is determined by the intersection of two boundary paraboloids. 
+The shadow itself is shown in Figure 5.72. 
+The intersection may be obtained by equating the z-coordinates of the boundary paraboloids. 
+Therefore, 
+
+		(Look at file example_6_insert_function_2)
+
+This last iterated integral represents the volume of one quarter of the capsule. 
+Hence, we multiply its value by 4 to obtain the total volume. 
+The reason for this manipulation is to make the subsequent calculations somewhat simpler (although the computation that follows is clearly best left to a computer). 
+We compute 
+
+		(Look at file example_6_insert_function-3)
+
+Now let x = 5/2 sin(Θ), so dx = 5/2 cos(Θ)dΘ. 
+Then 
+
+		(Look at file example_6_insert_function-4)
+
+

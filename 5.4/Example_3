@@ -1,0 +1,19 @@
+The solid bounded by the ellipsoid
+
+		(Look at file example_3_insert_function_1)
+
+can be seen to be an elementary region of type 4. 
+To see that it is of type 1, split the boundary surface in half via the z = 0 plane as shown in Figure 5.61. 
+(This is accomplished analytically by solving for z in the equation for the ellipsoid)
+Then the shadow D of E is the region inside the ellipse in the xy-plane shown in Figure 5.62.
+
+We have 
+
+		(Look at file example_3_insert_function_2)
+
+so D is in fact type 3 elementary region in R². 
+To see that E is of type 2, split the boundary at the x = 0 plane as in Figure 5.63.
+The shadow in the yz-plane is again the region inside an ellipse. 
+(See Figure 5.63)
+Finally, to see that E is of type 3, split along y = 0 
+See Figures 5.65 and 5.66

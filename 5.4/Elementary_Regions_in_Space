@@ -1,0 +1,12 @@
+Now suppose W denotes a fairly arbitrary solid region in space, like a rock or a slab of tofu. 
+Suppose f is a continuous function defined on W, such as a mass density function. 
+(See Figure 5.55)
+Then the triple integral of f over W should give the total mass of W. 
+As was the case with general double integrals, we need to find a way to properly define ∫∫∫(sub(w))f dV and to calculate it in practical situations. 
+The course of action is much like before: We see how to calculate integrals over certain types of elementary regions and treat integrals over more general regions by subdividing them into regions of elementary type. 
+
+Some explanation regarding Definition 4.6 is in order. 
+An elementary region W of type 1 is a solid shape whose top and bottom boundary surfaces each can be described with equations that give z as functions of x and y and such that the projection of W into the xy-plane (the "shadow") is in turn an elementary region in R² (in the sense of Definition 2.8). 
+Similarly, an elementary region of type 2 is one whose front and back boundary surfaces each can be described with equations giving x as functions of y and z and whose projection into the yz-plane is an elementary region in R². 
+Finally, an elementary region of type 3 is one whose left and right boundary surfaces each can be described with equations giving y as functions of x and z and whose projection into the xz-plane is an elementary region in R². 
+In each case, an elementary region in space is one for which we can find boundary surfaces described by equations where one of the variables is expressed in terms of the other two, and whose "shadow" in the plane of these two variables is an elementary region in R² in the sense of Definition 2.8. 
