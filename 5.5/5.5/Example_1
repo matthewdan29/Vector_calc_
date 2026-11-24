@@ -1,0 +1,5 @@
+Let T(u, v) = (u + 1, v + 2); that is, let x = u + 1, y = v + 2. 
+This transformation translates the origin in the uv-plane to the point (1,2) in the xy-plane and shifts all other points accordingly. 
+The unit square D* = [0, 1] X [0, 1], for example, is shifted one unit to the right and two units up but is otherwise unchanged, as shown in Fiugre 5.74. 
+Thus, the image of D* is D = [1, 2] X [2, 3]. 
+

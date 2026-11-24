@@ -1,0 +1,4 @@
+As some of the examples in the preious sections suggest, the evaluation of a multiple integral by means of iterated integrals can be a complicated process. 
+Both the integrand and the region of integration can contribute computational difficulties.
+Our goal for this section is to see ways in which changes in coordinates can be used to transform iterated integrals into ones that sare relatively straightforward to calculate. 
+We begin by studing the coordinate transformations themselves and how such transformations affect the relevant integrals. 

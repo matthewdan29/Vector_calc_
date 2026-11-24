@@ -1,0 +1,10 @@
+We may write the transformation T(u, v) = (u + v, u - v) in Example 4 as 
+
+		(Look at file example_5_insert_function-1)
+
+Hence, Proposition 5.1 tells us that the square D* = [0, 1] X [0, 1] must be mapped to a parallelogram D = T(D*) whose vertices are 
+
+	T(0, 0) = (0, 0),  T(0, 1) = (1, -1), T(1, 1) = (2, 0). 
+
+Therefore, Figure 5.77 in indeed correct and, in view of Proposition 5.1, could have been arrived at quite quickly. 
+Also note that the area of D is |-2| * 1 = 2

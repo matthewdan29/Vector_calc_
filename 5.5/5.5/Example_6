@@ -1,0 +1,22 @@
+Let T:R³ -> R³ be given by 
+
+	T(u, v, w) = (2u, 2u + 3v + w, 3w)
+
+Then we rewrite T by using matrix multiplication: 
+
+		(look at file Example_6_insert_function-1)
+
+A result analogous to Proposition 5.1 allows us to conclude that T is one-one and onto, and T maps parallelepipeds to parallelepipeds. 
+In particular, the unit cube
+
+		D* = [0, 1] X [0, 1] X [0, 1]
+
+is mapped onto some parallelepiped D = T(D*) and, moreover, the volume of D must be 
+
+		|det A| * volume of D* = 18 * 1 = 18
+
+To determine D, we need only determine the images of the vertices of the cube: 
+
+		(Look at file Example_6_insert_function_2)
+
+Both D* and its image D are shown in Figure 5.80

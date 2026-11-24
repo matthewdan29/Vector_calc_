@@ -1,0 +1,23 @@
+To calculate the volume of a cone of height h and radius a, we may use Cartesian coordinates, in which case the cone is the solid W bounded by the surface az = h√(x² + y²) and the plane z = h, as shown in Figure 5.101. 
+The volume can be found by calculating the iterated triple integral
+
+		(Look at file example_15_insert_function-1)
+
+Hence, we consider the cone again. 
+(See figure 5.102)
+Note that 
+
+		(Look at file example_15_insert_function-2)
+
+Thus, the volume is given by
+
+		(Look at file example_15_insert_function-3)
+
+(Note the order ofintegration that we chose.)
+The evalution of this iterated integral is exceedingly straighforward; we 
+
+		(Look at file example_15_insert_function-4) 
+
+which agrees with what we already know
+
+

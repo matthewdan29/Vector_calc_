@@ -1,0 +1,17 @@
+Of course, not all transformations are linear ones.
+Consider 
+
+		(x, y) = T(r, Θ) = (r cos(Θ), r sin(Θ))
+
+Note that T is not one-one since T(0, 0) = (0, 0) = T(0, π). 
+(Indeed T(0,Θ) = (0, 0) for all real numbers Θ)
+Note that vertical lines in the rΘ-plane given by r = a, where a is constant, are mapped to the points (x, y) = (a cos(Θ), a sin(Θ)) on a circle of radius a. 
+Horizontal rays {(r, Θ) | Θ a α, r => 0} are mapped to rays emanating from the origin. 
+See Figure 5.81
+It follows that the rectangle D* = [1/2, 1] X [0, π] in the rΘ-plane is mapped not to a parallelogram, but bent into a region D that is part of the annular region between circles of radii 1/2 and 1, as shown in Figure 5.82. 
+Analogously, the transformations T:R³ -> R³ given by 
+
+		(x, y, z) = T(r, Θ, z) = (r cos(Θ), r sin(Θ), z)
+
+bends the solid box B* = [1/2, 1] X [0, π] X [0, 1] into a horseshoe-shaped solid. 
+See Figure 5.83

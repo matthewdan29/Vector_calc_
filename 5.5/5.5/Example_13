@@ -1,0 +1,17 @@
+We evaluate the double integral ∫∫(sub(D))√(x² + y² + 1)dxdy, where D is the quarter disk shown in Figure 5.91, using polar coordinates. 
+The region D of integration is given in Caresian coordinates by 
+
+		D = {(x, y) | 0 =< y =< √(4 - x²), 0 =< x =< 2}, 
+
+so that 
+
+		(Look at file example_13_insert_function-1)
+
+This iterated integral is extremely difficult in evaluate. 
+However, D corresponds to the polar region
+
+		D* = {(r, Θ) | 0 =< r =< 2, 0 =< Θ =< π/2}
+
+Therefore, using Theorem 5.3, we have 
+
+		(Look at file example_13_insert_function-2)

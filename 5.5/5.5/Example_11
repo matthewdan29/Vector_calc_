@@ -1,0 +1,38 @@
+(Double integrals in polar coordinates)
+In Example 9, a coordinate transformation was chosen primarily to simplify the integrand of the double suited to the geometry of the reigon of integration. 
+For example, suppose that the region D is a disk of radius a: 
+
+		(Look at file example_11_insert_function-1)
+
+Then, to integrate any (integrable) function f over D in Cartesian coordinates, one would write 
+
+		(Look at file example_11_insert_function-2)
+
+
+Even if it is easy initially to find a partial antiderivative of the integrand, the limits in the preceding double integral may complicate matter considerably. 
+This is because the disk is described rather awkwardly by Cartesian coordinates. 
+We know, however, that it has a much more convenient description in polar coordinates as 
+
+		{(r, Θ) | 0 =< r =< a, 0 =< Θ < 2π}
+
+This suggests that we make the change of variables 
+
+		(x, y) = T(r, Θ) = (r cos(Θ), r sin(Θ)), 
+
+which is shown in Figure 5.89. 
+(Note that T maps all points of the form (0, Θ)) to the origin in the xy-plane and, thus, cannot map D* in a one-one fashion onto D. 
+Nonetheless, the points of D* on which T fails to be one-one fill out a poortion of a line - a one-dimensional locus - and it tuns out that it will not affect the double integral transformation.)
+The Jacobian for this change of variables  is 
+
+		(Look at example_11_insert_function-3)
+
+(Note that r => 0 on D, so |r| = r)
+Thus, using Theorem 5.3, the double integral can be evaluated by using polar coordinates as follows: 
+
+		(Look at example_11_insert_function-4)
+
+
+It is evident that the limits of integration of the rΘ-integrals are substantially simpler than those in the xy-integral. 
+Of course, the substitution in the integrand may result in a more complicated expression, but in many situations this will not be the case. 
+Polar coordinate tranformations will prove to be especially convenient when dealing with regions whose boundaries are parts of circles. 
+

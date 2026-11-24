@@ -1,0 +1,24 @@
+Consider the definite integral ∫^2(sub(0)) 2x cos(x²)dx.
+To evaluate, one typically makes the substitution u = x² (so du = 2x dx).
+Doing so, we have 
+
+		(Look at file example_8_insert_function-1)
+
+Let's dissect this example more carefully. 
+First of all, the substitution u = x² may be rewritten (restricting x to nonnegative values only) as x = √(u).
+Then dx = du/(2√(u)) and 
+
+		(Look at file example_8_insert_function-2)
+
+In general, the method of substitution works as follows: Given a (perhaps complicated) definite integral ∫^B(sub(A)) f(x)dx, make the substituition x = x(u), where x is a class C¹. 
+Thus, dx = x'(u)du. 
+If A = x(a), B = x(b), and x'(u) != 0 for u between a and b, then 
+
+		(Look at file example_8_insert_function-3)
+
+Note that it is possible to have a > b in (3) above. 
+(This happens if x(u) is decreasing)
+Although the u-integral in equation (3) may at first appear to be more complicated than the x-integral, Example 8 shows that in fact just the opposite can be true. 
+Beyond the algebraic formalism of one-variable substitution in equaiton (3), it is worth noting that the term x'(u) represents the "infinitesimal length distortion factor" involved in the changing from measurement in u to measurement in x.
+(See Figure 5.84)
+We next attempt to understand how these ideas may be adapted to the case of multiple integrals.  

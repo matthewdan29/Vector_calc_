@@ -1,0 +1,10 @@
+Suppose we have a differentiable coordinate transformation from the uv-plane to the xy-plane. 
+That is, 
+
+		T:R² -> R², T(u, v) = (x(u,v), y(u, v)). 
+
+The notation δ(x, y)/δ(u, v) for the Jacobian is a historical convenience. (note: i'm using the char δ as the partial Derivative sign)
+The Jacobian is not a partial derivative, but rather the determinant of the matrix of partial derivatives. 
+It plays the role of an "infinitesimal area distortion factor" when changing varibales in double integrals, as in the following key result: 
+
+		(Look a file Theorem_5.3)

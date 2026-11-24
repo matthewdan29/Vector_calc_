@@ -1,0 +1,8 @@
+It is not difficult to adapt the previous reasoning to the case of triple integrals. 
+We omit the details, stating only the main results instead. 
+In the integral formal of the change of variables theorem (Theorem 5.5), the Jacobian represents the "volume distortion factor" that occurs when the three-dimensional region W is subdivided into pieces that are transformed boxes in uvw-space. 
+(See Figure 5.99)
+In other words, the differential volume elements 
+(i.e., "infinitesimal" pieces of volumes) in xyz- and uvw-coordinates are related by the formula
+
+		(Look at file PVI-1) 

@@ -1,0 +1,9 @@
+In mathematics, the determinant is a scalar-valued function of the entries of a square matrix that has many properties which make it fundeamental for the study of square matrices and linear transformations represented by them. 
+
+The determinant of a matrix A is commonly denoted det(A), det A, or |A|. 
+For square matrices of dimensions two and three, the determinant is explicitly described as 
+
+		(Look at file Determinant_matrix-1)
+
+There are several equivalent ways to define the determinant of an n x n matrix. 
+A simple and conseptual one is as the unique function that mapes a product of matrices to a product of scalars and whose value on a triangular matrix is the product of the diagonal entries

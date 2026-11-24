@@ -1,0 +1,39 @@
+We use Theorem 5.3 to evaluate ∫∫(sub(D))(x² - y²)e^(xy)dxdy, where D is the region in the first quadrant bounded by the hyperbolas xy = 1, xy = 4 and the lines y = x, y = x + 2. 
+See Fiugre 5.87
+
+Both the integrand and the region present complications for evaluation. 
+THere would seem to be two natural choices for ways to transform the variables. 
+One would be
+
+		u = x² - y²  and v = xy, 
+
+motivated by the nature of the integrand. 
+However, the region D of integration will not be easy to describe in thers of the particular choice of uv-coordinates. 
+Another possible transformation of variables, motivated instead by the shape of D, is 
+
+		u = xy and v = y - x. 
+
+Now this change of variables would not seem to help much with the integrand, but, as we shall see, it turns out to be just what we need. 
+First note that the boundary hyperbolas xy = 1 and xy = 4 correspond, respectively, to the lines u = 1 and u - 4; the lines y = x and y = x + 2 correspond to v = 0 and v = 2. 
+Ths, the region D* in the uv-plane that corresponds to D (See Figure 5.88) is 
+
+		D* = {(u, v) | 1 =< u =< 4, 0 =< v =< 2}. 
+
+Next, we calculate the Jacobian of the variable transformation is 
+
+		(Look at file example_10_insert_function-1)
+
+Hence, the Jacobian we require in order to use Theorem 5.3 is 
+
+		(Look at file example_10_insert_function-2)
+
+Moreover, since we will be working in the first quadrant (where x and y are both positive), |δ(x, y)/δ(u, v)| = 1/(x + y)
+
+At last we are ready to compute 
+
+		(Look at file example_10_insert_function-3)
+
+Note that the insertion of the Jacobian in the integrand caused precisely the cancelation needed to make the evaluation straighforward. 
+We cannot always expect this to happen, but the lesson here is to be willing to carry through calculations that may not at first appear to be so easy. 
+
+

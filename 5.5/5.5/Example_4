@@ -1,0 +1,12 @@
+Let T(u, v) = (u + v, u - v). 
+Because each of the component functions of T involves both varibles u and v, it is less obvious how the unit square D* = [0, 1] X [0, 1] transforms. 
+We can begin to get some idea of the goemetry by seeing how T maps the edges of D*: 
+
+		(Look at example_4_insert_function-1)
+
+By sketching the images of the edges, it si now plausible that the image of D* under T is as shown in Figure 5.77. 
+
+More generally, we consider linear transformations T: R² -> R² defined by 
+
+		(Look at example_4_insert_function-2)
+

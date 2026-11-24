@@ -1,0 +1,15 @@
+(Triple integrals in cylindrical coordinates)
+
+When integrating over solid objects possessing an axis of rotational symmetry, cylindrical coordinates can be especially helpful. 
+The cylindrical - rectangular coordinate transformation
+
+		(Look at file example_14_insert_function-1)
+
+In particular, we see that the volume element in cylindrical coordinates is 
+
+		dV = r dr dθ dz
+
+(Recall that the cylindrical coordinate r is usually taken to be nonnegative. 
+Given this convention, we may omit the absolute value sign in the change of variables formula)
+The geometry behind this volume element is quite plauseible: A "differential box" in rΘz-space is transformed to a portion of a solid cylinder that is nearly a box itself. 
+(See Figure 5.100)

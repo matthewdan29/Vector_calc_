@@ -1,0 +1,15 @@
+To see polar coordinates "in action," we calculate the area of a circle, using double integrals. 
+Once more, let D be the disk of radius a, centered at the origin as in Figure 5.90. 
+Then we have 
+
+		(Look at file example_12_insert_function-1)
+
+following the discussion in Example 11. 
+The last iterated integral is readily evaluated as 
+
+		(Look at file example_12_insert_function-2)
+
+
+which indeed agrees with what we already know. 
+If you feel so inclined, compare this calculation with the evaluation of the iterated integral in Cartesian coordinates. 
+No doubt you'll agree that the use of polar coordinates offer clear advantages. 
