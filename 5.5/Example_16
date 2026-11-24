@@ -1,0 +1,23 @@
+(Triple integrals in spherical coordinates)
+If a solid object has a center of symmertry, then spherical coordinates can make integration over such an object more convenient. 
+The spherical - rectangular coordinate tranformation
+
+		(Look at file example_16_insert_function-1)
+
+Using cofactor expansion about the last row, this determinant is equal to 
+	
+		(Look at file example_16_insert_function-2)
+
+(Under the restriction that 0 =< φ =< π, sin(φ) will always be nonnegative. 
+Hence, the Jacobian will also be nonnegative.)
+Therefore, the volume element in spherical coordinates is 
+
+		dV = p² sin(φ)dpdφdθ
+
+and the change of variables formula in Theorem 5.5 becomes 
+
+		(Look at file example_16_insert_function-3)
+
+The volume element in spherical coordinates makes sense goemetrically, because a differential box in pφθ-space is transformed to a portion of a solid ball that is approximated by a box having volume p² sin(φ)dpdφdθ. 
+(See figure 5.103)
+

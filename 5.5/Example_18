@@ -1,0 +1,25 @@
+We return to the example of the cone of radius a and height h and, this time, use spherical coordinates to calculate its volume. 
+First, note two things: (i) that the cone's lateral surface has the equation φ = tan^(-1) (a/h) in a spherical coordinates and (ii) that the planar top having Cartesian equation z = h has spherical equation p cos(φ) = h or, equivalently, p = h sec(φ)
+(See Figure 5.105)
+
+For fixed values of the spherical angles φ and θ, the values of p that give points inside the cone vary from 0 to h sec(φ). 
+Any points inside the cone must have spherical angle φ between 0 and tan^(-1) (a/h). 
+Finally, by symmertry, Θ can assume any value between 0 and 2π. 
+Hence, the cone may be described as the set 
+
+	{(p, φ, θ) | 0 =< p =< h sec(φ), 0 =< φ =< tan^(-1) a/h, 0 =< Θ =< 2π}
+
+Therefore, we calculate the volume as 
+
+		(Look at file example_17_insert_function-1)
+
+Now, let u = tan(φ) so du = sec²(φ)dφ. 
+Then the last integral becomes 
+
+		(Look at file example_17_insert_function-2)
+
+as expected. 
+
+THe use of spherical coordinates in Example 18 is not the most appropriate. 
+This example can help develop some facility with "thinking spherically". 
+

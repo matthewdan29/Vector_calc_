@@ -1,0 +1,11 @@
+The volume of a ball is easy to calculate in spherical coordinates. 
+A solid ball of radius a may be described as 
+
+		B = {(p, φ, Θ) | 0 =< p =< a, 0 =< φ =< π, 0 =< θ =< 2π}
+
+(See Figure 5.104)
+Hence, we may compute the volume by using the triple integral
+
+		(Look at file Example_17_insert_function-1)
+
+as expected. 
