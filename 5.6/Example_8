@@ -1,0 +1,17 @@
+Let W be a solid box of uniform density δ and dimensions a, b, and c. 
+If W is situated symmetrically with repsect to the coordinate axes as shown in figure 5.120, we compute the moments of inertia with repsect to these axes. 
+Note, firt, that W may be described as 
+
+	(Look at file Example-8_insert_function-1)
+
+Hence, the moment of inertia about the x-axis is 
+
+	(Look at file Example-8_insert_function-2)
+
+By permuting the roles of x, y, and z (and the corresponding constants a, b, and c), we see that 
+
+	(Look at file Example-8_insert_function-3)
+
+Therefore, if a > b > c (as in Figure 5.120), it follows that I(sub(x)) < I(sub(y)) < I(sub(z)). 
+This result may be confirmed by the observation that rotations about the axis parallel to the longest side of the box are easiest to effect in that the same torque applied about eacch axis will cause the ost rapid rotation to occur about the axis through the longest dimension. 
+A related fact is regularly exploited by figure skaters who pull their arms in close to their bodies, thereby reducing their moments of inerita and speeding up their spins

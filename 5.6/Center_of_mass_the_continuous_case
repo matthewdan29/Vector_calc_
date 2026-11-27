@@ -1,0 +1,17 @@
+Now, we turn our attention to physical systems where mass is distributed in a continuous fashion throughout the system rather than at only finitely many isolated points. 
+TO begin with the one-dimensional case, suppose we have a straght wire placed on a coordinate axis between points x = a and x = b as shown in Figure 5.115. 
+Moreover, suppose that the mass of this wire is distributed acording to some continuous density function δ(x). 
+We seek coordinate x(sample-mean) that represents the center of mass, or "balance point," of the wire. 
+
+Imagine breaking the wire into n small pieces. 
+Since the density is continuous, it will be nearly constant on each small piece. Thus, for i = 1, ..., n, the mass(sub(i)) of each piece is approxmately δ(x*(sub(i)))Δx(sub(i)) = x(sub(i)) - x(sub(i - 1)) is the length of each segment of wiere, and x*(sub(i)) is any number in the subinterval [x(sub(i - 1)), x(sub(i))]. 
+Hence, the total mass is 
+
+		(Look at file CMC-1)
+
+Of course, these results can be used to provide an approximation of the coordinate x(sample-mean) of the center of mass. 
+For an exact result, however, we let all the pieces of wire become "infinitesimally small"; that is, we take limits of the foregoing approximating sums as all the Δx(sub(i))'s tend to zero. 
+Such limits give us integrals, and we may reasonably define our terms. 
+Compare the formulas in (3) with those in (5). 
+Instead of a sum of masses and a sum of products of mass and position, we have an integral of "infinitesimal mass" (the δ(x)dx term) and an integral of infinitesimal mass times positioin. 
+

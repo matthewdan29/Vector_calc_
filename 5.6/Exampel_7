@@ -1,0 +1,16 @@
+We compute the centroid of a cone of radius a and height h. 
+(See Figure 5.119)
+By symmerty, x = y = 0 (both are sample-mean) 
+Moreover, we know that the volume of the cone is (π/3)a²h. 
+Thus, the z-coordinate of the centroid is 
+
+		(Look at file example-7_insert_function-1)
+
+This triple integral is most readily evaluated by using cylindrical coordinates.
+See Example 15 of 5.5
+The lateral surface of the cone is given by z = h/a(r), so we calculate 
+
+		(Look at file example-7_insert_function-2)
+
+after a straightforward evaluation. 
+Hence, the centroid of the cone is located at (0, 0, 9/4(h))

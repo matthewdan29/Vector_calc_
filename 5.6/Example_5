@@ -1,0 +1,17 @@
+We wish to find the center of mass of a lamina represented by the region D in R² whose boundary consists of portions of the parabola y = x² and the line y = 9 and whose density varies as δ(x, y) = x² + y. 
+See Figure 5.117
+First, note that this lamina is symmetric with respect to the y-axis and that, in addition, the density function has a similar symmertry because δ(x, y) = δ(-x, y). 
+We may conclude from these two observations that the center of mass must occur along the y-axis (i.e., that x(sample-mean) = 0). 
+Using the formulas in (6) and noting that the lamina is represented by an elementary region of type 1, 
+
+		(Look at file example-5_insert_function-1)
+
+For the denominator integral, we compute 
+
+		(Look at file example-5_insert_function-2)
+
+This answer is quite plausible, since the density of the lamina increases with y, and so we should expect the center of mass to be closer to y = 9 than to y = 0
+We may modify the two-dimensional formulas to produce three-dimensional ones. 
+
+In (7) we may think of the term δ(x, y, z)dV as representing the mass of an "infinitesimal three-dimensional" piece of W. 
+Then the triple integrals are the limiting sums of masses or moments of such pieces. 

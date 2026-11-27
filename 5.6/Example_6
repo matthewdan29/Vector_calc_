@@ -1,0 +1,27 @@
+Consider the solid tetrahedron W with vertices at (0, 0, 0), (3, 0, 0), and (0, 0, 3). 
+Suppose the mass density at the point (x, y, z) inside the tetrahedron is δ(x, y, z) = x + y + z + 1. 
+We calculate the resulting center of mass. 
+(See Figure 5.118)
+First, note thatt he position of the tetrahedron in space and the density function are both such that the roles of x, y, and z may be interchanged freely. 
+Hence, the coordinates (x, y, z)(sample-mean) of the center of mass must satisfy x = y = z (sample-mean). 
+Therefore, we may reduce the number of calculations required. 
+The tetrahedron is a type 4 elementary region in space. 
+Thus, we may calculate the total mass M of W, using the following iterated integral: 
+
+		(Look at file example_6_insert_function-1)
+				(and)
+		(Look at file example-6_insert_function-2)
+
+If an object is uniform, in the sense that it has constant density, then one uses the term centroid to refer to the center of mass of that object. 
+Suppose the object is a solid region W in R³. 
+Then, if the density δ is a constant k, the equations for the coordinates (x, y, z)(sample-mean) may be deduced from those in (7).
+For the x-coordinate, we have 
+
+		(Look at file example-6_insert_function-3)
+
+
+In particular, the constant density δ plays no role in the calcullation of the centrioid, only the geometry of W. 
+(Note: Completely anaologous statement can be made in the case of centroids of laminas in R²)
+
+
+

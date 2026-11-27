@@ -1,0 +1,9 @@
+We determine the radius of gyration with respect to the z-axis of the cone described in Example 9
+Hence, we compute 
+
+		(Look at example-10_insert_function-1)
+
+From Example 9, I(sub(z)) = 32π/3. 
+We determine the total mass M of the cone as follows: 
+
+		(Look at example-10_insert_function-2)

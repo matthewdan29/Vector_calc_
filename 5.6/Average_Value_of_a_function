@@ -1,0 +1,22 @@
+Suppose temperatures (shown in the adjacent table) are recorded in Oberlin, Ohio, during a particular week. 
+From this data, we calculate the average (or mean) temperature: 
+
+		(Look at file AVF-1)
+
+Of course, this calculation only represents an approximation of the true average value, since the temperature will vary during each day. 
+To determine the true average temperature, we need to know the temperature as a function of time for all instants of time during the one-week period; that is, we consider
+
+	Temperature = T(x), x = elapsed time (in days), for 0 =< x =< 7
+
+Then a more accurate determination of the average temperature is as an integral: 
+		Average temperature = 1/7 ∫^(7)(sub(0)) T(x) dx
+
+Since an integra is nothing more than the limit of a sum, it's not hard to see that the preceding formula is a generalization of the original discrete sum calculation to the continuous case. 
+See Figure 5.107
+
+Note that 
+
+		(Look at file AVF-2)
+
+This observation leads us to make the following definitions concerning average values of functions, look at Definition_6.1
+

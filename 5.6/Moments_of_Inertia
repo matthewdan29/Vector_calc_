@@ -1,0 +1,14 @@
+Let W be a rigid solid body in space. 
+Asd we have seen, the moment integral with respect to the xy-plane is M(sub(xy)) = ∫∫(sub(w))zδ(x, y, z)dV - that is, the integral of the product of the position relative to a reference plane (in this case the xy-plane) and the density of the solid. 
+THis integral can be considered to measure the ease with which W can be displaced perpendicularly from the reference plane. 
+Now, consider spinning W about a fixed axis (which may or may not pass through W). 
+The moment of inertia I (or second moment - the moment integral mentioned in the preceding paragraph is sometimes called the first moment) is a measure of the ease with whch W can be made to spin about the given axis. 
+Specifically, I is the integral of the product of the density at a point in W and the square of the distance from that point a fixed axis; that is, 
+
+		(Look at file MoI-1)
+
+where d is the distance from (x, y, z) ∈ W to the specified axis. 
+When the axes of rotation are the coordinate axes in R³, we have 
+
+		(Look at file MoI-2)
+

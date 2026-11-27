@@ -1,0 +1,33 @@
+(See also Example 6 of 5.4)
+Supose the temperature inside the capsule bounded by the paraboloids z = 9 - x² - y² and z = 3x² + 3y² - 16 varies from point to point as 
+
+		T(x, y, z) = z(x² + y²)
+
+We calculate the mean temperature of the capsule. 
+
+		(Look at file Example-3_insert_function-1)
+
+Unfortunately, the calculations involced in evaluating these integrals are rather tendious. 
+On the other hand, since the capsule has an axis of rotational symmetry, cylindrical coordinates can be used to simplify the computations. 
+Note that the boundary paraboloids have cylindrical equations of z = 9 - r² and z = 3r² - 16 and that the shadow of the capsule in the z = 0 plane can be described in polar coordinates as 
+
+		{(r, Θ) | 0 =< r =< 5/2, 0 =< Θ < 2π}
+
+See Figures 5.109 and 5.110
+
+In addition, the temperature function may be described in cylindrical coordinates as 
+
+		T(x, y, z) = z(x² + y²) = zr²
+
+Hence, we may calculate
+
+		(Look at file example-2_insert_function-2)
+
+
+This result agrees with the volume calculation in Example 6 of 5.4, as it should. 
+For the numerator integral, we compute 
+
+		(Look at file example-2_insert_function-3)
+
+
+

@@ -1,0 +1,12 @@
+Suppose that a wire is located between x = -1 and x = 1 along a coordinate line and has density δ(x) = x² + 1. 
+Using the formulas in (5), we compute that the center of mass has coordinate
+
+		(Look at file example_4_insert_function-1)
+
+This makes sense, since this wire has a symmertric density pattern with respect to the origin (i.e., δ(x) = δ(-x)) . 
+
+The analogous situation in two dimensions is that of a lamina or flat plate of finite extent and continuously varying density δ(x, y). 
+(See Figure 5.116)
+Using reasoning similar to that used to obtain the formulas in (5), we make the following defintion for the coordinates (x, y)()(sample-mean) of the center of mass of the lmaina: 
+
+Roughly, the term δ(x, y) dA represents the mass of an "infinitesimal two-dimensional" piece of the lamina and the various double integrals the limiting sums of such masses or their corresponding mements. 

@@ -1,0 +1,17 @@
+Let W be the solid bounded by the cone z = 2√(x² + y²) and the plane z = 4 shown in Figue 5.121. 
+Assume that the density of material inside W varies as δ(x, y, z) = 5 - z. 
+Let us calculate the moment of inertia I(sub(z)) about the z-axis. 
+Given the geometry of the situation, it is easiest to work in cylindrical coordinates, in which case the cone is given by the cylindrical equation z = 2r. 
+hus, we have
+
+		(Look at file example-9_insert_function-1)
+
+Recall that the center of mass of a solid object of total mass M is the point such that if all mass M were concentrated there, the (first) moment would remain the same. 
+An analogous idea may be defined in the context of moments of inertia. 
+The radius of gyration of a solid with respect to an axis is the distance r from that axis that we should locate a point of mass M so that it has the same moment of inertia I (with respect to the axis) as the original solid does. 
+More concisely, the radius of gyration r is defined by the equation
+
+		(Look at file example-9_insert_function-2)
+
+
+

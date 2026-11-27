@@ -1,0 +1,56 @@
+Consider a uniform seesaw with masses m₁ and m₂ placed on either end. 
+If we introduce a coordinate system so that the fulcrum of the seesaw is placed at the origin, then the situation looks something like that shown in Figure 5.111. 
+Note that x₂ < 0 < x₁. 
+THe seesaw balances if 
+
+		m₁x₁ + m₂x₂ = 0
+
+In this case, the center of mass (or "balance point") of the system is at the origin. 
+
+But now suppose m₁x₁ + m₂x₂ != 0. 
+Then where is the balance point?
+Let us denote the coordinate of the balance point by x(sample-mean). 
+Before we find it, we'll introduce a little terminology.
+The produce m(sub(i))x(sub(i)) (in this case, for i = 1, 2) of mass and position is called moment of the ith body with respect to the origin of the coordinate system. 
+THe sum m₁x₁ + m₂x₂ is called the total moment with respect to the origin. 
+To find the center of mass, we use the follwoing physcial principle, which tells us that the system of several point masses is physically equivalent (in terms of moments) to a system with a single point mass. 
+
+Putting this principle into practice in our situationm, we see that total mass M of our system is m₁ + m₂. 
+If x(sample-mean) is the center of mass, then the guiding principle tells that mm		
+
+		(Look at file CMTDC-1)
+
+That is, the total moment of the new (concentrated) system is the same as the total moment of the original system. 
+Hence, 
+
+		(Look at file CMTDC-2)
+
+If we have a system of n masses distributed along a (coordinatized) line, then the same reasoning may be applied
+(See Figure 5.112) 
+We have 
+
+		(Look at file CMTDC-2)
+
+Now we move to two and three dimensions. 
+Suppose, first that we have n particles (or bodies) arranged in the plane as in Figure 5.113. 
+Then there are two moments to consider: 
+
+		(Look at file CMTDC-3)
+
+(Admittedly, this terminology may seem confusing at first. 
+The idea that the moment measures how the system balances with respect to the coordinate axes.)
+
+The guiding principle tell us that the center of mass is the point (x, y)(both are sample-mean) such that, if all the mass of the sytem were concentrated there, then the new system would hae the same total moments as the original system. 
+That is, if M = Σm(sub(i)), then 
+
+		(Look at file CMTDC-5)
+
+For particles arranged in three dimensions, little more is needed than adding an additional coordinate. 
+See Figure 5.114
+
+The numberators of the fractions in (4) are the moments with respect to the coordinate planes. 
+Thus, for example, the sum Σ^(n)(sub(i = 1)) m(sub(i))x(sub(i)) is the total moment with respect to the yz-plane. 
+By definition, mements of physical systems are additive. 
+That is, the total moment of a system is the sum of the moments of its constituent pieces. 
+However, it is by no means the case that the coordinate of the center of mass of a system is the sum of the coordinates of the centers of mass of it pieces. 
+This additivily property makes the study of moments important in its own right. 
